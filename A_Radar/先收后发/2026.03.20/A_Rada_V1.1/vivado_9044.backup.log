@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Mar 20 09:41:58 2026
+# Process ID: 9044
+# Current directory: D:/A_Rada_V1.1/A_Rada_V1.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent55240 D:\A_Rada_V1.1\A_Rada_V1.1\A_Rada_V1.1.xpr
+# Log file: D:/A_Rada_V1.1/A_Rada_V1.1/vivado.log
+# Journal file: D:/A_Rada_V1.1/A_Rada_V1.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.xpr
+INFO: [Project 1-313] Project file moved from 'D:/A_Rada_V1.1' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/A_Rada_V1.1/A_Radar/A_Radar/ip_repo/ps_pl_axi4_1.0'; using path 'D:/A_Radar/A_Radar/ip_repo/ps_pl_axi4_1.0' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/A_Radar/A_Radar/ip_repo/ps_pl_axi4_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1258.043 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 20 09:55:32 2026...

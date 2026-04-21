@@ -1,0 +1,399 @@
+timestamp=[2023-06-02 16:55:03], mode=WORKBENCH_START, duration=0:00:04.061, duration_ms=4061, data={}
+timestamp=[2023-06-02 16:55:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.285, duration_ms=285, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-06-02 16:55:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.675, duration_ms=1675, data={}
+timestamp=[2023-06-02 16:56:53], mode=APP_CREATION, duration=0:00:12.757, duration_ms=12757, data={name=lwip_tcp_server_perf, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper, application_type=application}
+timestamp=[2023-06-02 17:06:42], mode=PLATFORM_GENERATION, duration=0:00:15.164, duration_ms=15164, data={name=system_wrapper}
+timestamp=[2023-06-02 17:06:43], mode=BUILD, duration=0:00:01.210, duration_ms=1210, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=false}
+timestamp=[2023-07-05 10:54:18], mode=WORKBENCH_START, duration=0:00:06.770, duration_ms=6770, data={}
+timestamp=[2023-07-05 10:54:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.447, duration_ms=447, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf,lwip_tcp_server_perf_system,system_wrapper}
+timestamp=[2023-07-05 10:54:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.026, duration_ms=26, data={}
+timestamp=[2023-07-05 10:55:01], mode=PLATFORM_GENERATION, duration=0:00:08.181, duration_ms=8181, data={name=system_wrapper}
+timestamp=[2023-07-05 10:55:01], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=true}
+timestamp=[2023-07-05 10:55:22], mode=PLATFORM_GENERATION, duration=0:00:14.811, duration_ms=14811, data={name=system_wrapper}
+timestamp=[2023-07-05 10:55:24], mode=BUILD, duration=0:00:01.212, duration_ms=1212, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=false}
+timestamp=[2023-07-05 10:55:30], mode=BUILD, duration=0:00:04.899, duration_ms=4899, data={name=lwip_tcp_server_perf_system, configuration=Debug, clean_build=false}
+timestamp=[2023-07-05 15:46:44], mode=WORKBENCH_START, duration=0:00:06.762, duration_ms=6762, data={}
+timestamp=[2023-07-05 15:46:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.064, duration_ms=64, data={}
+timestamp=[2023-07-05 15:46:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.530, duration_ms=530, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf,lwip_tcp_server_perf_system,system_wrapper}
+timestamp=[2024-01-27 10:31:05], mode=WORKBENCH_START, duration=0:00:10.431, duration_ms=10431, data={}
+timestamp=[2024-01-27 10:31:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.732, duration_ms=732, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf,lwip_tcp_server_perf_system,system_wrapper}
+timestamp=[2024-01-27 10:31:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2024-01-27 10:32:25], mode=PLATFORM_GENERATION, duration=0:00:12.622, duration_ms=12622, data={name=system_wrapper}
+timestamp=[2024-01-27 10:33:19], mode=PLATFORM_GENERATION, duration=0:00:49.581, duration_ms=49581, data={name=system_wrapper}
+timestamp=[2024-01-27 10:33:59], mode=PLATFORM_GENERATION, duration=0:00:13.579, duration_ms=13579, data={name=system_wrapper}
+timestamp=[2024-01-27 10:34:50], mode=PLATFORM_GENERATION, duration=0:00:45.936, duration_ms=45936, data={name=system_wrapper}
+timestamp=[2024-01-27 10:34:54], mode=BUILD, duration=0:00:03.994, duration_ms=3994, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=false}
+timestamp=[2024-01-27 10:35:09], mode=BUILD, duration=0:00:13.665, duration_ms=13665, data={name=lwip_tcp_server_perf_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 14:59:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.009, duration_ms=9, data={}
+timestamp=[2025-06-04 14:59:59], mode=WORKBENCH_START, duration=0:00:05.435, duration_ms=5435, data={}
+timestamp=[2025-06-04 15:00:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.663, duration_ms=663, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf,lwip_tcp_server_perf_system,system_wrapper}
+timestamp=[2025-06-04 15:01:02], mode=BUILD, duration=0:00:08.818, duration_ms=8818, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 15:01:22], mode=BUILD, duration=0:00:08.594, duration_ms=8594, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 15:03:59], mode=APP_CREATION, duration=0:00:08.687, duration_ms=8687, data={name=lwip_tcp_server_perf, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper_1, application_type=application}
+timestamp=[2025-06-04 15:06:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2025-06-04 15:06:02], mode=WORKBENCH_START, duration=0:00:05.359, duration_ms=5359, data={}
+timestamp=[2025-06-04 15:06:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.511, duration_ms=511, data={editors_count=4, platform_editors_count=1, projects_count=5, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf,lwip_tcp_server_perf_system,system_wrapper,system_wrapper_1}
+timestamp=[2025-06-04 15:09:25], mode=PLATFORM_GENERATION, duration=0:01:21.837, duration_ms=81837, data={name=system_wrapper}
+timestamp=[2025-06-04 15:09:36], mode=BUILD, duration=0:00:11.405, duration_ms=11405, data={name=lwip_tcp_server_perf, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 15:39:17], mode=APP_CREATION, duration=0:00:08.202, duration_ms=8202, data={name=lwip_tcp_server_perf_RTOS, project_type=sdk, os=freertos10_xilinx, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper_1, application_type=application}
+timestamp=[2025-06-04 15:45:32], mode=PLATFORM_GENERATION, duration=0:05:50.198, duration_ms=350198, data={name=system_wrapper_1}
+timestamp=[2025-06-04 15:45:35], mode=BUILD, duration=0:00:02.964, duration_ms=2964, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 15:54:00], mode=WORKBENCH_START, duration=0:00:02.865, duration_ms=2865, data={}
+timestamp=[2025-06-04 15:54:01], mode=WORKBENCH_UI_INIT, duration=0:00:00.533, duration_ms=533, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2025-06-04 15:54:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.058, duration_ms=58, data={}
+timestamp=[2025-06-04 15:55:59], mode=APP_CREATION, duration=0:00:08.873, duration_ms=8873, data={name=lwip_tcp_server_perf_RTOS, project_type=sdk, os=freertos10_xilinx, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper, application_type=application}
+timestamp=[2025-06-04 16:03:35], mode=PLATFORM_GENERATION, duration=0:07:03.012, duration_ms=423012, data={name=system_wrapper}
+timestamp=[2025-06-04 16:03:38], mode=BUILD, duration=0:00:03.319, duration_ms=3319, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 16:03:59], mode=WORKBENCH_START, duration=0:00:03.020, duration_ms=3020, data={}
+timestamp=[2025-06-04 16:04:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.276, duration_ms=276, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-04 16:04:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2025-06-04 16:05:28], mode=PLATFORM_GENERATION, duration=0:01:12.481, duration_ms=72481, data={name=system_wrapper}
+timestamp=[2025-06-04 16:07:19], mode=PLATFORM_GENERATION, duration=0:01:39.689, duration_ms=99689, data={name=system_wrapper}
+timestamp=[2025-06-04 16:16:15], mode=WORKBENCH_START, duration=0:00:03.860, duration_ms=3860, data={}
+timestamp=[2025-06-04 16:16:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.390, duration_ms=390, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-04 16:16:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.059, duration_ms=59, data={}
+timestamp=[2025-06-04 16:42:23], mode=WORKBENCH_START, duration=0:00:03.861, duration_ms=3861, data={}
+timestamp=[2025-06-04 16:42:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.434, duration_ms=434, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-04 16:42:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.049, duration_ms=49, data={}
+timestamp=[2025-06-04 17:17:16], mode=WORKBENCH_START, duration=0:00:03.973, duration_ms=3973, data={}
+timestamp=[2025-06-04 17:17:16], mode=WORKBENCH_UI_INIT, duration=0:00:00.427, duration_ms=427, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-04 17:17:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2025-06-04 17:27:07], mode=WORKBENCH_START, duration=0:00:04.182, duration_ms=4182, data={}
+timestamp=[2025-06-04 17:27:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.361, duration_ms=361, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-04 17:27:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.053, duration_ms=53, data={}
+timestamp=[2025-06-04 17:34:24], mode=PLATFORM_GENERATION, duration=0:00:11.157, duration_ms=11157, data={name=system_wrapper}
+timestamp=[2025-06-04 17:34:25], mode=BUILD, duration=0:00:00.837, duration_ms=837, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 17:34:27], mode=BUILD, duration=0:00:01.131, duration_ms=1131, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 17:35:12], mode=PLATFORM_GENERATION, duration=0:00:13.326, duration_ms=13326, data={name=system_wrapper}
+timestamp=[2025-06-04 17:35:15], mode=BUILD, duration=0:00:02.535, duration_ms=2535, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-04 17:35:24], mode=BUILD, duration=0:00:07.354, duration_ms=7354, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 13:51:31], mode=WORKBENCH_START, duration=0:00:04.932, duration_ms=4932, data={}
+timestamp=[2025-06-06 13:51:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.453, duration_ms=453, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-06 13:51:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.013, duration_ms=13, data={}
+timestamp=[2025-06-06 13:52:23], mode=PLATFORM_GENERATION, duration=0:00:01.871, duration_ms=1871, data={name=system_wrapper}
+timestamp=[2025-06-06 13:52:28], mode=BUILD, duration=0:00:03.667, duration_ms=3667, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 13:52:41], mode=BUILD, duration=0:00:11.158, duration_ms=11158, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 13:55:56], mode=PLATFORM_GENERATION, duration=0:03:14.773, duration_ms=194773, data={name=system_wrapper}
+timestamp=[2025-06-06 13:56:00], mode=BUILD, duration=0:00:03.554, duration_ms=3554, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 13:56:15], mode=BUILD, duration=0:00:11.264, duration_ms=11264, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 15:54:52], mode=BUILD, duration=0:00:03.078, duration_ms=3078, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 15:55:05], mode=BUILD, duration=0:00:11.723, duration_ms=11723, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 15:56:26], mode=BUILD, duration=0:00:01.220, duration_ms=1220, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 15:57:10], mode=BUILD, duration=0:00:03.057, duration_ms=3057, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 15:57:24], mode=BUILD, duration=0:00:11.732, duration_ms=11732, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:16:32], mode=BUILD, duration=0:00:03.053, duration_ms=3053, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:25:48], mode=BUILD, duration=0:00:02.401, duration_ms=2401, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:26:23], mode=BUILD, duration=0:00:02.504, duration_ms=2504, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:38:43], mode=PLATFORM_GENERATION, duration=0:04:01.361, duration_ms=241361, data={name=system_wrapper}
+timestamp=[2025-06-06 16:38:48], mode=BUILD, duration=0:00:04.347, duration_ms=4347, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:39:01], mode=BUILD, duration=0:00:11.991, duration_ms=11991, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:39:02], mode=BUILD, duration=0:00:00.748, duration_ms=748, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:39:16], mode=BUILD, duration=0:00:12.844, duration_ms=12844, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:39:17], mode=BUILD, duration=0:00:00.800, duration_ms=800, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:39:31], mode=BUILD, duration=0:00:12.054, duration_ms=12054, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:49:34], mode=PLATFORM_GENERATION, duration=0:03:22.521, duration_ms=202521, data={name=system_wrapper}
+timestamp=[2025-06-06 16:49:39], mode=BUILD, duration=0:00:03.850, duration_ms=3850, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 16:49:53], mode=BUILD, duration=0:00:10.737, duration_ms=10737, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:00:11], mode=BUILD, duration=0:00:02.119, duration_ms=2119, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:01:16], mode=BUILD, duration=0:00:02.638, duration_ms=2638, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:03:11], mode=BUILD, duration=0:00:02.126, duration_ms=2126, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:05:57], mode=BUILD, duration=0:00:02.053, duration_ms=2053, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:07:44], mode=APP_CREATION, duration=0:00:05.286, duration_ms=5286, data={name=AXI_DMA, project_type=sdk, os=standalone, processor=cortex-a9, runtime=cpp, platform=system_wrapper, application_type=application}
+timestamp=[2025-06-06 17:11:24], mode=PLATFORM_GENERATION, duration=0:03:08.263, duration_ms=188263, data={name=system_wrapper}
+timestamp=[2025-06-06 17:11:27], mode=BUILD, duration=0:00:02.616, duration_ms=2616, data={name=AXI_DMA, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:11:39], mode=BUILD, duration=0:00:10.659, duration_ms=10659, data={name=AXI_DMA_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:13:24], mode=BUILD, duration=0:00:00.668, duration_ms=668, data={name=AXI_DMA, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:15:45], mode=BUILD, duration=0:00:01.988, duration_ms=1988, data={name=AXI_DMA, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:20:39], mode=BUILD, duration=0:00:02.709, duration_ms=2709, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:20:51], mode=BUILD, duration=0:00:10.697, duration_ms=10697, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:21:28], mode=BUILD, duration=0:00:02.048, duration_ms=2048, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:21:40], mode=BUILD, duration=0:00:10.522, duration_ms=10522, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:22:17], mode=BUILD, duration=0:00:02.072, duration_ms=2072, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:24:27], mode=BUILD, duration=0:00:02.059, duration_ms=2059, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:25:07], mode=BUILD, duration=0:00:02.060, duration_ms=2060, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:25:19], mode=BUILD, duration=0:00:10.697, duration_ms=10697, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:39:31], mode=BUILD, duration=0:00:00.648, duration_ms=648, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:44:25], mode=BUILD, duration=0:00:01.082, duration_ms=1082, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:45:51], mode=BUILD, duration=0:00:01.076, duration_ms=1076, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:46:08], mode=BUILD, duration=0:00:01.062, duration_ms=1062, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:47:26], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:47:33], mode=BUILD, duration=0:00:01.044, duration_ms=1044, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:47:52], mode=BUILD, duration=0:00:02.794, duration_ms=2794, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:48:01], mode=BUILD, duration=0:00:00.674, duration_ms=674, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:49:23], mode=BUILD, duration=0:00:02.049, duration_ms=2049, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-06 17:49:35], mode=BUILD, duration=0:00:10.689, duration_ms=10689, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-13 10:21:29], mode=WORKBENCH_START, duration=0:00:04.124, duration_ms=4124, data={}
+timestamp=[2025-06-13 10:21:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.393, duration_ms=393, data={editors_count=8, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-13 10:21:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.112, duration_ms=112, data={}
+timestamp=[2025-06-13 10:47:58], mode=PLATFORM_GENERATION, duration=0:00:10.523, duration_ms=10523, data={name=system_wrapper}
+timestamp=[2025-06-13 10:48:02], mode=BUILD, duration=0:00:02.882, duration_ms=2882, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-13 10:48:11], mode=BUILD, duration=0:00:07.744, duration_ms=7744, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-18 09:14:27], mode=WORKBENCH_START, duration=0:00:04.241, duration_ms=4241, data={}
+timestamp=[2025-06-18 09:14:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.410, duration_ms=410, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-18 09:14:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.114, duration_ms=114, data={}
+timestamp=[2025-06-18 09:54:28], mode=PLATFORM_GENERATION, duration=0:00:13.166, duration_ms=13166, data={name=system_wrapper}
+timestamp=[2025-06-18 09:54:32], mode=BUILD, duration=0:00:03.428, duration_ms=3428, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-18 09:54:44], mode=BUILD, duration=0:00:11.254, duration_ms=11254, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-06-18 15:25:44], mode=BUILD, duration=0:00:02.041, duration_ms=2041, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-18 15:25:50], mode=BUILD, duration=0:00:00.614, duration_ms=614, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-24 18:04:35], mode=WORKBENCH_START, duration=0:00:04.237, duration_ms=4237, data={}
+timestamp=[2025-06-24 18:04:35], mode=WORKBENCH_UI_INIT, duration=0:00:00.449, duration_ms=449, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-24 18:04:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.053, duration_ms=53, data={}
+timestamp=[2025-06-25 12:32:46], mode=WORKBENCH_START, duration=0:00:04.528, duration_ms=4528, data={}
+timestamp=[2025-06-25 12:32:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.414, duration_ms=414, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-25 12:32:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.141, duration_ms=141, data={}
+timestamp=[2025-06-25 12:34:43], mode=PLATFORM_GENERATION, duration=0:01:05.454, duration_ms=65454, data={name=system_wrapper}
+timestamp=[2025-06-25 12:48:57], mode=PLATFORM_GENERATION, duration=0:11:23.492, duration_ms=683492, data={name=system_wrapper}
+timestamp=[2025-06-25 12:49:00], mode=BUILD, duration=0:00:01.320, duration_ms=1320, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 13:49:30], mode=WORKBENCH_START, duration=0:00:04.085, duration_ms=4085, data={}
+timestamp=[2025-06-25 13:49:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.417, duration_ms=417, data={editors_count=7, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-06-25 13:49:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2025-06-25 13:58:20], mode=BUILD, duration=0:00:04.835, duration_ms=4835, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:34:20], mode=BUILD, duration=0:00:01.819, duration_ms=1819, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:37:56], mode=BUILD, duration=0:00:01.141, duration_ms=1141, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:38:54], mode=BUILD, duration=0:00:01.160, duration_ms=1160, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:39:51], mode=BUILD, duration=0:00:01.080, duration_ms=1080, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:40:28], mode=BUILD, duration=0:00:01.752, duration_ms=1752, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:41:45], mode=BUILD, duration=0:00:01.011, duration_ms=1011, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:42:05], mode=BUILD, duration=0:00:01.867, duration_ms=1867, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:44:37], mode=BUILD, duration=0:00:01.115, duration_ms=1115, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:44:50], mode=BUILD, duration=0:00:01.811, duration_ms=1811, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-06-25 15:45:45], mode=BUILD, duration=0:00:02.140, duration_ms=2140, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:47:06], mode=WORKBENCH_START, duration=0:00:03.696, duration_ms=3696, data={}
+timestamp=[2025-07-11 10:47:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.432, duration_ms=432, data={editors_count=8, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-07-11 10:47:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.104, duration_ms=104, data={}
+timestamp=[2025-07-11 10:47:25], mode=BUILD, duration=0:00:00.716, duration_ms=716, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:47:33], mode=BUILD, duration=0:00:06.975, duration_ms=6975, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:48:20], mode=BUILD, duration=0:00:00.539, duration_ms=539, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:48:51], mode=MISC, duration=0:00:05.935, duration_ms=5935, data={name=lwip_tcp_server_perf_RTOS_system, type=bif_creation}
+timestamp=[2025-07-11 10:49:14], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:49:22], mode=BUILD, duration=0:00:06.645, duration_ms=6645, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:50:55], mode=BUILD, duration=0:00:00.559, duration_ms=559, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:51:03], mode=BUILD, duration=0:00:07.124, duration_ms=7124, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:51:44], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 10:51:52], mode=BUILD, duration=0:00:06.728, duration_ms=6728, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 11:03:40], mode=BUILD, duration=0:00:00.496, duration_ms=496, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-11 11:03:49], mode=BUILD, duration=0:00:08.154, duration_ms=8154, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 16:37:32], mode=PLATFORM_GENERATION, duration=0:00:02.518, duration_ms=2518, data={name=system_wrapper}
+timestamp=[2025-07-17 16:37:34], mode=BUILD, duration=0:00:02.380, duration_ms=2380, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 16:56:15], mode=BUILD, duration=0:00:03.219, duration_ms=3219, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:08:08], mode=BUILD, duration=0:00:00.634, duration_ms=634, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:15:06], mode=BUILD, duration=0:00:02.087, duration_ms=2087, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:16:56], mode=BUILD, duration=0:00:02.010, duration_ms=2010, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:19:46], mode=BUILD, duration=0:00:02.153, duration_ms=2153, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:20:01], mode=BUILD, duration=0:00:01.077, duration_ms=1077, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:20:15], mode=BUILD, duration=0:00:02.091, duration_ms=2091, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:25:43], mode=BUILD, duration=0:00:02.047, duration_ms=2047, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:27:43], mode=BUILD, duration=0:00:02.217, duration_ms=2217, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:36:09], mode=PLATFORM_GENERATION, duration=0:06:30.587, duration_ms=390587, data={name=system_wrapper}
+timestamp=[2025-07-17 17:36:13], mode=BUILD, duration=0:00:04.036, duration_ms=4036, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:36:25], mode=BUILD, duration=0:00:10.667, duration_ms=10667, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:37:14], mode=BUILD, duration=0:00:01.970, duration_ms=1970, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:38:56], mode=BUILD, duration=0:00:02.247, duration_ms=2247, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:42:38], mode=BUILD, duration=0:00:02.028, duration_ms=2028, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:53:25], mode=BUILD, duration=0:00:02.049, duration_ms=2049, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:54:41], mode=BUILD, duration=0:00:02.274, duration_ms=2274, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:54:58], mode=BUILD, duration=0:00:01.962, duration_ms=1962, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:55:44], mode=BUILD, duration=0:00:02.050, duration_ms=2050, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:57:39], mode=BUILD, duration=0:00:01.984, duration_ms=1984, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 17:58:33], mode=BUILD, duration=0:00:01.923, duration_ms=1923, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-17 18:03:29], mode=BUILD, duration=0:00:02.088, duration_ms=2088, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:09:05], mode=BUILD, duration=0:00:00.715, duration_ms=715, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:21:28], mode=PLATFORM_GENERATION, duration=0:05:11.634, duration_ms=311634, data={name=system_wrapper}
+timestamp=[2025-07-18 09:21:33], mode=BUILD, duration=0:00:04.196, duration_ms=4196, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:21:35], mode=BUILD, duration=0:00:00.718, duration_ms=718, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:21:37], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:21:50], mode=BUILD, duration=0:00:11.339, duration_ms=11339, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:34:45], mode=BUILD, duration=0:00:00.704, duration_ms=704, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:34:58], mode=BUILD, duration=0:00:11.300, duration_ms=11300, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:37:22], mode=BUILD, duration=0:00:02.238, duration_ms=2238, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:39:41], mode=BUILD, duration=0:00:02.590, duration_ms=2590, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:40:17], mode=BUILD, duration=0:00:02.500, duration_ms=2500, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:44:49], mode=BUILD, duration=0:00:02.614, duration_ms=2614, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:47:33], mode=BUILD, duration=0:00:02.615, duration_ms=2615, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 09:53:09], mode=BUILD, duration=0:00:02.616, duration_ms=2616, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 10:32:51], mode=BUILD, duration=0:00:00.839, duration_ms=839, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 10:37:32], mode=BUILD, duration=0:00:02.702, duration_ms=2702, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 11:12:28], mode=BUILD, duration=0:00:04.370, duration_ms=4370, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:05:23], mode=BUILD, duration=0:00:01.437, duration_ms=1437, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:05:42], mode=BUILD, duration=0:00:01.502, duration_ms=1502, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:08:18], mode=BUILD, duration=0:00:01.363, duration_ms=1363, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:08:35], mode=BUILD, duration=0:00:02.758, duration_ms=2758, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:16:31], mode=BUILD, duration=0:00:03.545, duration_ms=3545, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:18:00], mode=BUILD, duration=0:00:02.725, duration_ms=2725, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:30:34], mode=BUILD, duration=0:00:02.705, duration_ms=2705, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:32:42], mode=BUILD, duration=0:00:02.776, duration_ms=2776, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:34:14], mode=BUILD, duration=0:00:02.754, duration_ms=2754, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:37:37], mode=BUILD, duration=0:00:02.925, duration_ms=2925, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:43:47], mode=BUILD, duration=0:00:02.563, duration_ms=2563, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 14:59:53], mode=PLATFORM_GENERATION, duration=0:00:02.363, duration_ms=2363, data={name=system_wrapper}
+timestamp=[2025-07-18 14:59:55], mode=BUILD, duration=0:00:02.688, duration_ms=2688, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 15:02:21], mode=BUILD, duration=0:00:02.553, duration_ms=2553, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 16:27:52], mode=BUILD, duration=0:00:01.337, duration_ms=1337, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 16:28:18], mode=BUILD, duration=0:00:01.195, duration_ms=1195, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:13:10], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:54:38], mode=BUILD, duration=0:00:01.161, duration_ms=1161, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:55:08], mode=BUILD, duration=0:00:01.191, duration_ms=1191, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:55:21], mode=BUILD, duration=0:00:01.212, duration_ms=1212, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:56:48], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:57:21], mode=BUILD, duration=0:00:01.061, duration_ms=1061, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:59:35], mode=BUILD, duration=0:00:01.271, duration_ms=1271, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 17:59:54], mode=BUILD, duration=0:00:01.229, duration_ms=1229, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 18:00:23], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 18:01:51], mode=BUILD, duration=0:00:01.221, duration_ms=1221, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 18:02:43], mode=BUILD, duration=0:00:01.234, duration_ms=1234, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 18:03:59], mode=BUILD, duration=0:00:01.174, duration_ms=1174, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-18 18:04:50], mode=BUILD, duration=0:00:03.599, duration_ms=3599, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:12:42], mode=PLATFORM_GENERATION, duration=0:05:42.235, duration_ms=342235, data={name=system_wrapper}
+timestamp=[2025-07-21 10:12:47], mode=BUILD, duration=0:00:03.677, duration_ms=3677, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:13:00], mode=BUILD, duration=0:00:09.551, duration_ms=9551, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:17:57], mode=PLATFORM_GENERATION, duration=0:00:01.715, duration_ms=1715, data={name=system_wrapper}
+timestamp=[2025-07-21 10:17:58], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=true}
+timestamp=[2025-07-21 10:18:01], mode=BUILD, duration=0:00:03.646, duration_ms=3646, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:22:50], mode=PLATFORM_GENERATION, duration=0:00:01.726, duration_ms=1726, data={name=system_wrapper}
+timestamp=[2025-07-21 10:22:53], mode=BUILD, duration=0:00:03.472, duration_ms=3472, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:23:04], mode=BUILD, duration=0:00:09.593, duration_ms=9593, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:27:45], mode=BUILD, duration=0:00:00.685, duration_ms=685, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:27:56], mode=BUILD, duration=0:00:09.520, duration_ms=9520, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:29:15], mode=PLATFORM_GENERATION, duration=0:00:01.744, duration_ms=1744, data={name=system_wrapper}
+timestamp=[2025-07-21 10:29:15], mode=BUILD, duration=0:00:00.627, duration_ms=627, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:29:26], mode=BUILD, duration=0:00:09.480, duration_ms=9480, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:32:40], mode=BUILD, duration=0:00:00.668, duration_ms=668, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:40:58], mode=PLATFORM_GENERATION, duration=0:05:46.261, duration_ms=346261, data={name=system_wrapper}
+timestamp=[2025-07-21 10:41:03], mode=BUILD, duration=0:00:03.686, duration_ms=3686, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:41:16], mode=BUILD, duration=0:00:09.579, duration_ms=9579, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:41:17], mode=BUILD, duration=0:00:00.644, duration_ms=644, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 10:41:27], mode=BUILD, duration=0:00:09.314, duration_ms=9314, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 11:19:36], mode=PLATFORM_GENERATION, duration=0:05:06.849, duration_ms=306849, data={name=system_wrapper}
+timestamp=[2025-07-21 11:19:41], mode=BUILD, duration=0:00:03.649, duration_ms=3649, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 11:19:55], mode=BUILD, duration=0:00:10.036, duration_ms=10036, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 11:36:15], mode=PLATFORM_GENERATION, duration=0:04:30.621, duration_ms=270621, data={name=system_wrapper}
+timestamp=[2025-07-21 11:36:36], mode=BUILD, duration=0:00:03.695, duration_ms=3695, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 11:36:49], mode=BUILD, duration=0:00:09.389, duration_ms=9389, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 14:16:53], mode=PLATFORM_GENERATION, duration=0:05:48.915, duration_ms=348915, data={name=system_wrapper}
+timestamp=[2025-07-21 14:17:09], mode=BUILD, duration=0:00:03.759, duration_ms=3759, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 14:17:24], mode=BUILD, duration=0:00:10.484, duration_ms=10484, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 14:48:34], mode=BUILD, duration=0:00:01.794, duration_ms=1794, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 14:53:27], mode=BUILD, duration=0:00:01.103, duration_ms=1103, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 14:54:03], mode=BUILD, duration=0:00:02.009, duration_ms=2009, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 14:54:19], mode=BUILD, duration=0:00:00.672, duration_ms=672, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:07:26], mode=BUILD, duration=0:00:02.290, duration_ms=2290, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:08:51], mode=BUILD, duration=0:00:02.106, duration_ms=2106, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:09:02], mode=BUILD, duration=0:00:10.331, duration_ms=10331, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:09:58], mode=BUILD, duration=0:00:02.032, duration_ms=2032, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:10:28], mode=BUILD, duration=0:00:02.053, duration_ms=2053, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:16:31], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:27:18], mode=BUILD, duration=0:00:01.053, duration_ms=1053, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:30:40], mode=BUILD, duration=0:00:01.105, duration_ms=1105, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:30:54], mode=BUILD, duration=0:00:01.110, duration_ms=1110, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:31:12], mode=BUILD, duration=0:00:02.075, duration_ms=2075, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:35:35], mode=BUILD, duration=0:00:00.672, duration_ms=672, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:42:35], mode=BUILD, duration=0:00:01.044, duration_ms=1044, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:42:54], mode=BUILD, duration=0:00:02.063, duration_ms=2063, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:44:11], mode=BUILD, duration=0:00:02.084, duration_ms=2084, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:45:44], mode=BUILD, duration=0:00:02.144, duration_ms=2144, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 15:48:32], mode=BUILD, duration=0:00:00.679, duration_ms=679, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:11:38], mode=BUILD, duration=0:00:03.370, duration_ms=3370, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:11:56], mode=BUILD, duration=0:00:00.711, duration_ms=711, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:13:50], mode=BUILD, duration=0:00:02.089, duration_ms=2089, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:13:55], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:19:15], mode=BUILD, duration=0:00:03.260, duration_ms=3260, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:20:28], mode=BUILD, duration=0:00:00.715, duration_ms=715, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:26:11], mode=BUILD, duration=0:00:00.694, duration_ms=694, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:27:09], mode=BUILD, duration=0:00:00.679, duration_ms=679, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:33:18], mode=BUILD, duration=0:00:02.098, duration_ms=2098, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:38:54], mode=BUILD, duration=0:00:00.690, duration_ms=690, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 16:39:32], mode=BUILD, duration=0:00:02.084, duration_ms=2084, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:04:06], mode=BUILD, duration=0:00:01.066, duration_ms=1066, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:07:45], mode=BUILD, duration=0:00:03.186, duration_ms=3186, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:11:41], mode=BUILD, duration=0:00:00.688, duration_ms=688, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:33:54], mode=BUILD, duration=0:00:03.499, duration_ms=3499, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:40:26], mode=BUILD, duration=0:00:03.505, duration_ms=3505, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:44:31], mode=BUILD, duration=0:00:02.239, duration_ms=2239, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:47:00], mode=BUILD, duration=0:00:02.249, duration_ms=2249, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:52:12], mode=BUILD, duration=0:00:02.231, duration_ms=2231, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:55:54], mode=BUILD, duration=0:00:02.233, duration_ms=2233, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-21 17:56:24], mode=BUILD, duration=0:00:00.708, duration_ms=708, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:15:28], mode=BUILD, duration=0:00:00.689, duration_ms=689, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:18:31], mode=BUILD, duration=0:00:03.243, duration_ms=3243, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:19:14], mode=BUILD, duration=0:00:00.669, duration_ms=669, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:19:50], mode=BUILD, duration=0:00:00.705, duration_ms=705, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:21:02], mode=BUILD, duration=0:00:03.334, duration_ms=3334, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:25:03], mode=BUILD, duration=0:00:00.714, duration_ms=714, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:25:51], mode=BUILD, duration=0:00:03.357, duration_ms=3357, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:29:39], mode=BUILD, duration=0:00:03.355, duration_ms=3355, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:49:04], mode=BUILD, duration=0:00:01.104, duration_ms=1104, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 09:49:33], mode=BUILD, duration=0:00:01.790, duration_ms=1790, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 10:18:20], mode=BUILD, duration=0:00:02.081, duration_ms=2081, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 10:18:25], mode=BUILD, duration=0:00:00.675, duration_ms=675, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 10:43:42], mode=PLATFORM_GENERATION, duration=0:05:47.801, duration_ms=347801, data={name=system_wrapper}
+timestamp=[2025-07-22 10:51:15], mode=BUILD, duration=0:00:03.795, duration_ms=3795, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 10:51:30], mode=BUILD, duration=0:00:10.507, duration_ms=10507, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 10:55:00], mode=BUILD, duration=0:00:00.744, duration_ms=744, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 10:56:10], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 11:07:23], mode=BUILD, duration=0:00:00.648, duration_ms=648, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 11:43:56], mode=PLATFORM_GENERATION, duration=0:05:12.422, duration_ms=312422, data={name=system_wrapper}
+timestamp=[2025-07-23 09:03:10], mode=BUILD, duration=0:00:03.932, duration_ms=3932, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-23 09:03:25], mode=BUILD, duration=0:00:10.564, duration_ms=10564, data={name=lwip_tcp_server_perf_RTOS_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-23 09:07:10], mode=BUILD, duration=0:00:03.296, duration_ms=3296, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-23 17:46:50], mode=WORKBENCH_START, duration=0:00:04.462, duration_ms=4462, data={}
+timestamp=[2025-07-23 17:46:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.414, duration_ms=414, data={editors_count=10, platform_editors_count=6, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-07-23 17:46:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.097, duration_ms=97, data={}
+timestamp=[2025-07-23 17:56:35], mode=BUILD, duration=0:00:02.339, duration_ms=2339, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-23 17:56:40], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-23 17:59:12], mode=BUILD, duration=0:00:02.318, duration_ms=2318, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 10:28:07], mode=BUILD, duration=0:00:02.697, duration_ms=2697, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 10:34:06], mode=BUILD, duration=0:00:02.870, duration_ms=2870, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 11:43:32], mode=WORKBENCH_START, duration=0:00:04.344, duration_ms=4344, data={}
+timestamp=[2025-07-24 11:43:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.469, duration_ms=469, data={editors_count=11, platform_editors_count=6, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lwip_tcp_server_perf_RTOS,lwip_tcp_server_perf_RTOS_system,system_wrapper}
+timestamp=[2025-07-24 11:43:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.094, duration_ms=94, data={}
+timestamp=[2025-07-24 11:47:47], mode=BUILD, duration=0:00:01.189, duration_ms=1189, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 11:48:07], mode=BUILD, duration=0:00:03.428, duration_ms=3428, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 13:52:49], mode=BUILD, duration=0:00:03.338, duration_ms=3338, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:30:39], mode=PLATFORM_GENERATION, duration=0:00:02.091, duration_ms=2091, data={name=system_wrapper}
+timestamp=[2025-07-24 14:30:40], mode=BUILD, duration=0:00:01.164, duration_ms=1164, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:31:50], mode=BUILD, duration=0:00:01.249, duration_ms=1249, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:32:22], mode=BUILD, duration=0:00:03.576, duration_ms=3576, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:34:59], mode=BUILD, duration=0:00:02.063, duration_ms=2063, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:52:07], mode=BUILD, duration=0:00:03.517, duration_ms=3517, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:52:22], mode=BUILD, duration=0:00:02.144, duration_ms=2144, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 14:54:28], mode=BUILD, duration=0:00:00.722, duration_ms=722, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:16:50], mode=BUILD, duration=0:00:01.253, duration_ms=1253, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:17:17], mode=BUILD, duration=0:00:01.943, duration_ms=1943, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:18:39], mode=BUILD, duration=0:00:02.273, duration_ms=2273, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:20:07], mode=BUILD, duration=0:00:02.088, duration_ms=2088, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:33:12], mode=BUILD, duration=0:00:02.259, duration_ms=2259, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:39:07], mode=BUILD, duration=0:00:02.105, duration_ms=2105, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:43:23], mode=BUILD, duration=0:00:02.194, duration_ms=2194, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:47:37], mode=BUILD, duration=0:00:03.549, duration_ms=3549, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:00:57], mode=BUILD, duration=0:00:02.982, duration_ms=2982, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:02:39], mode=BUILD, duration=0:00:02.237, duration_ms=2237, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:20:25], mode=BUILD, duration=0:00:02.305, duration_ms=2305, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:20:49], mode=BUILD, duration=0:00:02.358, duration_ms=2358, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:26:12], mode=BUILD, duration=0:00:02.189, duration_ms=2189, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:28:04], mode=BUILD, duration=0:00:02.070, duration_ms=2070, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:30:04], mode=BUILD, duration=0:00:02.448, duration_ms=2448, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:31:49], mode=BUILD, duration=0:00:01.088, duration_ms=1088, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:32:00], mode=BUILD, duration=0:00:01.095, duration_ms=1095, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:32:09], mode=BUILD, duration=0:00:02.322, duration_ms=2322, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:35:52], mode=BUILD, duration=0:00:02.326, duration_ms=2326, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:43:55], mode=BUILD, duration=0:00:01.235, duration_ms=1235, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:44:24], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:44:56], mode=BUILD, duration=0:00:01.251, duration_ms=1251, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:48:06], mode=BUILD, duration=0:00:01.155, duration_ms=1155, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:52:05], mode=BUILD, duration=0:00:03.559, duration_ms=3559, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:55:26], mode=BUILD, duration=0:00:02.185, duration_ms=2185, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 16:55:35], mode=BUILD, duration=0:00:00.661, duration_ms=661, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:08:01], mode=BUILD, duration=0:00:03.492, duration_ms=3492, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:09:46], mode=BUILD, duration=0:00:02.194, duration_ms=2194, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:10:52], mode=BUILD, duration=0:00:02.309, duration_ms=2309, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:17:56], mode=BUILD, duration=0:00:02.218, duration_ms=2218, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:25:33], mode=BUILD, duration=0:00:00.732, duration_ms=732, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:28:02], mode=BUILD, duration=0:00:02.324, duration_ms=2324, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:37:47], mode=BUILD, duration=0:00:00.685, duration_ms=685, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:42:05], mode=BUILD, duration=0:00:03.495, duration_ms=3495, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:49:53], mode=BUILD, duration=0:00:03.596, duration_ms=3596, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:53:49], mode=BUILD, duration=0:00:02.252, duration_ms=2252, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:54:29], mode=BUILD, duration=0:00:00.628, duration_ms=628, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 17:59:52], mode=BUILD, duration=0:00:03.521, duration_ms=3521, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 18:01:29], mode=BUILD, duration=0:00:03.475, duration_ms=3475, data={name=lwip_tcp_server_perf_RTOS, configuration=Debug, clean_build=false}

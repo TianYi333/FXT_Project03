@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/system/ip/system_axi_dma_0_0/sim/system_axi_dma_0_0.vhd" \
+"../../../bd/system/ip/system_rst_ps7_0_100M_0/sim/system_rst_ps7_0_100M_0.vhd" \
+"../../../bd/system/ip/system_Sim_ad_data_gen_0_0/sim/system_Sim_ad_data_gen_0_0.vhd" \
+"../../../bd/system/ipshared/887e/hdl/axi4_2_gmii.vhd" \
+"../../../bd/system/ipshared/887e/hdl/ps_pl_axi4_v1_0_S00_AXI.vhd" \
+"../../../bd/system/ipshared/887e/hdl/ps_pl_axi4_v1_0.vhd" \
+"../../../bd/system/ip/system_ps_pl_axi4_0_0/sim/system_ps_pl_axi4_0_0.vhd" \
+"../../../bd/system/sim/system.vhd" \
+
+nosort

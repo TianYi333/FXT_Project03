@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Mar 20 09:55:43 2026
+# Process ID: 38620
+# Current directory: D:/A_Rada_V1.1/A_Rada_V1.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3424 D:\A_Rada_V1.1\A_Rada_V1.1\A_Rada_V1.1.xpr
+# Log file: D:/A_Rada_V1.1/A_Rada_V1.1/vivado.log
+# Journal file: D:/A_Rada_V1.1/A_Rada_V1.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.xpr
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_10
+delete_bd_objs [get_bd_nets TOP_0_clk1_dir] [get_bd_ports clk1_dir_0]
+delete_bd_objs [get_bd_nets TOP_0_clk_out] [get_bd_ports clk_out_0]
+delete_bd_objs [get_bd_nets TOP_0_clk2_dir] [get_bd_ports clk2_dir_0]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_dir]
+endgroup
+save_bd_design
+generate_target all [get_files  D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all system_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_1] }
+catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_0] }
+catch { config_ip_cache -export [get_ips -all system_TOP_0_10] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+launch_runs system_axi_dma_0_0_synth_1 system_xbar_1_synth_1 system_processing_system7_0_0_synth_1 system_rst_ps7_0_100M_0_synth_1 system_axis_data_fifo_0_0_synth_1 system_TOP_0_10_synth_1 system_auto_pc_0_synth_1 system_auto_pc_1_synth_1 -jobs 12
+wait_on_run system_axi_dma_0_0_synth_1
+wait_on_run system_xbar_1_synth_1
+wait_on_run system_processing_system7_0_0_synth_1
+wait_on_run system_rst_ps7_0_100M_0_synth_1
+wait_on_run system_axis_data_fifo_0_0_synth_1
+wait_on_run system_TOP_0_10_synth_1
+wait_on_run system_auto_pc_0_synth_1
+wait_on_run system_auto_pc_1_synth_1
+export_simulation -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -directory D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/sim_scripts -ip_user_files_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files -ipstatic_source_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/modelsim} {questa=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/questa} {riviera=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/riviera} {activehdl=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+reset_run system_TOP_0_10_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+update_module_reference system_TOP_0_10
+generate_target all [get_files  D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_TOP_0_10] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+launch_runs system_TOP_0_10_synth_1 -jobs 12
+wait_on_run system_TOP_0_10_synth_1
+export_simulation -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -directory D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/sim_scripts -ip_user_files_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files -ipstatic_source_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/modelsim} {questa=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/questa} {riviera=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/riviera} {activehdl=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -top
+make_wrapper -files [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+generate_target all [get_files  D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -directory D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/sim_scripts -ip_user_files_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files -ipstatic_source_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/modelsim} {questa=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/questa} {riviera=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/riviera} {activehdl=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1

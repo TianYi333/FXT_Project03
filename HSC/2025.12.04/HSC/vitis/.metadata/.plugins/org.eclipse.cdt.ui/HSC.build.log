@@ -1,0 +1,53 @@
+16:17:10 **** Incremental Build of configuration Debug for project HSC ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'PL_AXI_Lite_PS_thread':
+../src/main.c:292:91: warning: variable 'Rx_Data_8' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                                                                                           ^~~~~~~~~
+../src/main.c:292:81: warning: variable 'Rx_Data_7' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                                                                                 ^~~~~~~~~
+../src/main.c:292:71: warning: variable 'Rx_Data_6' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                                                                       ^~~~~~~~~
+../src/main.c:292:61: warning: variable 'Rx_Data_5' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                                                             ^~~~~~~~~
+../src/main.c:292:51: warning: variable 'Rx_Data_4' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                                                   ^~~~~~~~~
+../src/main.c:292:41: warning: variable 'Rx_Data_3' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                                         ^~~~~~~~~
+../src/main.c:292:31: warning: variable 'Rx_Data_2' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                               ^~~~~~~~~
+../src/main.c:292:21: warning: variable 'Rx_Data_1' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |                     ^~~~~~~~~
+../src/main.c:292:11: warning: variable 'Rx_Data_0' set but not used [-Wunused-but-set-variable]
+  292 |  uint32_t Rx_Data_0,Rx_Data_1,Rx_Data_2,Rx_Data_3,Rx_Data_4,Rx_Data_5,Rx_Data_6,Rx_Data_7,Rx_Data_8;
+      |           ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: HSC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/bsplib/lib -o "HSC.elf"  ./src/AXI_DMA.o ./src/freertos_tcp_perf_server.o ./src/iic_phyreset.o ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: HSC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size HSC.elf  |tee "HSC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 195062	   3476	302127168	302325706	12051fca	HSC.elf
+'Finished building: HSC.elf.size'
+' '
+
+16:17:11 Build Finished (took 1s.160ms)
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="lwip_tcp_server_perf_RTOS_system" platform="D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" sysConfig="system_wrapper" runtime="cpp" dimmRepoPath="" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.362816636">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="lwip_tcp_server_perf_RTOS" domainName="freertos10_xilinx_ps7_cortexa9_0" domainPrettyName="freertos10_xilinx_ps7_cortexa9_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="lwip_tcp_server_perf_RTOS" domainName="freertos10_xilinx_ps7_cortexa9_0" domainPrettyName="freertos10_xilinx_ps7_cortexa9_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.680573161">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="lwip_tcp_server_perf_RTOS" domainName="freertos10_xilinx_ps7_cortexa9_0" domainPrettyName="freertos10_xilinx_ps7_cortexa9_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

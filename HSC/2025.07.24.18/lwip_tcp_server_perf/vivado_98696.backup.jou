@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jul 21 09:38:21 2025
+# Process ID: 98696
+# Current directory: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46620 D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.xpr
+update_compile_order -fileset sources_1
+update_module_reference system_Sim_ad_data_gen_0_0
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+report_ip_status -name ip_status 
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_1] }
+catch { config_ip_cache -export [get_ips -all system_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_0] }
+catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_2] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_processing_system7_0_0_synth_1 system_axi_dma_0_0_synth_1 system_rst_ps7_0_100M_0_synth_1 system_xbar_0_synth_1 system_xbar_1_synth_1 system_axis_data_fifo_0_2_synth_1 system_auto_pc_0_synth_1 system_auto_us_0_synth_1 system_auto_pc_1_synth_1 -jobs 28
+wait_on_run system_processing_system7_0_0_synth_1
+wait_on_run system_axi_dma_0_0_synth_1
+wait_on_run system_rst_ps7_0_100M_0_synth_1
+wait_on_run system_xbar_0_synth_1
+wait_on_run system_xbar_1_synth_1
+wait_on_run system_axis_data_fifo_0_2_synth_1
+wait_on_run system_auto_pc_0_synth_1
+wait_on_run system_auto_us_0_synth_1
+wait_on_run system_auto_pc_1_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+upgrade_ip [get_ips]
+report_ip_status -name ip_status 
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name ps_pl_axi4_v1_0_project -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.tmp/ps_pl_axi4_v1_0_project d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 5 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo
+report_ip_status -name ip_status 
+set_property LOCK_UPGRADE 0 [get_bd_cells /ps_pl_axi4_0]
+upgrade_ip -vlnv xilinx.com:user:ps_pl_axi4:1.0 [get_ips  system_ps_pl_axi4_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips system_ps_pl_axi4_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_ps_pl_axi4_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_ps_pl_axi4_0_0_synth_1 system_Sim_ad_data_gen_0_0_synth_1 -jobs 28
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+set_property synth_checkpoint_mode None [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top

@@ -1,0 +1,185 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Thu Feb  5 11:43:11 2026
+# Process ID: 642908
+# Current directory: D:/ASUS-PC/Desktop/temporary/HSC/HSC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent634732 D:\ASUS-PC\Desktop\temporary\HSC\HSC\HSC.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/HSC/HSC/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/HSC/HSC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/HSC/HSC/HSC.xpr
+update_compile_order -fileset sources_1
+save_project_as A_Rader D:/ASUS-PC/Desktop/temporary/A_Rader -force
+open_bd_design {D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd}
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/AD_DATA_FIFO_ASYNC.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/AD_DATA_FIFO_ASYNC.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/TOP.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/TOP.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_ctrl.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_ctrl.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_in_clk.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_in_clk.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_out_clk.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_out_clk.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ads62p45.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/ads62p45.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/para_check.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/para_check.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/rx_data_fifo_async.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/rx_data_fifo_async.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/trans_data.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/HSC/AD_SAMP/AD_SAMP.srcs/sources_1/new/trans_data.vhd
+delete_bd_objs [get_bd_nets triger_in_tr_0_1] [get_bd_nets ad_clk_in_0_1] [get_bd_nets AD_DB_0_1] [get_bd_nets ps_pl_axi4_0_rx_data_valid] [get_bd_nets TOP_0_AD_SCLK] [get_bd_nets TOP_0_tx_data_data] [get_bd_nets ps_pl_axi4_0_rx_cmd_valid] [get_bd_nets TOP_0_tx_cmd_valid] [get_bd_nets TOP_0_tx_data_valid] [get_bd_nets TOP_0_AD_SEN] [get_bd_nets TOP_0_AD_SDATA] [get_bd_nets TOP_0_AD_CTRL1] [get_bd_nets TOP_0_AD_CTRL2] [get_bd_nets TOP_0_AD_CTRL3] [get_bd_intf_nets TOP_0_m_axis] [get_bd_nets ps_pl_axi4_0_rx_data_last] [get_bd_nets ps_pl_axi4_0_rx_data_data] [get_bd_nets triger_in_pos_0_1] [get_bd_nets AD_DA_0_1] [get_bd_nets TOP_0_clk_ad_out] [get_bd_nets TOP_0_tx_data_last] [get_bd_nets clk_in_0_1] [get_bd_nets TOP_0_tx_cmd] [get_bd_nets ps_pl_axi4_0_rx_cmd] [get_bd_nets TOP_0_AD_RESET] [get_bd_nets TOP_0_clk_dir] [get_bd_cells TOP_0]
+delete_bd_objs [get_bd_ports clk_ad_out_0] [get_bd_ports AD_SDATA_0] [get_bd_ports AD_CTRL2_0] [get_bd_ports AD_SEN_0] [get_bd_ports AD_RESET_0] [get_bd_ports clk_dir_0] [get_bd_ports AD_CTRL1_0] [get_bd_ports AD_SCLK_0] [get_bd_ports AD_CTRL3_0]
+add_files {D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/ad_out_clk.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/para_check.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/AD_DATA_FIFO_ASYNC.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/trans_data.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/ad_in_clk.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/ads62p45.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/ad_ctrl.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/rx_data_fifo_async.vhd D:/ASUS-PC/Desktop/temporary/A_Rader/ip_repo/new/TOP.vhd}
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_7
+create_bd_cell -type module -reference TOP TOP_0
+set_property location {5 1849 679} [get_bd_cells TOP_0]
+delete_bd_objs [get_bd_ports triger_in_pos_0] [get_bd_ports ad_clk_in_0] [get_bd_ports clk_in_0] [get_bd_ports triger_in_tr_0] [get_bd_ports AD_DA_0] [get_bd_ports AD_DB_0]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_in]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins TOP_0/ps_clk]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/ad_clk_in]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_DA]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_DB]
+endgroup
+startgroup
+connect_bd_net [get_bd_pins TOP_0/rx_cmd] [get_bd_pins ps_pl_axi4_0/rx_cmd]
+endgroup
+connect_bd_net [get_bd_pins TOP_0/rx_cmd_valid] [get_bd_pins ps_pl_axi4_0/rx_cmd_valid]
+connect_bd_net [get_bd_pins TOP_0/rx_data_valid] [get_bd_pins ps_pl_axi4_0/rx_data_valid]
+connect_bd_net [get_bd_pins TOP_0/rx_data_last] [get_bd_pins ps_pl_axi4_0/rx_data_last]
+connect_bd_net [get_bd_pins TOP_0/rx_data_data] [get_bd_pins ps_pl_axi4_0/rx_data_data]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_dir]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_ad_out]
+endgroup
+connect_bd_net [get_bd_pins TOP_0/tx_cmd] [get_bd_pins ps_pl_axi4_0/tx_cmd]
+delete_bd_objs [get_bd_nets TOP_0_tx_cmd]
+connect_bd_net [get_bd_pins TOP_0/tx_cmd] [get_bd_pins ps_pl_axi4_0/tx_cmd]
+connect_bd_net [get_bd_pins TOP_0/tx_cmd_valid] [get_bd_pins ps_pl_axi4_0/tx_cmd_valid]
+connect_bd_net [get_bd_pins TOP_0/tx_data_valid] [get_bd_pins ps_pl_axi4_0/tx_data_valid]
+connect_bd_net [get_bd_pins TOP_0/tx_data_last] [get_bd_pins ps_pl_axi4_0/tx_data_last]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/tx_data_data] [get_bd_pins TOP_0/tx_data_data]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SEN]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SDATA]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SCLK]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_RESET]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL2]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL3]
+endgroup
+connect_bd_intf_net [get_bd_intf_pins TOP_0/m_axis] [get_bd_intf_pins axis_data_fifo_0/S_AXIS]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/triger_in_pos]
+endgroup
+validate_bd_design
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all system_TOP_0_8] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd]
+launch_runs system_auto_pc_0_synth_1 system_auto_pc_1_synth_1 system_TOP_0_8_synth_1 -jobs 28
+wait_on_run system_auto_pc_0_synth_1
+wait_on_run system_auto_pc_1_synth_1
+wait_on_run system_TOP_0_8_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/triger_in_tr]
+endgroup
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+validate_bd_design -force
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.srcs/sources_1/bd/system/system.bd] -top
+add_files -norecurse D:/ASUS-PC/Desktop/temporary/A_Rader/A_Rader.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 28
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/A_Rader/vitis/system_wrapper.xsa
+save_project_as A_Radar D:/ASUS-PC/Desktop/temporary/A_Radar -force
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+add_files -norecurse D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+update_compile_order -fileset sources_1
+validate_bd_design -force
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+launch_runs system_auto_pc_0_synth_1 system_auto_pc_1_synth_1 -jobs 28
+wait_on_run system_auto_pc_0_synth_1
+wait_on_run system_auto_pc_1_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/imports/system_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/imports/system_wrapper.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hdl/system_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+add_files -norecurse D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/imports/system_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/imports/system_wrapper.v
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+launch_runs synth_1 -jobs 28
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper.xsa

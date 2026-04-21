@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Mar  6 11:43:29 2026
+# Process ID: 24508
+# Current directory: D:/ASUS-PC/Desktop/temporary/A_Radar
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent131892 D:\ASUS-PC\Desktop\temporary\A_Radar\A_Radar.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/A_Radar/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/A_Radar\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/A_Radar/ip_repo/ps_pl_axi4_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2021/Vivado/2021.1/data/ip'.
+open_bd_design {D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:user:ps_pl_axi4:1.0 - ps_pl_axi4_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:module_ref:TOP:1.0 - TOP_0
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /ps_pl_axi4_0/S00_AXI/S00_AXI_reg from address space /axi_dma_0/Data_S2MM.
+Successfully read diagram <system> from block design file <D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd>
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  6 14:26:11 2026...

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Mar 20 10:28:43 2026
+# Process ID: 19560
+# Current directory: D:/A_Rada_V1.1/A_Rada_V1.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41596 D:\A_Rada_V1.1\A_Rada_V1.1\A_Rada_V1.1.xpr
+# Log file: D:/A_Rada_V1.1/A_Rada_V1.1/vivado.log
+# Journal file: D:/A_Rada_V1.1/A_Rada_V1.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.xpr
+open_bd_design {D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -directory D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/sim_scripts -ip_user_files_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files -ipstatic_source_dir D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/modelsim} {questa=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/questa} {riviera=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/riviera} {activehdl=D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/A_Rada_V1.1/A_Rada_V1.1/vitis/system_wrapper.xsa

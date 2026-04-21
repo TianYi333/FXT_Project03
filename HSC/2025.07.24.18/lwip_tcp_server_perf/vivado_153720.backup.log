@@ -1,0 +1,388 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Jun 25 11:40:52 2025
+# Process ID: 153720
+# Current directory: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent120272 D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-593] The IP 'AM2302_v1.0', version 1.0, is no longer found in the user IP repository d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo. It will not be included in the IP Catalog. (It used to be found at d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/AM2302_1.0.)
+WARNING: [IP_Flow 19-593] The IP 'Pro_FPGA_ctrl_v1.0', version 1.0, is no longer found in the user IP repository d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo. It will not be included in the IP Catalog. (It used to be found at d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/Pro_FPGA_ctrl_1.0.)
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2021/Vivado/2021.1/data/ip'.
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+WARNING: [BD 41-1282] Ignoring parameter HAS_BURST
+WARNING: [BD 41-1281] Parameter HAS_BURST is not defined on /axi_dma_0/M_AXIS_MM2S. Setting parameter on /axi_dma_0/M_AXIS_MM2S failed
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <system> from block design file <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd>
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0 [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0'.
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ps_pl_axi4:1.0 ps_pl_axi4_0
+endgroup
+set_property location {1.5 111 194} [get_bd_cells ps_pl_axi4_0]
+add_files -norecurse D:/ASUS-PC/Desktop/Sim_ad_data_gen.vhd
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference Sim_ad_data_gen Sim_ad_data_gen_0
+set_property location {0.5 -74 427} [get_bd_cells Sim_ad_data_gen_0]
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/hdl/ps_pl_axi4_v1_0.vhd] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/hdl/ps_pl_axi4_v1_0.vhd
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/example_designs/bfm_design/ps_pl_axi4_v1_0_tb.sv] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/example_designs/bfm_design/ps_pl_axi4_v1_0_tb.sv
+remove_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/example_designs/bfm_design/ps_pl_axi4_v1_0_tb.sv
+WARNING: [Vivado 12-818] No files matched 'D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/ps_pl_axi4_1.0/example_designs/bfm_design/ps_pl_axi4_v1_0_tb.sv'
+startgroup
+copy_bd_objs /  [get_bd_cells {ps_pl_axi4_0}]
+set_property location {1.5 103 196} [get_bd_cells ps_pl_axi4_1]
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'set_property location {1.5 103 196} [get_bd_cells ps_pl_axi4_1]'
+INFO: [Common 17-17] undo 'copy_bd_objs /  [get_bd_cells {ps_pl_axi4_0}]'
+INFO: [Common 17-17] undo 'startgroup'
+set_property location {2 353 416} [get_bd_cells Sim_ad_data_gen_0]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/tx_cmd] [get_bd_pins ps_pl_axi4_0/tx_cmd]
+startgroup
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/rx_cmd] [get_bd_pins ps_pl_axi4_0/rx_cmd]
+endgroup
+connect_bd_net [get_bd_pins ps_pl_axi4_0/rx_cmd_valid] [get_bd_pins Sim_ad_data_gen_0/rx_cmd_valid]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/tx_cmd_valid] [get_bd_pins ps_pl_axi4_0/tx_cmd_valid]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/tx_data_valid] [get_bd_pins ps_pl_axi4_0/tx_data_valid]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/tx_data_last] [get_bd_pins ps_pl_axi4_0/tx_data_last]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/tx_data_data] [get_bd_pins ps_pl_axi4_0/tx_data_data]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/rx_data_valid] [get_bd_pins ps_pl_axi4_0/rx_data_valid]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/rx_data_last] [get_bd_pins ps_pl_axi4_0/rx_data_data]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins Sim_ad_data_gen_0/rx_data_last] [get_bd_pins ps_pl_axi4_0/rx_data_data]'
+connect_bd_net [get_bd_pins ps_pl_axi4_0/rx_data_last] [get_bd_pins Sim_ad_data_gen_0/rx_data_last]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/rx_data_data] [get_bd_pins ps_pl_axi4_0/rx_data_data]
+delete_bd_objs [get_bd_intf_nets axis_data_fifo_0_M_AXIS]
+connect_bd_intf_net [get_bd_intf_pins Sim_ad_data_gen_0/m_axis] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/s00_axi_aresetn] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/s00_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0]
+startgroup
+set_property -dict [list CONFIG.c_include_mm2s {0} CONFIG.c_include_s2mm {1}] [get_bd_cells axi_dma_0]
+WARNING: [BD 41-1684] Pin /axi_dma_0/m_axi_mm2s_aclk is now disabled. All connections to this pin have been removed. 
+WARNING: [BD 41-1684] Pin /axi_dma_0/mm2s_introut is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets axi_dma_0_mm2s_introut] [get_bd_intf_nets axi_dma_0_M_AXI_MM2S] [get_bd_intf_nets axi_dma_0_M_AXIS_MM2S]
+endgroup
+delete_bd_objs [get_bd_cells axis_data_fifo_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/ps_pl_axi4_0/S00_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins ps_pl_axi4_0/S00_AXI]
+Slave segment '/ps_pl_axi4_0/S00_AXI/S00_AXI_reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C0_0000 [ 64K ]>.
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/clk_in] [get_bd_pins processing_system7_0/FCLK_CLK0]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/reset_n] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn]
+validate_bd_design
+CRITICAL WARNING: [BD 41-967] AXI interface pin /Sim_ad_data_gen_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /rst_ps7_0_100M'
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-9] /axi_dma_0
+                   ########################################################### 
+                   Interface connected to S_AXIS_S2MM does not have TLAST port
+                   ###########################################################
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-967] AXI interface pin /Sim_ad_data_gen_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /rst_ps7_0_100M'
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-9] /axi_dma_0
+                   ########################################################### 
+                   Interface connected to S_AXIS_S2MM does not have TLAST port
+                   ###########################################################
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+set_property location {2 325 -160} [get_bd_cells axis_data_fifo_0]
+set_property location {2.5 966 -132} [get_bd_cells axis_data_fifo_0]
+set_property location {5 1592 -142} [get_bd_cells axis_data_fifo_0]
+delete_bd_objs [get_bd_intf_nets Sim_ad_data_gen_0_m_axis]
+connect_bd_intf_net [get_bd_intf_pins Sim_ad_data_gen_0/m_axis] [get_bd_intf_pins axis_data_fifo_0/S_AXIS]
+connect_bd_intf_net [get_bd_intf_pins axis_data_fifo_0/M_AXIS] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins axis_data_fifo_0/s_axis_aclk]
+validate_bd_design
+CRITICAL WARNING: [BD 41-967] AXI interface pin /Sim_ad_data_gen_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /rst_ps7_0_100M'
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-9] /axi_dma_0
+                   ########################################################### 
+                   Interface connected to S_AXIS_S2MM does not have TLAST port
+                   ###########################################################
+save_bd_design
+Wrote  : <D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+update_compile_order -fileset sources_1
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-967] AXI interface pin /Sim_ad_data_gen_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /rst_ps7_0_100M'
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-9] /axi_dma_0
+                   ########################################################### 
+                   Interface connected to S_AXIS_S2MM does not have TLAST port
+                   ###########################################################
+regenerate_bd_layout
+regenerate_bd_layout -routing
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-967] AXI interface pin /Sim_ad_data_gen_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressed -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressable -of_object /rst_ps7_0_100M'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressing -of_object /rst_ps7_0_100M'
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-9] /axi_dma_0
+                   ########################################################### 
+                   Interface connected to S_AXIS_S2MM does not have TLAST port
+                   ###########################################################
+save_bd_design
+Wrote  : <D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+close_bd_design [get_bd_designs system]
+Wrote  : <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:user:ps_pl_axi4:1.0 - ps_pl_axi4_0
+Adding component instance block -- xilinx.com:module_ref:Sim_ad_data_gen:1.0 - Sim_ad_data_gen_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Successfully read diagram <system> from block design file <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd>
+INFO: [Coretcl 2-12] '/axi_dma_0' selected.
+INFO: [Coretcl 2-12] '/axi_dma_0' selected.
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/synth/system.vhd
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps_pl_axi4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Sim_ad_data_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_data_fifo_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+Exporting to file d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/synth/system.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin m_axis could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /Sim_ad_data_gen_0
+generate_target: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1885.469 ; gain = 233.367
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all system_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_1] }
+catch { config_ip_cache -export [get_ips -all system_ps_pl_axi4_0_0] }
+catch { config_ip_cache -export [get_ips -all system_Sim_ad_data_gen_0_0] }
+catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_2] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_processing_system7_0_0_synth_1 system_axi_dma_0_0_synth_1 system_rst_ps7_0_100M_0_synth_1 system_xbar_0_synth_1 system_xbar_1_synth_1 system_ps_pl_axi4_0_0_synth_1 system_Sim_ad_data_gen_0_0_synth_1 system_axis_data_fifo_0_2_synth_1 system_auto_pc_0_synth_1 system_auto_us_0_synth_1 system_auto_pc_1_synth_1 -jobs 28
+[Wed Jun 25 12:24:51 2025] Launched system_processing_system7_0_0_synth_1, system_axi_dma_0_0_synth_1, system_rst_ps7_0_100M_0_synth_1, system_xbar_0_synth_1, system_xbar_1_synth_1, system_ps_pl_axi4_0_0_synth_1, system_Sim_ad_data_gen_0_0_synth_1, system_axis_data_fifo_0_2_synth_1, system_auto_pc_0_synth_1, system_auto_us_0_synth_1, system_auto_pc_1_synth_1...
+Run output will be captured here:
+system_processing_system7_0_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_processing_system7_0_0_synth_1/runme.log
+system_axi_dma_0_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_axi_dma_0_0_synth_1/runme.log
+system_rst_ps7_0_100M_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_rst_ps7_0_100M_0_synth_1/runme.log
+system_xbar_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_xbar_0_synth_1/runme.log
+system_xbar_1_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_xbar_1_synth_1/runme.log
+system_ps_pl_axi4_0_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_ps_pl_axi4_0_0_synth_1/runme.log
+system_Sim_ad_data_gen_0_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_Sim_ad_data_gen_0_0_synth_1/runme.log
+system_axis_data_fifo_0_2_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_axis_data_fifo_0_2_synth_1/runme.log
+system_auto_pc_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_auto_pc_0_synth_1/runme.log
+system_auto_us_0_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_auto_us_0_synth_1/runme.log
+system_auto_pc_1_synth_1: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/system_auto_pc_1_synth_1/runme.log
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+add_files -norecurse d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/hdl/system_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/bd/system/hdl/system_wrapper.v
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/imports/system_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/imports/system_wrapper.v
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'system' - hence not re-generating.
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+[Wed Jun 25 12:29:25 2025] Launched synth_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/synth_1/runme.log
+[Wed Jun 25 12:29:25 2025] Launched impl_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 2098.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 280 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.314 . Memory (MB): peak = 2848.219 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.314 . Memory (MB): peak = 2848.219 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2848.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+  SRLC32E => SRL16E: 3 instances
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 3005.363 ; gain = 1063.070
+close_design
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (E:/Xilinx2021/Vivado/2021.1/data/embeddedsw) loading 0 seconds
+INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-593] The IP 'AM2302_v1.0', version 1.0, is no longer found in the user IP repository d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo. It will not be included in the IP Catalog. (It used to be found at d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/AM2302_1.0.)
+WARNING: [IP_Flow 19-593] The IP 'Pro_FPGA_ctrl_v1.0', version 1.0, is no longer found in the user IP repository d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo. It will not be included in the IP Catalog. (It used to be found at d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/Pro_FPGA_ctrl_1.0.)
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo'.
+add_files -norecurse D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/Sim_ad_data_gen.vhd
+update_compile_order -fileset sources_1
+validate_bd_design -force
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_ps_pl_axi4_0_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+validate_bd_design -force
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_ps_pl_axi4_0_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+add_files -norecurse D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/Sim_ad_data_gen.vhd
+WARNING: [filemgmt 56-12] File 'D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo/Sim_ad_data_gen.vhd' cannot be added to the project because it already exists in the project, skipping this file
+close_bd_design [get_bd_designs system]
+Wrote  : <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:user:ps_pl_axi4:1.0 - ps_pl_axi4_0
+Adding component instance block -- xilinx.com:module_ref:Sim_ad_data_gen:1.0 - Sim_ad_data_gen_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Successfully read diagram <system> from block design file <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd>
+regenerate_bd_layout
+validate_bd_design -force
+ERROR: [BD 5-336] This command cannot be run, as the BD-design is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+system_ps_pl_axi4_0_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+report_ip_status -name ip_status 
+set_property LOCK_UPGRADE 1 [get_bd_cells /ps_pl_axi4_0]
+INFO: [IP_Flow 19-8015] Moving outputs for IP 'system_ps_pl_axi4_0_0' to 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ip/system_ps_pl_axi4_0_0'
+WARNING: [IP_Flow 19-2162] IP 'system_ps_pl_axi4_0_0' is locked:
+* IP definition 'ps_pl_axi4 (1.0)' for IP 'system_ps_pl_axi4_0_0' (customized with software release 2021.1) was not found in the IP Catalog.
+WARNING: [BD 41-2028] Locking ps_pl_axi4 to version 1.0. If the latest driver for the IP is not backwards compatible, software flow will assign a generic driver or no driver for this IP
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo'.
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 25 16:37:41 2025...

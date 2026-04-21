@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Index Version="1" Minor="0">
+	<Repository value="d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/ip_repo">
+	</Repository>
+	<IP>
+		<VLNV value="xilinx.com:user:ps_pl_axi4:1.0">
+		</VLNV>
+		<DisplayName value="ps_pl_axi4_v1.0">
+		</DisplayName>
+		<Description value="My new AXI IP">
+		</Description>
+		<CoreRevision value="5">
+		</CoreRevision>
+		<ComponentPath value="ps_pl_axi4_1.0/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="zynq">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+</Index>
+

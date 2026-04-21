@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Nov 28 17:42:22 2025
+# Process ID: 71564
+# Current directory: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

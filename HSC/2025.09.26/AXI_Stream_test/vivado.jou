@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Sep 26 15:33:41 2025
+# Process ID: 145684
+# Current directory: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent136052 D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.xpr
+open_bd_design {D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd}
+update_compile_order -fileset sources_1
+validate_bd_design -force
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top
+startgroup
+set_property -dict [list CONFIG.FIFO_DEPTH {2048}] [get_bd_cells axis_data_fifo_0]
+endgroup
+validate_bd_design
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_2] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd]
+launch_runs system_axis_data_fifo_0_2_synth_1 -jobs 14
+wait_on_run system_axis_data_fifo_0_2_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top
+validate_bd_design -force
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 14
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper.xsa

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jan 29 09:15:08 2026
+# Process ID: 14536
+# Current directory: E:/HSC_PRO/HSC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent49812 E:\HSC_PRO\HSC\HSC.xpr
+# Log file: E:/HSC_PRO/HSC/vivado.log
+# Journal file: E:/HSC_PRO/HSC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/HSC_PRO/HSC/HSC.xpr
+update_compile_order -fileset sources_1

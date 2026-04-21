@@ -1,0 +1,209 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Mar  9 09:36:26 2026
+# Process ID: 7020
+# Current directory: E:/A_Radar/A_Radar
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20584 E:\A_Radar\A_Radar\A_Radar.xpr
+# Log file: E:/A_Radar/A_Radar/vivado.log
+# Journal file: E:/A_Radar/A_Radar\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/A_Radar/A_Radar/A_Radar.xpr
+INFO: [Project 1-313] Project file moved from 'D:/ASUS-PC/Desktop/temporary/A_Radar' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/A_Radar/A_Radar/ip_repo/ps_pl_axi4_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd}
+Reading block design file <E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:user:ps_pl_axi4:1.0 - ps_pl_axi4_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:module_ref:TOP:1.0 - TOP_0
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /ps_pl_axi4_0/S00_AXI/S00_AXI_reg from address space /axi_dma_0/Data_S2MM.
+Successfully read diagram <system> from block design file <E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd>
+delete_bd_objs [get_bd_nets ps_pl_axi4_0_rx_cmd_valid] [get_bd_nets ps_pl_axi4_0_rx_data_valid] [get_bd_nets TOP_0_tx_cmd] [get_bd_nets TOP_0_AD_SEN] [get_bd_nets TOP_0_AD_RESET] [get_bd_intf_nets TOP_0_m_axis] [get_bd_nets triger_in_pos_0_1] [get_bd_nets triger_in_tr_0_1] [get_bd_nets TOP_0_clk_ad_out] [get_bd_nets TOP_0_tx_cmd_valid] [get_bd_nets TOP_0_tx_data_valid] [get_bd_nets TOP_0_tx_data_last] [get_bd_nets TOP_0_AD_SCLK] [get_bd_nets TOP_0_clk_dir] [get_bd_nets ad_clk_in_0_1] [get_bd_nets AD_DB_0_1] [get_bd_nets ps_pl_axi4_0_rx_cmd] [get_bd_nets ps_pl_axi4_0_rx_data_last] [get_bd_nets TOP_0_tx_data_data] [get_bd_nets TOP_0_AD_SDATA] [get_bd_nets clk_in_0_1] [get_bd_nets AD_DA_0_1] [get_bd_nets ps_pl_axi4_0_rx_data_data] [get_bd_nets TOP_0_AD_CTRL1] [get_bd_nets TOP_0_AD_CTRL2] [get_bd_nets TOP_0_AD_CTRL3] [get_bd_cells TOP_0]
+delete_bd_objs [get_bd_ports clk_dir_0]
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_ports AD_CTRL3_0] [get_bd_ports AD_SEN_0] [get_bd_ports AD_CTRL2_0] [get_bd_ports AD_RESET_0] [get_bd_ports AD_CTRL1_0] [get_bd_ports AD_SCLK_0] [get_bd_ports clk_ad_out_0]
+delete_bd_objs [get_bd_ports triger_in_pos_0] [get_bd_ports ad_clk_in_0] [get_bd_ports triger_in_tr_0] [get_bd_ports AD_DA_0] [get_bd_ports AD_DB_0] [get_bd_ports clk_in_0]
+delete_bd_objs [get_bd_ports AD_SDATA_0]
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/TOP.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/TOP.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/ad_ctrl.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/ad_ctrl.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/para_check.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/para_check.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/trans_data.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/trans_data.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/ads62p45.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/ads62p45.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/rx_data_fifo_async.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/rx_data_fifo_async.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/ad_out_clk.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/ad_out_clk.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/ad_in_clk.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/ad_in_clk.vhd
+export_ip_user_files -of_objects  [get_files E:/A_Radar/A_Radar/ip_repo/new/AD_DATA_FIFO_ASYNC.vhd] -no_script -reset -force -quiet
+remove_files  E:/A_Radar/A_Radar/ip_repo/new/AD_DATA_FIFO_ASYNC.vhd
+update_module_reference system_TOP_0_8
+ERROR: [filemgmt 56-587] Failed to resolve reference. Nothing was found in the project to match the name TOP Try changing the compile order from manual to automatic. 
+ERROR: [Common 17-39] 'update_module_reference' failed due to earlier errors.
+add_files {E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/rx_data_fifo_async.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/TOP.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/para_check.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/ads62p45.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/ad_ctrl.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/AD_DATA_FIFO_ASYNC.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/trans_data.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/ad_in_clk.vhd E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/new/new/ad_out_clk.vhd}
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_8
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'AD_RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ps_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3158] Bus Interface 'm_axis': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-5661] Bus Interface 'ps_clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/A_Radar/A_Radar/ip_repo/ps_pl_axi4_1.0'.
+WARNING: [Coretcl 2-176] No IPs found
+ERROR: [Common 17-69] Command failed: No IP specified.  Please specify IP with 'objects'
+create_bd_cell -type module -reference TOP TOP_0
+set_property location {5 1662 595} [get_bd_cells TOP_0]
+set_property location {4.5 1601 639} [get_bd_cells TOP_0]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins TOP_0/ps_clk]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_in]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/triger_in_pos]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/triger_in_tr]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/ad_clk_in]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_DA]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_DB]
+endgroup
+startgroup
+connect_bd_net [get_bd_pins TOP_0/rx_cmd] [get_bd_pins ps_pl_axi4_0/rx_cmd]
+endgroup
+connect_bd_net [get_bd_pins TOP_0/rx_cmd_valid] [get_bd_pins ps_pl_axi4_0/rx_cmd_valid]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/rx_data_valid] [get_bd_pins TOP_0/rx_data_valid]
+connect_bd_net [get_bd_pins TOP_0/rx_data_last] [get_bd_pins ps_pl_axi4_0/rx_data_last]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/rx_data_data] [get_bd_pins TOP_0/rx_data_data]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_dir]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_ad_out]
+endgroup
+connect_bd_net [get_bd_pins TOP_0/tx_cmd_valid] [get_bd_pins ps_pl_axi4_0/tx_cmd]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/tx_cmd_valid] [get_bd_pins TOP_0/tx_data_last]
+delete_bd_objs [get_bd_nets TOP_0_tx_data_last]
+delete_bd_objs [get_bd_nets TOP_0_tx_cmd_valid]
+connect_bd_net [get_bd_pins TOP_0/tx_cmd] [get_bd_pins ps_pl_axi4_0/tx_cmd]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/tx_cmd_valid] [get_bd_pins TOP_0/tx_cmd_valid]
+connect_bd_net [get_bd_pins TOP_0/tx_data_valid] [get_bd_pins ps_pl_axi4_0/tx_data_valid]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/tx_data_last] [get_bd_pins TOP_0/tx_data_last]
+connect_bd_net [get_bd_pins TOP_0/tx_data_data] [get_bd_pins ps_pl_axi4_0/tx_data_data]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SEN]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SDATA]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SCLK]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_RESET]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL2]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL3]
+endgroup
+connect_bd_intf_net [get_bd_intf_pins TOP_0/m_axis] [get_bd_intf_pins axis_data_fifo_0/S_AXIS]
+regenerate_bd_layout -routing
+save_bd_design
+Wrote  : <E:\A_Radar\A_Radar\A_Radar.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+update_compile_order -fileset sources_1
+generate_target all [get_files  E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/axi_dma_0/Data_S2MM' to slave segment '/ps_pl_axi4_0/S00_AXI/S00_AXI_reg'. Please either complete or remove this path to resolve.
+CRITICAL WARNING: [BD 41-967] AXI interface pin /TOP_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+Wrote  : <E:\A_Radar\A_Radar\A_Radar.srcs\sources_1\bd\system\system.bd> 
+VHDL Output written to : e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TOP_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+Exporting to file e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File e:/A_Radar/A_Radar/A_Radar.gen/sources_1/bd/system/synth/system.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin m_axis could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /TOP_0
+generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1739.488 ; gain = 102.254
+catch { config_ip_cache -export [get_ips -all system_TOP_0_9] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+launch_runs system_TOP_0_9_synth_1 system_auto_pc_0_synth_1 system_auto_pc_1_synth_1 -jobs 12
+[Mon Mar  9 09:49:22 2026] Launched system_TOP_0_9_synth_1, system_auto_pc_0_synth_1, system_auto_pc_1_synth_1...
+Run output will be captured here:
+system_TOP_0_9_synth_1: E:/A_Radar/A_Radar/A_Radar.runs/system_TOP_0_9_synth_1/runme.log
+system_auto_pc_0_synth_1: E:/A_Radar/A_Radar/A_Radar.runs/system_auto_pc_0_synth_1/runme.log
+system_auto_pc_1_synth_1: E:/A_Radar/A_Radar/A_Radar.runs/system_auto_pc_1_synth_1/runme.log
+export_simulation -of_objects [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory E:/A_Radar/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir E:/A_Radar/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir E:/A_Radar/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'system' - hence not re-generating.
+export_ip_user_files -of_objects [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory E:/A_Radar/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir E:/A_Radar/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir E:/A_Radar/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Mar  9 09:51:55 2026] Launched synth_1...
+Run output will be captured here: E:/A_Radar/A_Radar/A_Radar.runs/synth_1/runme.log
+[Mon Mar  9 09:51:55 2026] Launched impl_1...
+Run output will be captured here: E:/A_Radar/A_Radar/A_Radar.runs/impl_1/runme.log
+generate_target all [get_files  E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'system' - hence not re-generating.
+export_ip_user_files -of_objects [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory E:/A_Radar/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir E:/A_Radar/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir E:/A_Radar/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=E:/A_Radar/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files E:/A_Radar/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Mar  9 09:55:53 2026] Launched impl_1...
+Run output will be captured here: E:/A_Radar/A_Radar/A_Radar.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  9 09:56:42 2026...

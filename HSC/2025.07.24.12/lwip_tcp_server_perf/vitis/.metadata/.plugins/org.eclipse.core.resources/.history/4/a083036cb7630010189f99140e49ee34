@@ -1,0 +1,238 @@
+#include "AXI_DMA.h"
+
+static XAxiDma axidma;     //XAxiDma实例
+
+volatile int tx_done;      //发送完成标志
+volatile int rx_done;      //接收完成标志
+volatile int error;        //传输出错标志
+
+int AXI_DMA_APP(void)
+{
+//    int i;
+    int status;
+//    u8 value;
+//    u8 *tx_buffer_ptr;
+    u8 *rx_buffer_ptr;
+    XAxiDma_Config *config;
+
+//    tx_buffer_ptr = (u8 *) TX_BUFFER_BASE;
+    rx_buffer_ptr = (u8 *) RX_BUFFER_BASE;
+
+    xil_printf("\r\n--- Entering main() --- \r\n");
+
+    config = XAxiDma_LookupConfig(DMA_DEV_ID);
+    if (!config) {
+        xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+        return XST_FAILURE;
+    }
+
+    //初始化DMA引擎
+    status = XAxiDma_CfgInitialize(&axidma, config);
+    if (status != XST_SUCCESS) {
+        xil_printf("Initialization failed %d\r\n", status);
+        return XST_FAILURE;
+    }
+
+    if (XAxiDma_HasSg(&axidma)) {
+        xil_printf("Device configured as SG mode \r\n");
+        return XST_FAILURE;
+    }
+
+    //建立中断系统
+    status = setup_intr_system(&xInterruptController, &axidma, TX_INTR_ID, RX_INTR_ID);
+    if (status != XST_SUCCESS) {
+        xil_printf("Failed intr setup\r\n");
+        return XST_FAILURE;
+    }
+
+    //初始化标志信号
+    tx_done = 0;
+    rx_done = 0;
+    error   = 0;
+
+//    value = TEST_START_VALUE;
+//    for (i = 0; i < MAX_PKT_LEN; i++) {
+//        tx_buffer_ptr[i] = value;
+//        value = (value + 1) & 0xFF;
+//    }
+//
+//    Xil_DCacheFlushRange((UINTPTR) tx_buffer_ptr, MAX_PKT_LEN);   //刷新Data Cache
+
+//    status = XAxiDma_SimpleTransfer(&axidma, (UINTPTR) tx_buffer_ptr,
+//    MAX_PKT_LEN, XAXIDMA_DMA_TO_DEVICE);//发送或者读取数据（传输数据的方向，XAXIDMA_DMA_TO_DEVICE和XAXIDMA_DEVICE_TO_DMA）
+//    if (status != XST_SUCCESS) {
+//        return XST_FAILURE;
+//    }
+    while (1)
+    {
+    	XAxiDma_S2MMTransfer(&axidma, (u32)rx_buffer_ptr, MAX_PKT_LEN);
+		vTaskDelay(10);
+		status = XAxiDma_SimpleTransfer(&axidma, (UINTPTR) rx_buffer_ptr,
+		MAX_PKT_LEN, XAXIDMA_DEVICE_TO_DMA);//发送或者读取数据（传输数据的方向，XAXIDMA_DMA_TO_DEVICE和XAXIDMA_DEVICE_TO_DMA）
+		if(status== XST_SUCCESS)
+		{
+			Xil_DCacheFlushRange((UINTPTR) rx_buffer_ptr, MAX_PKT_LEN);   //刷新Data Cache
+			if(rx_done)
+			{
+				//传输出错
+				if (error) {
+					xil_printf("Failed test transmit%s done, "
+							"receive%s done\r\n", tx_done ? "" : " not",
+									rx_done ? "" : " not");
+					goto Done;
+				}
+
+				//传输完成，检查数据是否正确
+				status = check_data(MAX_PKT_LEN);
+				if (status != XST_SUCCESS) {
+					xil_printf("Data check failed\r\n");
+					goto Done;
+				}
+
+				xil_printf("Successfully ran AXI DMA Loop\r\n");
+		//    	disable_intr_system(&xInterruptController, TX_INTR_ID, RX_INTR_ID);
+
+				Done: xil_printf("--- Exiting main() --- \r\n");
+				rx_done = 0;
+				error   = 0;
+			}
+		}
+    }
+	return XST_SUCCESS;
+}
+
+//检查数据缓冲区
+int check_data(int length)
+{
+    u8 *rx_packet;
+    int i = 0;
+    rx_packet = (u8 *) RX_BUFFER_BASE;
+    for (i = 0; i < length; i++) {
+        xil_printf("Data : %x\r\n", rx_packet[i]);
+    }
+    return XST_SUCCESS;
+}
+
+//DMA TX中断处理函数
+void tx_intr_handler(void *callback)
+{
+    int timeout;
+    u32 irq_status;
+    XAxiDma *axidma_inst = (XAxiDma *) callback;
+
+    //读取待处理的中断
+    irq_status = XAxiDma_IntrGetIrq(axidma_inst, XAXIDMA_DMA_TO_DEVICE);
+    //确认待处理的中断
+    XAxiDma_IntrAckIrq(axidma_inst, irq_status, XAXIDMA_DMA_TO_DEVICE);
+
+    //Tx出错
+    if ((irq_status & XAXIDMA_IRQ_ERROR_MASK)) {
+        error = 1;
+        XAxiDma_Reset(axidma_inst);
+        timeout = RESET_TIMEOUT_COUNTER;
+        while (timeout) {
+            if (XAxiDma_ResetIsDone(axidma_inst))
+                break;
+            timeout -= 1;
+        }
+        return;
+    }
+
+    //Tx完成
+    if ((irq_status & XAXIDMA_IRQ_IOC_MASK))
+        tx_done = 1;
+}
+
+//DMA RX中断处理函数
+void rx_intr_handler(void *callback)
+{
+    u32 irq_status;
+    int timeout;
+    XAxiDma *axidma_inst = (XAxiDma *) callback;
+
+    irq_status = XAxiDma_IntrGetIrq(axidma_inst, XAXIDMA_DEVICE_TO_DMA);//函数读取DMASR状态寄存器中的中断位来判断发送了哪种中断
+    XAxiDma_IntrAckIrq(axidma_inst, irq_status, XAXIDMA_DEVICE_TO_DMA);//函数确认待处理的中断（通过向中断位写1，可以清除发生的中断）
+
+    //Rx出错
+    if ((irq_status & XAXIDMA_IRQ_ERROR_MASK)) {//如果发现是接收出现错误的中断，则使用 XAxiDma_Reset 函数复位 DMA，并使用 XAxiDma_ResetIsDone 函数判断是否复位完成。
+        error = 1;
+        XAxiDma_Reset(axidma_inst);
+        timeout = RESET_TIMEOUT_COUNTER;
+        while (timeout) {
+            if (XAxiDma_ResetIsDone(axidma_inst))
+                break;
+            timeout -= 1;
+        }
+        return;
+    }
+
+    //Rx完成
+    if ((irq_status & XAXIDMA_IRQ_IOC_MASK))
+        rx_done = 1;
+}
+
+//建立DMA中断系统
+//  @param   int_ins_ptr是指向XScuGic实例的指针
+//  @param   AxiDmaPtr是指向DMA引擎实例的指针
+//  @param   tx_intr_id是TX通道中断ID
+//  @param   rx_intr_id是RX通道中断ID
+//  @return：成功返回XST_SUCCESS，否则返回XST_FAILURE
+int setup_intr_system(XScuGic * int_ins_ptr, XAxiDma * axidma_ptr,
+        u16 tx_intr_id, u16 rx_intr_id)
+{
+    int status;
+//    XScuGic_Config *intc_config;
+
+//    //初始化中断控制器驱动
+//    intc_config = XScuGic_LookupConfig(INTC_DEVICE_ID);
+//    if (NULL == intc_config) {
+//        return XST_FAILURE;
+//    }
+//    status = XScuGic_CfgInitialize(int_ins_ptr, intc_config,
+//            intc_config->CpuBaseAddress);
+//    if (status != XST_SUCCESS) {
+//        return XST_FAILURE;
+//    }
+
+    //设置优先级和触发类型
+    XScuGic_SetPriorityTriggerType(int_ins_ptr, tx_intr_id, 0xA0, 0x3);
+    XScuGic_SetPriorityTriggerType(int_ins_ptr, rx_intr_id, 0xA0, 0x3);
+
+    //为中断设置中断处理函数
+    status = XScuGic_Connect(int_ins_ptr, tx_intr_id,
+            (Xil_InterruptHandler) tx_intr_handler, axidma_ptr);
+    if (status != XST_SUCCESS) {
+        return status;
+    }
+
+    status = XScuGic_Connect(int_ins_ptr, rx_intr_id,
+            (Xil_InterruptHandler) rx_intr_handler, axidma_ptr);
+    if (status != XST_SUCCESS) {
+        return status;
+    }
+
+    XScuGic_Enable(int_ins_ptr, tx_intr_id);
+    XScuGic_Enable(int_ins_ptr, rx_intr_id);
+
+//    //启用来自硬件的中断
+//    Xil_ExceptionInit();
+//    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+//            (Xil_ExceptionHandler) XScuGic_InterruptHandler,
+//            (void *) int_ins_ptr);
+//    Xil_ExceptionEnable();
+
+    //使能DMA中断
+    XAxiDma_IntrEnable(&axidma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+    XAxiDma_IntrEnable(&axidma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+
+    return XST_SUCCESS;
+}
+
+//此函数禁用DMA引擎的中断
+void disable_intr_system(XScuGic * int_ins_ptr, u16 tx_intr_id,
+        u16 rx_intr_id)
+{
+    XScuGic_Disconnect(int_ins_ptr, tx_intr_id);
+    XScuGic_Disconnect(int_ins_ptr, rx_intr_id);
+}
+

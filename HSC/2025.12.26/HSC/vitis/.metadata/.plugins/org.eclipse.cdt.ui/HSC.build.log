@@ -1,0 +1,10 @@
+09:15:02 **** Incremental Build of configuration Debug for project HSC ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+09:15:03 Build Finished (took 1s.6ms)
+

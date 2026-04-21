@@ -1,0 +1,59 @@
+14:32:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\ASUS-PC\Desktop\temporary\A_Radar\vitis\temp_xsdb_launch_script.tcl
+14:32:05 INFO  : Platform repository initialization has completed.
+14:32:05 INFO  : Registering command handlers for Vitis TCF services
+14:32:05 INFO  : XSCT server has started successfully.
+14:32:05 INFO  : plnx-install-location is set to ''
+14:32:05 INFO  : Successfully done setting XSCT server connection channel  
+14:32:05 INFO  : Successfully done query RDI_DATADIR 
+14:32:05 INFO  : Successfully done setting workspace for the tool. 
+14:35:14 INFO  : Result from executing command 'getProjects': system_wrapper
+14:35:14 INFO  : Result from executing command 'getPlatforms': 
+14:35:14 WARN  : An unexpected exception occurred in the module 'platform project logging'
+14:35:15 INFO  : Platform 'system_wrapper' is added to custom repositories.
+14:35:19 INFO  : Platform 'system_wrapper' is added to custom repositories.
+14:46:43 INFO  : Result from executing command 'getProjects': system_wrapper
+14:46:43 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+14:46:43 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+14:46:44 INFO  : Updating application flags with new BSP settings...
+14:46:44 INFO  : Successfully updated application flags for project A_Radar.
+14:47:07 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+15:02:07 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+10:04:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\ASUS-PC\Desktop\temporary\A_Radar\vitis\temp_xsdb_launch_script.tcl
+10:04:06 INFO  : XSCT server has started successfully.
+10:04:06 INFO  : Successfully done setting XSCT server connection channel  
+10:04:06 INFO  : plnx-install-location is set to ''
+10:04:06 INFO  : Successfully done setting workspace for the tool. 
+10:04:06 INFO  : Platform repository initialization has completed.
+10:04:07 INFO  : Successfully done query RDI_DATADIR 
+10:04:07 INFO  : Registering command handlers for Vitis TCF services
+09:48:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\ASUS-PC\Desktop\temporary\A_Radar\vitis\temp_xsdb_launch_script.tcl
+09:48:26 INFO  : XSCT server has started successfully.
+09:48:26 INFO  : plnx-install-location is set to ''
+09:48:26 INFO  : Successfully done setting XSCT server connection channel  
+09:48:26 INFO  : Successfully done setting workspace for the tool. 
+09:48:27 INFO  : Platform repository initialization has completed.
+09:48:27 INFO  : Successfully done query RDI_DATADIR 
+09:48:27 INFO  : Registering command handlers for Vitis TCF services
+11:51:31 INFO  : Result from executing command 'getProjects': system_wrapper
+11:51:31 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+11:51:31 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+14:49:52 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+15:13:05 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+16:24:25 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+16:25:00 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+16:49:07 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+16:51:27 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+17:05:07 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+17:20:36 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+17:20:40 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+13:51:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\ASUS-PC\Desktop\temporary\A_Radar\vitis\temp_xsdb_launch_script.tcl
+13:51:58 INFO  : XSCT server has started successfully.
+13:51:58 INFO  : Successfully done setting XSCT server connection channel  
+13:51:58 INFO  : plnx-install-location is set to ''
+13:51:58 INFO  : Successfully done setting workspace for the tool. 
+13:51:59 INFO  : Platform repository initialization has completed.
+13:51:59 INFO  : Successfully done query RDI_DATADIR 
+13:51:59 INFO  : Registering command handlers for Vitis TCF services
+13:54:55 INFO  : Checking for BSP changes to sync application flags for project 'A_Radar'...
+13:54:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa is already opened
+

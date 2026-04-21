@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Jan 16 17:54:23 2026
+# Process ID: 402040
+# Current directory: D:/ASUS-PC/Desktop/temporary/HSC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent400800 D:\ASUS-PC\Desktop\temporary\HSC\HSC.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/HSC/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/HSC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/HSC/HSC.xpr
+open_bd_design {D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+update_compile_order -fileset sources_1

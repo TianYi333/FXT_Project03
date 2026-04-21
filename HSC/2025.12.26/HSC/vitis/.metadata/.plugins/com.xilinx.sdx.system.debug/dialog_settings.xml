@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="HSC_system-imgFile" value="D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC_system/Debug/sd_card/BOOT.BIN"/>
+	<item key="HSC_system-offSet" value=""/>
+	<item key="HSC_system-initFile" value="D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf"/>
+	<item key="HSC_system-flashType" value="qspi-x4-single"/>
+	<item key="HSC_system-verifyFlash" value="false"/>
+	<item key="HSC_system-blankCheck" value="false"/>
+	<item key="HSC_system-device" value="Auto Detect"/>
+	<item key="HSC_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="HSC_system"/>
+</section>

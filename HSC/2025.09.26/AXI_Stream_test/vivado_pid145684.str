@@ -1,0 +1,835 @@
+/*
+
+Xilinx Vivado v2021.1.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3286242 on Wed Jul 28 13:10:47 MDT 2021
+IP Build: 3279568 on Wed Jul 28 16:48:48 MDT 2021
+
+Process ID (PID): 145684
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Sep 26 15:33:52 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 28
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	E:/Xilinx2021/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	E:/Xilinx2021/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ASUS-PC
+User home directory: C:/Users/ASUS-PC
+User working directory: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/Xilinx2021/Vivado
+HDI_APPROOT: E:/Xilinx2021/Vivado/2021.1
+RDI_DATADIR: E:/Xilinx2021/Vivado/2021.1/data
+RDI_BINDIR: E:/Xilinx2021/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/ASUS-PC/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/ASUS-PC/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/ASUS-PC/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	E:/Xilinx2021/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vivado.log
+Vivado journal file: 	D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vivado.jou
+Engine tmp dir: 	D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/.Xil/Vivado-145684-FXT333
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Xilinx2021/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: E:/Xilinx2021/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: E:/Xilinx2021/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: E:/Xilinx2021/Vivado/2021.1
+XILINX_SDK: E:/Xilinx2021/Vitis/2021.1
+XILINX_VITIS: E:/Xilinx2021/Vitis/2021.1
+XILINX_VIVADO: E:/Xilinx2021/Vivado/2021.1
+XILINX_VIVADO_HLS: E:/Xilinx2021/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,296 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 72 MB (+73232kb) [00:00:04]
+// [Engine Memory]: 1,296 MB (+1207736kb) [00:00:04]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.xpr. Version: Vivado v2021.1.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+25649kb) [00:00:06]
+// [GUI Memory]: 109 MB (+3630kb) [00:00:07]
+// [GUI Memory]: 126 MB (+12542kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1819 ms.
+// Tcl Message: open_project D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/AXI_Stream/lwip_tcp_server_perf/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2021/Vivado/2021.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,296 MB. GUI used memory: 76 MB. Current time: 9/26/25, 3:33:52 PM CST
+// Project name: AXI_Stream_test; location: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test; part: xc7z020clg400-2
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// a (cs): Critical Messages: addNotify
+// [GUI Memory]: 135 MB (+2191kb) [00:00:12]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // o
+// TclEventType: DG_GRAPH_STALE
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bz (cs):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd} 
+// [GUI Memory]: 152 MB (+11097kb) [00:00:19]
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Reading block design file <D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+// JavaFX intialization before: 1758872057129
+// JavaFX initialization after: 1758872057348
+// Elapsed time: 20 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'bF' command handler elapsed time: 20 seconds
+dismissDialog("Open Block Design"); // bz
+// [GUI Memory]: 184 MB (+25469kb) [00:00:37]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,340 MB. GUI used memory: 118 MB. Current time: 9/26/25, 3:34:22 PM CST
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cs): Re-customize IP: addNotify
+// [Engine Memory]: 1,362 MB (+1452kb) [00:00:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,533 MB. GUI used memory: 121 MB. Current time: 9/26/25, 3:34:52 PM CST
+// [Engine Memory]: 1,920 MB (+513310kb) [00:01:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,034 MB. GUI used memory: 119 MB. Current time: 9/26/25, 3:35:07 PM CST
+// [Engine Memory]: 2,035 MB (+19503kb) [00:01:59]
+// Elapsed time: 126 seconds
+dismissDialog("Re-customize IP"); // r
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cs): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // r
+// HMemoryUtils.trashcanNow. Engine heap size: 2,054 MB. GUI used memory: 121 MB. Current time: 9/26/25, 3:36:27 PM CST
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // E
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design -force'
+selectButton("OptionPane.button", "Rerun Validate Design"); // JButton
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RUN_DELETE
+// bz (cs):  Validate Design : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design -force 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: FILE_SET_CHANGE
+// dQ (cs): Critical Messages: addNotify
+dismissDialog("Validate Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // dQ
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // an
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (cs): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] 
+// Tcl Message: Wrote  : <D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.srcs\sources_1\bd\system\system.bd>  Wrote  : <D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/ui/bd_c954508f.ui>  
+// HMemoryUtils.trashcanNow. Engine heap size: 2,245 MB. GUI used memory: 124 MB. Current time: 9/26/25, 3:36:42 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 2,245 MB (+113653kb) [00:02:59]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.vhd 
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/sim/system.vhd VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created. INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc . 
+// Tcl Message: Exporting to file d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hw_handoff/system.hwh Generated Block Design Tcl file d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_auto_pc_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = c28a9880020403d7; cache size = 6.459 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_auto_us_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_us_0, cache-ID = 091896e5ed15daaf; cache size = 6.459 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_auto_pc_1] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = 9a65a345ba00abee; cache size = 6.460 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// [Engine Memory]: 2,432 MB (+78329kb) [00:03:09]
+// 'br' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Managing Output Products"); // bz
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,437 MB. GUI used memory: 125 MB. Current time: 9/26/25, 3:36:57 PM CST
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // an
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cs): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create HDL Wrapper"); // a
+// Tcl Message: make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cs): Re-customize IP: addNotify
+// Elapsed time: 64 seconds
+selectComboBox("FIFO depth (FIFO_DEPTH)", "2048", 7); // E
+selectComboBox("FIFO depth (FIFO_DEPTH)", "512", 5); // E
+selectComboBox("FIFO depth (FIFO_DEPTH)", "2048", 7); // E
+dismissDialog("Re-customize IP"); // r
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cs): Re-customize IP: addNotify
+// Elapsed time: 28 seconds
+selectComboBox("FIFO depth (FIFO_DEPTH)", "4096", 8); // E
+dismissDialog("Re-customize IP"); // r
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cs): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,458 MB. GUI used memory: 130 MB. Current time: 9/26/25, 3:38:57 PM CST
+selectComboBox("FIFO depth (FIFO_DEPTH)", "2048", 7); // E
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // r
+// Tcl Command: 'set_property -dict [list CONFIG.FIFO_DEPTH {2048}] [get_bd_cells axis_data_fifo_0]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.FIFO_DEPTH {2048}] [get_bd_cells axis_data_fifo_0] 
+// Tcl Message: endgroup 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true); // D - Node
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // E
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bz (cs):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: FILE_SET_CHANGE
+// dQ (cs): Critical Messages: addNotify
+dismissDialog("Validate Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // dQ
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // an
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (cs): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.srcs\sources_1\bd\system\system.bd>  
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.vhd 
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/sim/system.vhd VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_data_fifo_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created. INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc . 
+// Tcl Message: Exporting to file d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hw_handoff/system.hwh Generated Block Design Tcl file d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.hwdef 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_2] } 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,481 MB. GUI used memory: 131 MB. Current time: 9/26/25, 3:39:17 PM CST
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_auto_pc_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = c28a9880020403d7; cache size = 6.460 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_auto_us_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_us_0, cache-ID = 091896e5ed15daaf; cache size = 6.460 MB. 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_auto_pc_1] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = 9a65a345ba00abee; cache size = 6.460 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] 
+// Tcl Message: launch_runs system_axis_data_fifo_0_2_synth_1 -jobs 14 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Sep 26 15:39:22 2025] Launched system_axis_data_fifo_0_2_synth_1... Run output will be captured here: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.runs/system_axis_data_fifo_0_2_synth_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'br' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // an
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cs): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create HDL Wrapper"); // a
+// Tcl Message: make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h
+// HMemoryUtils.trashcanNow. Engine heap size: 2,507 MB. GUI used memory: 147 MB. Current time: 9/26/25, 3:39:52 PM CST
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "project_summary"); // E
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false, false, false, false, true, false); // o - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Synthesis is Out-of-date"); // A
+// [GUI Memory]: 196 MB (+3400kb) [00:06:16]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+// 'cA' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Synthesis is Out-of-date"); // A
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // an
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aI (cs): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'system' - hence not re-generating. 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'br' command handler elapsed time: 4 seconds
+dismissDialog("Managing Output Products"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // an
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cs): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create HDL Wrapper"); // a
+// Tcl Message: make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // m
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// [GUI Memory]: 208 MB (+1715kb) [00:06:57]
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // E
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design -force'
+selectButton("OptionPane.button", "Rerun Validate Design"); // JButton
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// bz (cs):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: validate_bd_design -force 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: FILE_SET_CHANGE
+// dQ (cs): Critical Messages: addNotify
+dismissDialog("Validate Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // dQ
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper(STRUCTURE) (system_wrapper.vhd), system_i : system (system.bd)]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // an
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cs): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// bz (cs):  Create HDL Wrapper : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd] -top 
+// Tcl Message: Wrote  : <D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.srcs\sources_1\bd\system\system.bd>  Wrote  : <D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/ui/bd_c954508f.ui>  
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.vhd 
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/sim/system.vhd VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bz
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 14 
+// Tcl Message: Wrote  : <D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.srcs\sources_1\bd\system\system.bd>  
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.vhd 
+// Tcl Message: VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/sim/system.vhd VHDL Output written to : d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created. INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc . 
+// Tcl Message: Exporting to file d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hw_handoff/system.hwh Generated Block Design Tcl file d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File d:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/synth/system.hwdef 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = c28a9880020403d7; cache size = 6.925 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = 9a65a345ba00abee; cache size = 6.925 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_us_0, cache-ID = 091896e5ed15daaf; cache size = 6.925 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Sep 26 15:41:19 2025] Launched synth_1... Run output will be captured here: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.runs/synth_1/runme.log [Fri Sep 26 15:41:19 2025] Launched impl_1... Run output will be captured here: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1756.527 ; gain = 0.000 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // af
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "project_summary"); // E
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // h
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,528 MB. GUI used memory: 152 MB. Current time: 9/26/25, 3:41:47 PM CST
+// Elapsed time: 21 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [filemgmt 20-1318] Duplicate Design Unit 'system_wrapper(STRUCTURE)' found in library 'xil_defaultlib'. 	(Active) Duplicate found at line 40 of file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd. Duplicate found in file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/imports/system_wrapper.vhd. ]", 3, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.gen\sources_1\bd\system\hdl\system_wrapper.vhd;-;;-;16;-;line;-;40;-;;-;16;-;"); // ah
+// WARNING: HEventQueue.dispatchEvent() is taking  1123 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [filemgmt 20-1318] Duplicate Design Unit 'system_wrapper(STRUCTURE)' found in library 'xil_defaultlib'. 	(Active) Duplicate found at line 40 of file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd. Duplicate found in file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/imports/system_wrapper.vhd. ]", 3, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.srcs\sources_1\imports\system_wrapper.vhd;-;;-;16;-;"); // ah
+// WARNING: HEventQueue.dispatchEvent() is taking  1078 ms.
+// TclEventType: RUN_STEP_COMPLETED
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [filemgmt 20-1318] Duplicate Design Unit 'system_wrapper(STRUCTURE)' found in library 'xil_defaultlib'. 	(Active) Duplicate found at line 40 of file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd. Duplicate found in file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/imports/system_wrapper.vhd. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\AXI_Stream_test.gen\sources_1\bd\system\hdl\system_wrapper.vhd;-;;-;16;-;line;-;40;-;;-;16;-;"); // ah
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [filemgmt 20-736] The current top specification, system_wrapper (Library: xil_defaultlib), does not uniquely identify a single design element. Using system_wrapper (Architecture: STRUCTURE, Library: xil_defaultlib, File: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd).. ]", 5, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [filemgmt 20-1318] Duplicate Design Unit 'system_wrapper(STRUCTURE)' found in library 'xil_defaultlib'. 	(Active) Duplicate found at line 40 of file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.gen/sources_1/bd/system/hdl/system_wrapper.vhd. Duplicate found in file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/imports/system_wrapper.vhd. ]", 6, false); // ah
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // m
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ak
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // af
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd}]'
+// Tcl Command: 'get_property pfm_name [get_files -all {D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd}]'
+// g (cs): Export Hardware Platform: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceEtoH.ExportPlatformWizard_FIXED_POST_IMPL, "Include bitstream. This platform includes the complete hardware implementation and bitstream, in addition to the hardware specification for software tools."); // b
+selectButton("NEXT", "Next >"); // JButton
+setFolderChooser("D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis");
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Command: 'get_property pfm_name [get_files -all {D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/AXI_Stream_test.srcs/sources_1/bd/system/system.bd}]'
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 11 seconds
+dismissDialog("Export Hardware Platform"); // g
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper.xsa ... 
+// bz (cs):  Export Hardware Platform : addNotify
+// Tcl Message: INFO: [Hsi 55-2053] elapsed time for repository (E:/Xilinx2021/Vivado/2021.1/data/embeddedsw) loading 0 seconds 
+// Tcl Message: INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper.xsa 
+// [Engine Memory]: 2,701 MB (+154391kb) [00:09:26]
+dismissDialog("Export Hardware Platform"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 2,701 MB. GUI used memory: 157 MB. Current time: 9/26/25, 3:43:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,701 MB. GUI used memory: 156 MB. Current time: 9/26/25, 4:13:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,701 MB. GUI used memory: 143 MB. Current time: 9/26/25, 4:43:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,701 MB. GUI used memory: 142 MB. Current time: 9/26/25, 5:13:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,701 MB. GUI used memory: 139 MB. Current time: 9/26/25, 5:43:23 PM CST

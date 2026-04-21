@@ -1,0 +1,1404 @@
+!SESSION 2025-12-04 16:18:10.647 -----------------------------------------------
+eclipse.buildId=2021.1
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file D:\ASUS-PC\Desktop\temporary\HSC\vitis\.metadata\.bak_1.log
+Created Time: 2025-12-05 15:55:12.923
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:12.923
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:12.942
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:12.943
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.266
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.282
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.287
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.287
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.295
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_19]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.295
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.295
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.296
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.299
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.300
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.301
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.301
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.508
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.508
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.512
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.512
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.516
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.517
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.994
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:15.994
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:16.043
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:16.094
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:16.113
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:16.113
+!MESSAGE XSCT Command: [con], Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:55:16.139
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-167: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:45.457
+!MESSAGE XSCT Command: [disconnect tcfchan#44], Thread: Thread-6486
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:45.459
+!MESSAGE XSCT command with result: [disconnect tcfchan#44], Result: [null, ]. Thread: Thread-6486
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:49.685
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-176: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:49.689
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-176: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:49.689
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-176: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:49.701
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-176: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-12-05 15:56:49.701
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\HSC\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:49.702
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-176: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:49.703
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-176: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.354
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.358
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#45]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.358
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.479
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.479
+!MESSAGE XSCT Command: [version -server], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.481
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.481
+!MESSAGE XSCT Command: [version], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.481
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.481
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.484
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.484
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.492
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.493
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.495
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.495
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.503
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.503
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.506
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.506
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.513
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.514
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.517
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.517
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.525
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.526
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.528
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.528
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.535
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.537
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.540
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.540
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.548
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.548
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.555
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.556
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.556
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.556
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.560
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.561
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.628
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:55.628
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.639
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.653
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.656
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.656
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.663
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.664
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.679
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:56:58.680
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.018
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.033
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.042
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.042
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.050
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_19]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.050
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.051
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.051
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.055
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.057
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.058
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.059
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.289
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.290
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.337
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.338
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.342
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.342
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.831
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.832
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.862
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.927
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.938
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.939
+!MESSAGE XSCT Command: [con], Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 15:57:01.973
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-176: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:55.274
+!MESSAGE XSCT Command: [disconnect tcfchan#45], Thread: Thread-6578
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:55.277
+!MESSAGE XSCT command with result: [disconnect tcfchan#45], Result: [null, ]. Thread: Thread-6578
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:58.638
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-170: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:58.641
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-170: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:58.641
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-170: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:58.643
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-170: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-12-05 16:00:58.644
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\HSC\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:58.644
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-170: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:00:58.645
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-170: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.127
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.129
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#46]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.130
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.216
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.218
+!MESSAGE XSCT Command: [version -server], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.220
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.220
+!MESSAGE XSCT Command: [version], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.221
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.221
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.229
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.229
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.237
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.238
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.241
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.241
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.249
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.250
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.252
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.253
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.260
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.260
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.263
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.263
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.270
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.271
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.274
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.274
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.282
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.282
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.285
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.285
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.293
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.293
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.300
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.301
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.301
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.301
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.305
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.306
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.366
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:03.367
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.375
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.389
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.393
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.393
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.400
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.400
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.415
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:06.416
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.731
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.746
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.752
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.752
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.759
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_19]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.760
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.761
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.761
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.765
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.766
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.768
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.769
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.959
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.959
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.976
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.976
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.980
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:08.981
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.482
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.482
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.530
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.593
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.604
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.604
+!MESSAGE XSCT Command: [con], Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:01:09.655
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-170: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:24.919
+!MESSAGE XSCT Command: [disconnect tcfchan#46], Thread: Thread-6670
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:24.934
+!MESSAGE XSCT command with result: [disconnect tcfchan#46], Result: [null, ]. Thread: Thread-6670
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:26.242
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:26.245
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:26.246
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:26.248
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-12-05 16:03:26.248
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\HSC\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:26.249
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:26.250
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-168: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.578
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.584
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#47]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.585
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.683
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.684
+!MESSAGE XSCT Command: [version -server], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.685
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.687
+!MESSAGE XSCT Command: [version], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.687
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.687
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.689
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.690
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.697
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.698
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.701
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.701
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.709
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.709
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.712
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.712
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.719
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.720
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.723
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.723
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.730
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.731
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.734
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.734
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.742
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.743
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.745
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.746
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.753
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.753
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.761
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.762
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.762
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.762
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.767
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.767
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.826
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:31.826
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.830
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.843
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.846
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.846
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.853
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.854
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.869
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:34.869
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.184
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.199
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.205
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.205
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.212
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_19]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.212
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.213
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.213
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.217
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.218
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.219
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.219
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.432
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.433
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.436
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.436
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.441
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.442
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.907
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.908
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.935
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.980
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.992
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:37.992
+!MESSAGE XSCT Command: [con], Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:03:38.032
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-171: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:17.299
+!MESSAGE XSCT Command: [disconnect tcfchan#47], Thread: Thread-6750
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:17.314
+!MESSAGE XSCT command with result: [disconnect tcfchan#47], Result: [null, ]. Thread: Thread-6750
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:19.893
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-178: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:19.897
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-178: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:19.897
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-178: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:19.900
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-178: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-12-05 16:05:19.900
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\HSC\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:19.901
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-178: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:19.902
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-178: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.376
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.378
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#48]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.378
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.512
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.513
+!MESSAGE XSCT Command: [version -server], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.514
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.514
+!MESSAGE XSCT Command: [version], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.514
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.515
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.518
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.518
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.526
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.526
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.530
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.530
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.537
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.537
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.540
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.541
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.548
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.548
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.552
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.552
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.560
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.560
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.563
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.563
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.570
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.570
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.573
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.573
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.581
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.581
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.589
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.589
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.590
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.590
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.594
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.594
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.657
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:24.657
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.662
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.676
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.679
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.679
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.686
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.687
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.702
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:27.703
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.024
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.038
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.055
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.056
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.063
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_19]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.063
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.064
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.064
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.068
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.069
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.070
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.070
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.307
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.308
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.312
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.313
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.317
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.317
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.791
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.791
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.823
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.887
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.898
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.898
+!MESSAGE XSCT Command: [con], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:05:30.943
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:00.195
+!MESSAGE XSCT Command: [disconnect tcfchan#48], Thread: Thread-6879
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:00.197
+!MESSAGE XSCT command with result: [disconnect tcfchan#48], Result: [null, ]. Thread: Thread-6879
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:03.177
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-172: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:03.181
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-172: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:03.181
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-172: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:03.183
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-172: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-12-05 16:11:03.183
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\HSC\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:03.184
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-172: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:03.185
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-172: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:08.902
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:08.913
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#49]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:08.914
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.033
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.033
+!MESSAGE XSCT Command: [version -server], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.035
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.035
+!MESSAGE XSCT Command: [version], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.035
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.036
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.038
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.038
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.046
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.047
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.050
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.050
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.058
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.058
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.061
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.061
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.068
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.068
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.072
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.072
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.080
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.081
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.083
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.084
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.090
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.091
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.093
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.095
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.101
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.102
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.110
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248764166" && level == 0}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.110
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.111
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.111
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.115
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.116
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.171
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:09.171
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.183
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.199
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.201
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248764166]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.202
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.208
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.210
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.225
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248764166" && level==0 && jtag_device_ctx=="jsn-Zed-210248764166-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:12.225
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.544
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.558
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.563
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.564
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.570
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_19]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.571
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.572
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.572
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.576
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.577
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.578
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.579
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.790
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.791
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.794
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.795
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.800
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:14.800
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.274
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/HSC/vitis/HSC/Debug/HSC.elf], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.275
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.326
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.402
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.432
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.432
+!MESSAGE XSCT Command: [con], Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 16:11:15.445
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-175: Launching Debugger_HSC-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 17:59:30.833
+!MESSAGE XSCT Command: [disconnect tcfchan#49], Thread: Thread-6983
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-05 17:59:30.835
+!MESSAGE XSCT command with result: [disconnect tcfchan#49], Result: [null, ]. Thread: Thread-6983

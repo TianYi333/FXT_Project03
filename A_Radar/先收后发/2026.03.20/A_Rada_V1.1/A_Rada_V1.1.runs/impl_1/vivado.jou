@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Mar 20 10:30:11 2026
+# Process ID: 28728
+# Current directory: D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 25 10:41:09 2025
+# Process ID: 330708
+# Current directory: D:/ASUS-PC/Desktop/temporary/历史/AXI Stream传输/2025.07.28.12/lwip_tcp_server_perf
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent334696 D:\ASUS-PC\Desktop\temporary\历史\AXI Stream传输\2025.07.28.12\lwip_tcp_server_perf\lwip_tcp_server_perf.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/历史/AXI Stream传输/2025.07.28.12/lwip_tcp_server_perf/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/历史/AXI Stream传输/2025.07.28.12/lwip_tcp_server_perf\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/ASUS-PC/Desktop/temporary/历史/AXI Stream传输/2025.07.28.12/lwip_tcp_server_perf/lwip_tcp_server_perf.xpr}
+update_compile_order -fileset sources_1
+archive_project {D:/ASUS-PC/Desktop/temporary/AXI Stream/2025.07.28.12/lwip_tcp_server_perf.xpr.zip} -temp_dir {D:/ASUS-PC/Desktop/temporary//AXI Stream/2025.07.28.12/lwip_tcp_server_perf/.Xil/Vivado-330708-FXT333} -force -include_local_ip_cache

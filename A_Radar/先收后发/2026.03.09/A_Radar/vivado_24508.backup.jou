@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Fri Mar  6 11:43:29 2026
+# Process ID: 24508
+# Current directory: D:/ASUS-PC/Desktop/temporary/A_Radar
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent131892 D:\ASUS-PC\Desktop\temporary\A_Radar\A_Radar.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/A_Radar/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/A_Radar\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.xpr
+open_bd_design {D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd}
+update_compile_order -fileset sources_1

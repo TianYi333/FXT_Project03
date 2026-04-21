@@ -1,0 +1,682 @@
+timestamp=[2025-11-28 18:03:48], mode=WORKBENCH_START, duration=0:00:05.702, duration_ms=5702, data={}
+timestamp=[2025-11-28 18:03:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.305, duration_ms=305, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2025-11-28 18:03:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2025-12-01 09:25:04], mode=WORKBENCH_START, duration=0:00:03.279, duration_ms=3279, data={}
+timestamp=[2025-12-01 09:25:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.260, duration_ms=260, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2025-12-01 09:25:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.030, duration_ms=30, data={}
+timestamp=[2025-12-01 09:53:43], mode=APP_CREATION, duration=0:00:08.397, duration_ms=8397, data={name=HSC, project_type=sdk, os=freertos10_xilinx, processor=ps7_cortexa9, runtime=cpp, platform=system_wrapper, application_type=application}
+timestamp=[2025-12-01 10:00:09], mode=PLATFORM_GENERATION, duration=0:00:10.081, duration_ms=10081, data={name=system_wrapper}
+timestamp=[2025-12-01 10:00:10], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:03:09], mode=PLATFORM_GENERATION, duration=0:00:02.969, duration_ms=2969, data={name=system_wrapper}
+timestamp=[2025-12-01 10:03:16], mode=PLATFORM_GENERATION, duration=0:00:02.971, duration_ms=2971, data={name=system_wrapper}
+timestamp=[2025-12-01 10:03:17], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:09:35], mode=PLATFORM_GENERATION, duration=0:00:08.456, duration_ms=8456, data={name=system_wrapper}
+timestamp=[2025-12-01 10:09:35], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:13:12], mode=PLATFORM_GENERATION, duration=0:00:06.524, duration_ms=6524, data={name=system_wrapper}
+timestamp=[2025-12-01 10:13:13], mode=BUILD, duration=0:00:01.252, duration_ms=1252, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:39:05], mode=BUILD, duration=0:00:00.713, duration_ms=713, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:48:08], mode=BUILD, duration=0:00:00.588, duration_ms=588, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:48:15], mode=BUILD, duration=0:00:00.211, duration_ms=211, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:53:03], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:55:15], mode=PLATFORM_GENERATION, duration=0:00:07.411, duration_ms=7411, data={name=system_wrapper}
+timestamp=[2025-12-01 10:55:16], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:55:30], mode=PLATFORM_GENERATION, duration=0:00:05.162, duration_ms=5162, data={name=system_wrapper}
+timestamp=[2025-12-01 10:55:31], mode=BUILD, duration=0:00:00.838, duration_ms=838, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:55:53], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:56:53], mode=BUILD, duration=0:00:00.473, duration_ms=473, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:57:25], mode=BUILD, duration=0:00:00.701, duration_ms=701, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:58:27], mode=BUILD, duration=0:00:00.453, duration_ms=453, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 10:59:17], mode=BUILD, duration=0:00:00.702, duration_ms=702, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:01:04], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:01:27], mode=BUILD, duration=0:00:00.696, duration_ms=696, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:02:10], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:03:39], mode=BUILD, duration=0:00:00.584, duration_ms=584, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:03:45], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:04:10], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:05:41], mode=BUILD, duration=0:00:00.464, duration_ms=464, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:06:21], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:09:31], mode=BUILD, duration=0:00:00.466, duration_ms=466, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:09:44], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:15:50], mode=BUILD, duration=0:00:00.458, duration_ms=458, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:25:32], mode=BUILD, duration=0:00:00.714, duration_ms=714, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:31:53], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:34:31], mode=BUILD, duration=0:00:00.701, duration_ms=701, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:43:24], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:45:37], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:46:29], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:47:13], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:48:17], mode=BUILD, duration=0:00:00.391, duration_ms=391, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:51:16], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:55:01], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:56:58], mode=BUILD, duration=0:00:00.342, duration_ms=342, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 11:59:15], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 14:08:40], mode=BUILD, duration=0:00:04.054, duration_ms=4054, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 14:16:54], mode=BUILD, duration=0:00:00.585, duration_ms=585, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 14:18:42], mode=BUILD, duration=0:00:00.525, duration_ms=525, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 14:20:36], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 14:29:18], mode=BUILD, duration=0:00:00.839, duration_ms=839, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 16:01:09], mode=BUILD, duration=0:00:01.842, duration_ms=1842, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 16:02:38], mode=BUILD, duration=0:00:02.624, duration_ms=2624, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 16:56:03], mode=BUILD, duration=0:00:00.642, duration_ms=642, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 16:56:46], mode=BUILD, duration=0:00:01.059, duration_ms=1059, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 16:57:38], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 16:57:42], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 17:00:27], mode=BUILD, duration=0:00:00.700, duration_ms=700, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 17:05:34], mode=BUILD, duration=0:00:00.843, duration_ms=843, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 17:06:13], mode=BUILD, duration=0:00:00.664, duration_ms=664, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 17:15:14], mode=BUILD, duration=0:00:00.657, duration_ms=657, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 17:38:20], mode=BUILD, duration=0:00:00.884, duration_ms=884, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-01 17:48:58], mode=BUILD, duration=0:00:00.596, duration_ms=596, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 09:20:09], mode=BUILD, duration=0:00:04.580, duration_ms=4580, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 09:21:37], mode=BUILD, duration=0:00:00.655, duration_ms=655, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:03:48], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:04:23], mode=BUILD, duration=0:00:00.657, duration_ms=657, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:47:23], mode=PLATFORM_GENERATION, duration=0:00:13.945, duration_ms=13945, data={name=system_wrapper}
+timestamp=[2025-12-02 10:47:25], mode=BUILD, duration=0:00:01.279, duration_ms=1279, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:47:33], mode=BUILD, duration=0:00:05.454, duration_ms=5454, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:47:55], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:47:59], mode=BUILD, duration=0:00:03.300, duration_ms=3300, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:48:02], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:48:06], mode=BUILD, duration=0:00:03.499, duration_ms=3499, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:51:03], mode=BUILD, duration=0:00:00.710, duration_ms=710, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:52:32], mode=BUILD, duration=0:00:00.646, duration_ms=646, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 10:53:43], mode=BUILD, duration=0:00:00.708, duration_ms=708, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 11:06:51], mode=BUILD, duration=0:00:00.714, duration_ms=714, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 13:48:33], mode=BUILD, duration=0:00:05.720, duration_ms=5720, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 13:54:41], mode=BUILD, duration=0:00:00.779, duration_ms=779, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 13:54:49], mode=BUILD, duration=0:00:07.358, duration_ms=7358, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 14:43:01], mode=BUILD, duration=0:00:00.781, duration_ms=781, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 14:43:05], mode=BUILD, duration=0:00:03.825, duration_ms=3825, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 15:33:45], mode=BUILD, duration=0:00:01.042, duration_ms=1042, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 15:36:47], mode=BUILD, duration=0:00:00.859, duration_ms=859, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 15:38:25], mode=BUILD, duration=0:00:00.852, duration_ms=852, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 15:40:49], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:13:24], mode=BUILD, duration=0:00:06.126, duration_ms=6126, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:13:52], mode=BUILD, duration=0:00:00.776, duration_ms=776, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:16:08], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:26:12], mode=BUILD, duration=0:00:00.783, duration_ms=783, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:33:17], mode=BUILD, duration=0:00:00.294, duration_ms=294, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:33:27], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 17:33:34], mode=BUILD, duration=0:00:07.643, duration_ms=7643, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-03 10:28:26], mode=PLATFORM_GENERATION, duration=0:00:23.690, duration_ms=23690, data={name=system_wrapper}
+timestamp=[2025-12-03 10:28:31], mode=BUILD, duration=0:00:04.176, duration_ms=4176, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-03 10:28:34], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-03 10:28:44], mode=BUILD, duration=0:00:07.085, duration_ms=7085, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:28:41], mode=BUILD, duration=0:00:08.123, duration_ms=8123, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:38:38], mode=BUILD, duration=0:00:00.736, duration_ms=736, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:38:49], mode=BUILD, duration=0:00:01.218, duration_ms=1218, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:39:52], mode=BUILD, duration=0:00:00.563, duration_ms=563, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:40:09], mode=BUILD, duration=0:00:00.922, duration_ms=922, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:46:15], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:46:33], mode=BUILD, duration=0:00:00.507, duration_ms=507, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 11:46:41], mode=BUILD, duration=0:00:00.490, duration_ms=490, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 14:09:35], mode=BUILD, duration=0:00:03.257, duration_ms=3257, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 14:11:45], mode=BUILD, duration=0:00:01.650, duration_ms=1650, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 14:13:44], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 14:14:24], mode=BUILD, duration=0:00:00.512, duration_ms=512, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 14:15:06], mode=BUILD, duration=0:00:00.495, duration_ms=495, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 15:20:58], mode=BUILD, duration=0:00:03.327, duration_ms=3327, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 15:21:19], mode=BUILD, duration=0:00:01.891, duration_ms=1891, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 15:21:51], mode=BUILD, duration=0:00:04.675, duration_ms=4675, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 15:23:38], mode=BUILD, duration=0:00:01.096, duration_ms=1096, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 15:25:25], mode=BUILD, duration=0:00:01.079, duration_ms=1079, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 16:17:11], mode=BUILD, duration=0:00:01.164, duration_ms=1164, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 16:17:22], mode=BUILD, duration=0:00:10.467, duration_ms=10467, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 16:18:27], mode=WORKBENCH_START, duration=0:00:04.803, duration_ms=4803, data={}
+timestamp=[2025-12-04 16:18:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.332, duration_ms=332, data={editors_count=10, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-04 16:18:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.029, duration_ms=29, data={}
+timestamp=[2025-12-04 16:57:21], mode=BUILD, duration=0:00:00.586, duration_ms=586, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 16:57:41], mode=BUILD, duration=0:00:01.198, duration_ms=1198, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:08:54], mode=BUILD, duration=0:00:01.162, duration_ms=1162, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:09:33], mode=BUILD, duration=0:00:01.116, duration_ms=1116, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:14:36], mode=BUILD, duration=0:00:01.174, duration_ms=1174, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:16:05], mode=BUILD, duration=0:00:01.174, duration_ms=1174, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:39:10], mode=BUILD, duration=0:00:01.171, duration_ms=1171, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:44:17], mode=BUILD, duration=0:00:01.115, duration_ms=1115, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 17:50:05], mode=BUILD, duration=0:00:01.195, duration_ms=1195, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:17:35], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:18:36], mode=BUILD, duration=0:00:00.566, duration_ms=566, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:18:52], mode=BUILD, duration=0:00:00.566, duration_ms=566, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:19:05], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:20:29], mode=BUILD, duration=0:00:00.562, duration_ms=562, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:21:06], mode=BUILD, duration=0:00:00.567, duration_ms=567, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:21:38], mode=BUILD, duration=0:00:00.559, duration_ms=559, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:21:58], mode=BUILD, duration=0:00:00.584, duration_ms=584, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:23:21], mode=BUILD, duration=0:00:00.561, duration_ms=561, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:26:50], mode=BUILD, duration=0:00:01.232, duration_ms=1232, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-04 18:30:44], mode=BUILD, duration=0:00:01.178, duration_ms=1178, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:15:19], mode=BUILD, duration=0:00:03.604, duration_ms=3604, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:16:05], mode=BUILD, duration=0:00:05.734, duration_ms=5734, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:20:12], mode=BUILD, duration=0:00:01.046, duration_ms=1046, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:20:55], mode=BUILD, duration=0:00:01.043, duration_ms=1043, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:22:24], mode=BUILD, duration=0:00:00.973, duration_ms=973, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:23:48], mode=BUILD, duration=0:00:01.035, duration_ms=1035, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 09:40:58], mode=BUILD, duration=0:00:01.086, duration_ms=1086, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:06:09], mode=BUILD, duration=0:00:49.229, duration_ms=49229, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:06:11], mode=BUILD, duration=0:00:01.246, duration_ms=1246, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:06:20], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:36:52], mode=PLATFORM_GENERATION, duration=0:00:27.355, duration_ms=27355, data={name=system_wrapper}
+timestamp=[2025-12-05 11:37:02], mode=BUILD, duration=0:00:02.204, duration_ms=2204, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:37:14], mode=BUILD, duration=0:00:09.579, duration_ms=9579, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:38:26], mode=BUILD, duration=0:00:00.377, duration_ms=377, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:40:02], mode=BUILD, duration=0:00:01.296, duration_ms=1296, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:42:35], mode=BUILD, duration=0:00:01.238, duration_ms=1238, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:43:29], mode=BUILD, duration=0:00:01.237, duration_ms=1237, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:44:38], mode=BUILD, duration=0:00:01.244, duration_ms=1244, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:47:30], mode=BUILD, duration=0:00:00.402, duration_ms=402, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:50:39], mode=BUILD, duration=0:00:01.222, duration_ms=1222, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:50:51], mode=BUILD, duration=0:00:01.179, duration_ms=1179, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:53:27], mode=BUILD, duration=0:00:01.236, duration_ms=1236, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:53:47], mode=BUILD, duration=0:00:01.251, duration_ms=1251, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:55:33], mode=BUILD, duration=0:00:01.239, duration_ms=1239, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:55:48], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:59:28], mode=BUILD, duration=0:00:00.651, duration_ms=651, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 11:59:42], mode=BUILD, duration=0:00:01.295, duration_ms=1295, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 12:01:22], mode=BUILD, duration=0:00:01.245, duration_ms=1245, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 12:01:49], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:40:09], mode=BUILD, duration=0:00:04.112, duration_ms=4112, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:44:58], mode=BUILD, duration=0:00:46.441, duration_ms=46441, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:49:05], mode=BUILD, duration=0:00:01.324, duration_ms=1324, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:50:33], mode=BUILD, duration=0:00:01.311, duration_ms=1311, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:53:44], mode=BUILD, duration=0:00:01.362, duration_ms=1362, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:55:30], mode=BUILD, duration=0:00:01.391, duration_ms=1391, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:55:47], mode=BUILD, duration=0:00:01.374, duration_ms=1374, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:56:26], mode=BUILD, duration=0:00:01.334, duration_ms=1334, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 14:57:49], mode=BUILD, duration=0:00:01.313, duration_ms=1313, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:02:57], mode=BUILD, duration=0:00:01.059, duration_ms=1059, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:07:09], mode=BUILD, duration=0:00:01.370, duration_ms=1370, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:08:16], mode=BUILD, duration=0:00:01.370, duration_ms=1370, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:15:09], mode=BUILD, duration=0:00:00.639, duration_ms=639, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:15:15], mode=BUILD, duration=0:00:01.354, duration_ms=1354, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:19:50], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:21:16], mode=BUILD, duration=0:00:01.351, duration_ms=1351, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:22:37], mode=BUILD, duration=0:00:01.683, duration_ms=1683, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:27:07], mode=BUILD, duration=0:00:01.362, duration_ms=1362, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:30:30], mode=BUILD, duration=0:00:01.430, duration_ms=1430, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:32:56], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:36:44], mode=BUILD, duration=0:00:00.449, duration_ms=449, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:44:17], mode=BUILD, duration=0:00:01.352, duration_ms=1352, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:53:18], mode=BUILD, duration=0:00:01.373, duration_ms=1373, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:53:31], mode=BUILD, duration=0:00:01.290, duration_ms=1290, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:53:41], mode=BUILD, duration=0:00:01.357, duration_ms=1357, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:54:43], mode=BUILD, duration=0:00:01.347, duration_ms=1347, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:54:54], mode=BUILD, duration=0:00:01.355, duration_ms=1355, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:55:04], mode=BUILD, duration=0:00:01.371, duration_ms=1371, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 15:56:51], mode=BUILD, duration=0:00:01.431, duration_ms=1431, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 16:01:00], mode=BUILD, duration=0:00:01.433, duration_ms=1433, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 16:03:27], mode=BUILD, duration=0:00:01.366, duration_ms=1366, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 16:05:21], mode=BUILD, duration=0:00:01.456, duration_ms=1456, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-05 16:11:04], mode=BUILD, duration=0:00:01.311, duration_ms=1311, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:07:46], mode=WORKBENCH_START, duration=0:00:04.843, duration_ms=4843, data={}
+timestamp=[2025-12-23 09:07:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.272, duration_ms=272, data={editors_count=13, platform_editors_count=6, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-23 09:07:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.041, duration_ms=41, data={}
+timestamp=[2025-12-23 09:09:53], mode=PLATFORM_GENERATION, duration=0:01:35.436, duration_ms=95436, data={name=system_wrapper}
+timestamp=[2025-12-23 09:10:44], mode=BUILD, duration=0:00:51.374, duration_ms=51374, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:22:05], mode=WORKBENCH_START, duration=0:00:04.948, duration_ms=4948, data={}
+timestamp=[2025-12-23 09:22:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.320, duration_ms=320, data={editors_count=13, platform_editors_count=6, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-23 09:22:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.028, duration_ms=28, data={}
+timestamp=[2025-12-23 09:22:12], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:23:34], mode=BUILD, duration=0:00:02.065, duration_ms=2065, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:30:55], mode=BUILD, duration=0:00:00.816, duration_ms=816, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:31:26], mode=BUILD, duration=0:00:02.857, duration_ms=2857, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:50:32], mode=BUILD, duration=0:00:00.968, duration_ms=968, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:51:34], mode=BUILD, duration=0:00:01.938, duration_ms=1938, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:56:02], mode=BUILD, duration=0:00:00.948, duration_ms=948, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:56:12], mode=BUILD, duration=0:00:02.854, duration_ms=2854, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 09:57:09], mode=BUILD, duration=0:00:01.827, duration_ms=1827, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:21:06], mode=BUILD, duration=0:00:01.931, duration_ms=1931, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:23:39], mode=BUILD, duration=0:00:01.898, duration_ms=1898, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:24:24], mode=BUILD, duration=0:00:00.566, duration_ms=566, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:25:54], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:30:27], mode=BUILD, duration=0:00:01.868, duration_ms=1868, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:33:14], mode=BUILD, duration=0:00:01.819, duration_ms=1819, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:35:00], mode=BUILD, duration=0:00:02.974, duration_ms=2974, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:35:10], mode=BUILD, duration=0:00:09.778, duration_ms=9778, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:36:27], mode=BUILD, duration=0:00:01.938, duration_ms=1938, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:37:38], mode=BUILD, duration=0:00:01.953, duration_ms=1953, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:38:37], mode=BUILD, duration=0:00:01.944, duration_ms=1944, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:40:16], mode=BUILD, duration=0:00:01.935, duration_ms=1935, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:45:52], mode=BUILD, duration=0:00:00.907, duration_ms=907, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:46:55], mode=BUILD, duration=0:00:01.896, duration_ms=1896, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:48:27], mode=BUILD, duration=0:00:01.774, duration_ms=1774, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:53:49], mode=BUILD, duration=0:00:01.944, duration_ms=1944, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:54:57], mode=BUILD, duration=0:00:01.823, duration_ms=1823, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 10:58:06], mode=BUILD, duration=0:00:01.794, duration_ms=1794, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:02:07], mode=BUILD, duration=0:00:01.821, duration_ms=1821, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:03:16], mode=BUILD, duration=0:00:01.839, duration_ms=1839, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:06:19], mode=BUILD, duration=0:00:01.834, duration_ms=1834, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:10:15], mode=BUILD, duration=0:00:02.024, duration_ms=2024, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:11:03], mode=BUILD, duration=0:00:01.826, duration_ms=1826, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:11:58], mode=BUILD, duration=0:00:00.714, duration_ms=714, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:13:14], mode=BUILD, duration=0:00:02.036, duration_ms=2036, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:13:26], mode=BUILD, duration=0:00:01.907, duration_ms=1907, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:14:05], mode=BUILD, duration=0:00:01.833, duration_ms=1833, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:14:59], mode=BUILD, duration=0:00:01.938, duration_ms=1938, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:15:52], mode=BUILD, duration=0:00:01.945, duration_ms=1945, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:17:36], mode=BUILD, duration=0:00:01.829, duration_ms=1829, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:18:28], mode=BUILD, duration=0:00:01.842, duration_ms=1842, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:19:08], mode=BUILD, duration=0:00:01.881, duration_ms=1881, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:20:01], mode=PLATFORM_GENERATION, duration=0:00:07.455, duration_ms=7455, data={name=system_wrapper}
+timestamp=[2025-12-23 11:21:05], mode=PLATFORM_GENERATION, duration=0:01:04.029, duration_ms=64029, data={name=system_wrapper}
+timestamp=[2025-12-23 11:21:08], mode=BUILD, duration=0:00:02.913, duration_ms=2913, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:22:21], mode=BUILD, duration=0:00:01.832, duration_ms=1832, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:23:10], mode=BUILD, duration=0:00:01.839, duration_ms=1839, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:25:09], mode=BUILD, duration=0:00:01.831, duration_ms=1831, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:27:32], mode=BUILD, duration=0:00:01.828, duration_ms=1828, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:28:51], mode=BUILD, duration=0:00:01.814, duration_ms=1814, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:29:13], mode=BUILD, duration=0:00:01.847, duration_ms=1847, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:30:40], mode=BUILD, duration=0:00:01.823, duration_ms=1823, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:31:54], mode=BUILD, duration=0:00:00.565, duration_ms=565, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:32:17], mode=BUILD, duration=0:00:01.887, duration_ms=1887, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:37:58], mode=BUILD, duration=0:00:01.947, duration_ms=1947, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:38:06], mode=BUILD, duration=0:00:01.831, duration_ms=1831, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:41:28], mode=BUILD, duration=0:00:01.896, duration_ms=1896, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:43:34], mode=BUILD, duration=0:00:01.834, duration_ms=1834, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 11:45:47], mode=BUILD, duration=0:00:01.834, duration_ms=1834, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 12:03:06], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 12:03:49], mode=BUILD, duration=0:00:01.838, duration_ms=1838, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 12:06:59], mode=BUILD, duration=0:00:01.961, duration_ms=1961, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 12:10:59], mode=BUILD, duration=0:00:01.892, duration_ms=1892, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 12:13:40], mode=BUILD, duration=0:00:00.544, duration_ms=544, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 14:00:55], mode=BUILD, duration=0:00:03.897, duration_ms=3897, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 14:03:32], mode=BUILD, duration=0:00:00.919, duration_ms=919, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 14:03:53], mode=BUILD, duration=0:00:01.817, duration_ms=1817, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 15:06:58], mode=BUILD, duration=0:00:04.032, duration_ms=4032, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 15:08:21], mode=BUILD, duration=0:00:01.981, duration_ms=1981, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 15:09:08], mode=BUILD, duration=0:00:01.950, duration_ms=1950, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 15:10:07], mode=BUILD, duration=0:00:02.118, duration_ms=2118, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 15:23:26], mode=BUILD, duration=0:00:02.135, duration_ms=2135, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:06:04], mode=BUILD, duration=0:00:01.870, duration_ms=1870, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:08:32], mode=BUILD, duration=0:00:02.187, duration_ms=2187, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:09:53], mode=BUILD, duration=0:00:01.946, duration_ms=1946, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:15:21], mode=BUILD, duration=0:00:02.091, duration_ms=2091, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:17:59], mode=BUILD, duration=0:00:02.062, duration_ms=2062, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:18:27], mode=BUILD, duration=0:00:01.950, duration_ms=1950, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:19:48], mode=BUILD, duration=0:00:01.957, duration_ms=1957, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:20:26], mode=BUILD, duration=0:00:02.563, duration_ms=2563, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:25:31], mode=BUILD, duration=0:00:03.282, duration_ms=3282, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:34:07], mode=BUILD, duration=0:00:02.734, duration_ms=2734, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:38:14], mode=BUILD, duration=0:00:02.439, duration_ms=2439, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:43:21], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:47:46], mode=BUILD, duration=0:00:00.750, duration_ms=750, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 16:47:59], mode=BUILD, duration=0:00:11.586, duration_ms=11586, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:42:02], mode=BUILD, duration=0:00:03.934, duration_ms=3934, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:44:31], mode=WORKBENCH_START, duration=0:00:12.334, duration_ms=12334, data={}
+timestamp=[2025-12-23 17:44:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.756, duration_ms=756, data={editors_count=17, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-23 17:44:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.107, duration_ms=107, data={}
+timestamp=[2025-12-23 17:46:33], mode=BUILD, duration=0:00:01.092, duration_ms=1092, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:47:08], mode=BUILD, duration=0:00:02.204, duration_ms=2204, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:47:19], mode=BUILD, duration=0:00:00.633, duration_ms=633, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:53:47], mode=BUILD, duration=0:00:02.370, duration_ms=2370, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:54:40], mode=BUILD, duration=0:00:02.272, duration_ms=2272, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:55:34], mode=BUILD, duration=0:00:00.694, duration_ms=694, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-23 17:56:04], mode=BUILD, duration=0:00:00.621, duration_ms=621, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 09:11:31], mode=WORKBENCH_START, duration=0:00:08.213, duration_ms=8213, data={}
+timestamp=[2025-12-24 09:11:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.395, duration_ms=395, data={editors_count=17, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-24 09:11:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.086, duration_ms=86, data={}
+timestamp=[2025-12-24 09:31:16], mode=MISC, duration=0:00:08.205, duration_ms=8205, data={name=HSC_system, type=bif_creation}
+timestamp=[2025-12-24 09:31:38], mode=BUILD, duration=0:00:00.836, duration_ms=836, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 09:31:48], mode=BUILD, duration=0:00:08.390, duration_ms=8390, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:13:27], mode=BUILD, duration=0:00:03.049, duration_ms=3049, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:17:24], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:22:47], mode=BUILD, duration=0:00:02.181, duration_ms=2181, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:24:17], mode=BUILD, duration=0:00:02.126, duration_ms=2126, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:26:02], mode=BUILD, duration=0:00:02.026, duration_ms=2026, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:28:03], mode=BUILD, duration=0:00:02.134, duration_ms=2134, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:29:01], mode=BUILD, duration=0:00:02.626, duration_ms=2626, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:35:05], mode=BUILD, duration=0:00:02.022, duration_ms=2022, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:36:39], mode=BUILD, duration=0:00:02.029, duration_ms=2029, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:37:11], mode=BUILD, duration=0:00:01.954, duration_ms=1954, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:38:22], mode=BUILD, duration=0:00:02.147, duration_ms=2147, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:41:25], mode=BUILD, duration=0:00:02.345, duration_ms=2345, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:43:21], mode=BUILD, duration=0:00:02.319, duration_ms=2319, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:45:43], mode=BUILD, duration=0:00:02.238, duration_ms=2238, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:54:05], mode=BUILD, duration=0:00:03.009, duration_ms=3009, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:55:13], mode=BUILD, duration=0:00:03.449, duration_ms=3449, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 10:57:25], mode=BUILD, duration=0:00:02.400, duration_ms=2400, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:01:44], mode=BUILD, duration=0:00:02.488, duration_ms=2488, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:03:04], mode=BUILD, duration=0:00:02.058, duration_ms=2058, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:04:37], mode=BUILD, duration=0:00:02.119, duration_ms=2119, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:05:21], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:15:33], mode=BUILD, duration=0:00:02.393, duration_ms=2393, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:17:23], mode=BUILD, duration=0:00:02.144, duration_ms=2144, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:21:09], mode=BUILD, duration=0:00:02.851, duration_ms=2851, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:24:56], mode=BUILD, duration=0:00:02.064, duration_ms=2064, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:27:45], mode=BUILD, duration=0:00:02.079, duration_ms=2079, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:28:35], mode=BUILD, duration=0:00:02.153, duration_ms=2153, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:34:54], mode=BUILD, duration=0:00:02.357, duration_ms=2357, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:39:11], mode=BUILD, duration=0:00:02.319, duration_ms=2319, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:42:47], mode=BUILD, duration=0:00:02.372, duration_ms=2372, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 11:55:40], mode=BUILD, duration=0:00:02.297, duration_ms=2297, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 12:43:41], mode=BUILD, duration=0:00:02.252, duration_ms=2252, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:45:14], mode=BUILD, duration=0:00:04.126, duration_ms=4126, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:45:24], mode=BUILD, duration=0:00:00.627, duration_ms=627, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:55:11], mode=BUILD, duration=0:00:02.162, duration_ms=2162, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:55:41], mode=BUILD, duration=0:00:02.070, duration_ms=2070, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:57:29], mode=BUILD, duration=0:00:02.082, duration_ms=2082, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:58:15], mode=BUILD, duration=0:00:02.233, duration_ms=2233, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 13:59:50], mode=BUILD, duration=0:00:02.195, duration_ms=2195, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:00:11], mode=BUILD, duration=0:00:02.248, duration_ms=2248, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:00:48], mode=BUILD, duration=0:00:00.712, duration_ms=712, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:12:32], mode=PLATFORM_GENERATION, duration=0:00:54.190, duration_ms=54190, data={name=system_wrapper}
+timestamp=[2025-12-24 14:12:38], mode=BUILD, duration=0:00:04.334, duration_ms=4334, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:12:49], mode=BUILD, duration=0:00:10.274, duration_ms=10274, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:24:19], mode=BUILD, duration=0:00:00.983, duration_ms=983, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:24:47], mode=BUILD, duration=0:00:02.079, duration_ms=2079, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:27:47], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:31:26], mode=BUILD, duration=0:00:02.177, duration_ms=2177, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:31:47], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 14:51:30], mode=BUILD, duration=0:00:02.751, duration_ms=2751, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 15:24:31], mode=BUILD, duration=0:00:02.656, duration_ms=2656, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 15:49:54], mode=WORKBENCH_START, duration=0:00:09.250, duration_ms=9250, data={}
+timestamp=[2025-12-24 15:49:56], mode=WORKBENCH_UI_INIT, duration=0:00:01.665, duration_ms=1665, data={editors_count=20, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-24 15:49:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.058, duration_ms=58, data={}
+timestamp=[2025-12-24 15:51:42], mode=PLATFORM_GENERATION, duration=0:00:10.194, duration_ms=10194, data={name=system_wrapper}
+timestamp=[2025-12-24 15:51:49], mode=BUILD, duration=0:00:04.932, duration_ms=4932, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 15:52:30], mode=PLATFORM_GENERATION, duration=0:00:15.101, duration_ms=15101, data={name=system_wrapper}
+timestamp=[2025-12-24 15:52:31], mode=BUILD, duration=0:00:00.632, duration_ms=632, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 15:52:43], mode=BUILD, duration=0:00:11.209, duration_ms=11209, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 15:58:14], mode=PLATFORM_GENERATION, duration=0:00:14.163, duration_ms=14163, data={name=system_wrapper}
+timestamp=[2025-12-24 15:58:16], mode=BUILD, duration=0:00:02.273, duration_ms=2273, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:10:29], mode=PLATFORM_GENERATION, duration=0:00:14.083, duration_ms=14083, data={name=system_wrapper}
+timestamp=[2025-12-24 16:10:31], mode=BUILD, duration=0:00:02.337, duration_ms=2337, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:10:49], mode=PLATFORM_GENERATION, duration=0:00:14.695, duration_ms=14695, data={name=system_wrapper}
+timestamp=[2025-12-24 16:10:51], mode=BUILD, duration=0:00:02.502, duration_ms=2502, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:19:17], mode=PLATFORM_GENERATION, duration=0:00:14.481, duration_ms=14481, data={name=system_wrapper}
+timestamp=[2025-12-24 16:19:19], mode=BUILD, duration=0:00:02.256, duration_ms=2256, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:24:18], mode=PLATFORM_GENERATION, duration=0:00:14.113, duration_ms=14113, data={name=system_wrapper}
+timestamp=[2025-12-24 16:24:21], mode=BUILD, duration=0:00:02.203, duration_ms=2203, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:26:13], mode=PLATFORM_GENERATION, duration=0:00:15.306, duration_ms=15306, data={name=system_wrapper}
+timestamp=[2025-12-24 16:26:15], mode=BUILD, duration=0:00:02.210, duration_ms=2210, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:26:42], mode=PLATFORM_GENERATION, duration=0:00:13.180, duration_ms=13180, data={name=system_wrapper}
+timestamp=[2025-12-24 16:26:45], mode=BUILD, duration=0:00:02.295, duration_ms=2295, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:31:13], mode=PLATFORM_GENERATION, duration=0:00:13.385, duration_ms=13385, data={name=system_wrapper}
+timestamp=[2025-12-24 16:31:15], mode=BUILD, duration=0:00:02.299, duration_ms=2299, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:38:37], mode=PLATFORM_GENERATION, duration=0:00:12.694, duration_ms=12694, data={name=system_wrapper}
+timestamp=[2025-12-24 16:38:39], mode=BUILD, duration=0:00:02.263, duration_ms=2263, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:40:12], mode=PLATFORM_GENERATION, duration=0:00:12.932, duration_ms=12932, data={name=system_wrapper}
+timestamp=[2025-12-24 16:40:15], mode=BUILD, duration=0:00:02.451, duration_ms=2451, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:40:35], mode=PLATFORM_GENERATION, duration=0:00:12.707, duration_ms=12707, data={name=system_wrapper}
+timestamp=[2025-12-24 16:40:37], mode=BUILD, duration=0:00:02.333, duration_ms=2333, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 16:53:18], mode=PLATFORM_GENERATION, duration=0:00:16.607, duration_ms=16607, data={name=system_wrapper}
+timestamp=[2025-12-24 16:53:19], mode=BUILD, duration=0:00:00.753, duration_ms=753, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:07:52], mode=PLATFORM_GENERATION, duration=0:00:13.556, duration_ms=13556, data={name=system_wrapper}
+timestamp=[2025-12-24 17:07:53], mode=BUILD, duration=0:00:00.634, duration_ms=634, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:16:26], mode=WORKBENCH_START, duration=0:00:07.239, duration_ms=7239, data={}
+timestamp=[2025-12-24 17:16:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.857, duration_ms=857, data={editors_count=20, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-24 17:16:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.094, duration_ms=94, data={}
+timestamp=[2025-12-24 17:26:50], mode=PLATFORM_GENERATION, duration=0:00:16.784, duration_ms=16784, data={name=system_wrapper}
+timestamp=[2025-12-24 17:26:54], mode=BUILD, duration=0:00:02.989, duration_ms=2989, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:27:26], mode=PLATFORM_GENERATION, duration=0:00:13.424, duration_ms=13424, data={name=system_wrapper}
+timestamp=[2025-12-24 17:27:28], mode=BUILD, duration=0:00:02.332, duration_ms=2332, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:29:20], mode=PLATFORM_GENERATION, duration=0:00:13.803, duration_ms=13803, data={name=system_wrapper}
+timestamp=[2025-12-24 17:29:21], mode=BUILD, duration=0:00:01.065, duration_ms=1065, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:36:41], mode=PLATFORM_GENERATION, duration=0:00:13.130, duration_ms=13130, data={name=system_wrapper}
+timestamp=[2025-12-24 17:36:42], mode=BUILD, duration=0:00:01.062, duration_ms=1062, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:37:30], mode=PLATFORM_GENERATION, duration=0:00:13.246, duration_ms=13246, data={name=system_wrapper}
+timestamp=[2025-12-24 17:37:31], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:40:03], mode=PLATFORM_GENERATION, duration=0:00:14.580, duration_ms=14580, data={name=system_wrapper}
+timestamp=[2025-12-24 17:40:05], mode=BUILD, duration=0:00:02.284, duration_ms=2284, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:40:25], mode=PLATFORM_GENERATION, duration=0:00:14.339, duration_ms=14339, data={name=system_wrapper}
+timestamp=[2025-12-24 17:40:26], mode=BUILD, duration=0:00:00.632, duration_ms=632, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-24 17:45:24], mode=PLATFORM_GENERATION, duration=0:00:17.930, duration_ms=17930, data={name=system_wrapper}
+timestamp=[2025-12-24 17:45:27], mode=BUILD, duration=0:00:03.160, duration_ms=3160, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 09:11:07], mode=WORKBENCH_START, duration=0:00:05.936, duration_ms=5936, data={}
+timestamp=[2025-12-25 09:11:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.534, duration_ms=534, data={editors_count=20, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-25 09:11:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2025-12-25 16:00:30], mode=PLATFORM_GENERATION, duration=0:00:20.539, duration_ms=20539, data={name=system_wrapper}
+timestamp=[2025-12-25 16:00:34], mode=BUILD, duration=0:00:03.138, duration_ms=3138, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:00:55], mode=PLATFORM_GENERATION, duration=0:00:14.128, duration_ms=14128, data={name=system_wrapper}
+timestamp=[2025-12-25 16:00:58], mode=BUILD, duration=0:00:02.479, duration_ms=2479, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:05:14], mode=PLATFORM_GENERATION, duration=0:00:13.198, duration_ms=13198, data={name=system_wrapper}
+timestamp=[2025-12-25 16:05:16], mode=BUILD, duration=0:00:02.442, duration_ms=2442, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:06:17], mode=PLATFORM_GENERATION, duration=0:00:13.668, duration_ms=13668, data={name=system_wrapper}
+timestamp=[2025-12-25 16:06:20], mode=BUILD, duration=0:00:02.332, duration_ms=2332, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:18:27], mode=PLATFORM_GENERATION, duration=0:00:14.227, duration_ms=14227, data={name=system_wrapper}
+timestamp=[2025-12-25 16:18:30], mode=BUILD, duration=0:00:03.673, duration_ms=3673, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:18:47], mode=PLATFORM_GENERATION, duration=0:00:13.512, duration_ms=13512, data={name=system_wrapper}
+timestamp=[2025-12-25 16:18:50], mode=BUILD, duration=0:00:02.406, duration_ms=2406, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:19:24], mode=PLATFORM_GENERATION, duration=0:00:13.590, duration_ms=13590, data={name=system_wrapper}
+timestamp=[2025-12-25 16:19:24], mode=BUILD, duration=0:00:00.669, duration_ms=669, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:19:42], mode=PLATFORM_GENERATION, duration=0:00:13.332, duration_ms=13332, data={name=system_wrapper}
+timestamp=[2025-12-25 16:19:44], mode=BUILD, duration=0:00:02.406, duration_ms=2406, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:21:57], mode=PLATFORM_GENERATION, duration=0:00:13.636, duration_ms=13636, data={name=system_wrapper}
+timestamp=[2025-12-25 16:22:00], mode=BUILD, duration=0:00:03.732, duration_ms=3732, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:23:32], mode=PLATFORM_GENERATION, duration=0:00:14.058, duration_ms=14058, data={name=system_wrapper}
+timestamp=[2025-12-25 16:23:34], mode=BUILD, duration=0:00:02.439, duration_ms=2439, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:38:52], mode=PLATFORM_GENERATION, duration=0:00:13.430, duration_ms=13430, data={name=system_wrapper}
+timestamp=[2025-12-25 16:38:56], mode=BUILD, duration=0:00:03.683, duration_ms=3683, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:40:18], mode=PLATFORM_GENERATION, duration=0:00:13.518, duration_ms=13518, data={name=system_wrapper}
+timestamp=[2025-12-25 16:40:20], mode=BUILD, duration=0:00:02.406, duration_ms=2406, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:41:44], mode=PLATFORM_GENERATION, duration=0:00:13.254, duration_ms=13254, data={name=system_wrapper}
+timestamp=[2025-12-25 16:41:47], mode=BUILD, duration=0:00:02.469, duration_ms=2469, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:42:03], mode=PLATFORM_GENERATION, duration=0:00:14.297, duration_ms=14297, data={name=system_wrapper}
+timestamp=[2025-12-25 16:42:06], mode=BUILD, duration=0:00:02.453, duration_ms=2453, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:43:09], mode=PLATFORM_GENERATION, duration=0:00:13.493, duration_ms=13493, data={name=system_wrapper}
+timestamp=[2025-12-25 16:43:10], mode=BUILD, duration=0:00:00.674, duration_ms=674, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:45:56], mode=PLATFORM_GENERATION, duration=0:00:13.178, duration_ms=13178, data={name=system_wrapper}
+timestamp=[2025-12-25 16:45:59], mode=BUILD, duration=0:00:02.276, duration_ms=2276, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:51:48], mode=PLATFORM_GENERATION, duration=0:00:13.518, duration_ms=13518, data={name=system_wrapper}
+timestamp=[2025-12-25 16:51:51], mode=BUILD, duration=0:00:02.951, duration_ms=2951, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:54:52], mode=PLATFORM_GENERATION, duration=0:00:13.404, duration_ms=13404, data={name=system_wrapper}
+timestamp=[2025-12-25 16:54:54], mode=BUILD, duration=0:00:02.344, duration_ms=2344, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:55:12], mode=PLATFORM_GENERATION, duration=0:00:13.611, duration_ms=13611, data={name=system_wrapper}
+timestamp=[2025-12-25 16:55:14], mode=BUILD, duration=0:00:02.335, duration_ms=2335, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:55:56], mode=PLATFORM_GENERATION, duration=0:00:13.353, duration_ms=13353, data={name=system_wrapper}
+timestamp=[2025-12-25 16:55:59], mode=BUILD, duration=0:00:02.332, duration_ms=2332, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 16:57:45], mode=PLATFORM_GENERATION, duration=0:00:13.381, duration_ms=13381, data={name=system_wrapper}
+timestamp=[2025-12-25 16:57:48], mode=BUILD, duration=0:00:02.418, duration_ms=2418, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:01:20], mode=PLATFORM_GENERATION, duration=0:00:13.717, duration_ms=13717, data={name=system_wrapper}
+timestamp=[2025-12-25 17:01:23], mode=BUILD, duration=0:00:02.419, duration_ms=2419, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:10:58], mode=PLATFORM_GENERATION, duration=0:00:13.419, duration_ms=13419, data={name=system_wrapper}
+timestamp=[2025-12-25 17:10:59], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:11:13], mode=PLATFORM_GENERATION, duration=0:00:13.498, duration_ms=13498, data={name=system_wrapper}
+timestamp=[2025-12-25 17:11:14], mode=BUILD, duration=0:00:01.074, duration_ms=1074, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:14:18], mode=PLATFORM_GENERATION, duration=0:00:13.581, duration_ms=13581, data={name=system_wrapper}
+timestamp=[2025-12-25 17:14:19], mode=BUILD, duration=0:00:01.009, duration_ms=1009, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:14:46], mode=PLATFORM_GENERATION, duration=0:00:13.827, duration_ms=13827, data={name=system_wrapper}
+timestamp=[2025-12-25 17:14:49], mode=BUILD, duration=0:00:02.571, duration_ms=2571, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:15:19], mode=PLATFORM_GENERATION, duration=0:00:13.705, duration_ms=13705, data={name=system_wrapper}
+timestamp=[2025-12-25 17:15:20], mode=BUILD, duration=0:00:01.055, duration_ms=1055, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:15:44], mode=PLATFORM_GENERATION, duration=0:00:13.544, duration_ms=13544, data={name=system_wrapper}
+timestamp=[2025-12-25 17:15:47], mode=BUILD, duration=0:00:02.354, duration_ms=2354, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:19:08], mode=PLATFORM_GENERATION, duration=0:00:13.542, duration_ms=13542, data={name=system_wrapper}
+timestamp=[2025-12-25 17:19:11], mode=BUILD, duration=0:00:02.282, duration_ms=2282, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:24:31], mode=PLATFORM_GENERATION, duration=0:00:13.550, duration_ms=13550, data={name=system_wrapper}
+timestamp=[2025-12-25 17:24:34], mode=BUILD, duration=0:00:02.404, duration_ms=2404, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:31:23], mode=PLATFORM_GENERATION, duration=0:00:13.639, duration_ms=13639, data={name=system_wrapper}
+timestamp=[2025-12-25 17:31:24], mode=BUILD, duration=0:00:00.644, duration_ms=644, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:35:25], mode=PLATFORM_GENERATION, duration=0:00:13.666, duration_ms=13666, data={name=system_wrapper}
+timestamp=[2025-12-25 17:35:28], mode=BUILD, duration=0:00:02.339, duration_ms=2339, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:56:46], mode=PLATFORM_GENERATION, duration=0:00:13.965, duration_ms=13965, data={name=system_wrapper}
+timestamp=[2025-12-25 17:56:49], mode=BUILD, duration=0:00:02.453, duration_ms=2453, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:57:15], mode=PLATFORM_GENERATION, duration=0:00:13.022, duration_ms=13022, data={name=system_wrapper}
+timestamp=[2025-12-25 17:57:19], mode=BUILD, duration=0:00:03.673, duration_ms=3673, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 17:58:23], mode=PLATFORM_GENERATION, duration=0:00:12.994, duration_ms=12994, data={name=system_wrapper}
+timestamp=[2025-12-25 17:58:24], mode=BUILD, duration=0:00:00.637, duration_ms=637, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:00:43], mode=PLATFORM_GENERATION, duration=0:00:13.589, duration_ms=13589, data={name=system_wrapper}
+timestamp=[2025-12-25 18:00:44], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:02:23], mode=PLATFORM_GENERATION, duration=0:00:14.368, duration_ms=14368, data={name=system_wrapper}
+timestamp=[2025-12-25 18:02:25], mode=BUILD, duration=0:00:02.593, duration_ms=2593, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:04:28], mode=PLATFORM_GENERATION, duration=0:00:15.499, duration_ms=15499, data={name=system_wrapper}
+timestamp=[2025-12-25 18:04:29], mode=BUILD, duration=0:00:00.782, duration_ms=782, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:04:41], mode=BUILD, duration=0:00:11.484, duration_ms=11484, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:06:26], mode=PLATFORM_GENERATION, duration=0:00:59.373, duration_ms=59373, data={name=system_wrapper}
+timestamp=[2025-12-25 18:06:31], mode=BUILD, duration=0:00:04.287, duration_ms=4287, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:06:41], mode=BUILD, duration=0:00:08.775, duration_ms=8775, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:07:11], mode=BUILD, duration=0:00:00.735, duration_ms=735, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:07:46], mode=BUILD, duration=0:00:00.756, duration_ms=756, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:07:55], mode=BUILD, duration=0:00:08.403, duration_ms=8403, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:09:54], mode=PLATFORM_GENERATION, duration=0:00:09.440, duration_ms=9440, data={name=system_wrapper}
+timestamp=[2025-12-25 18:09:55], mode=BUILD, duration=0:00:00.411, duration_ms=411, data={name=HSC, configuration=Debug, clean_build=true}
+timestamp=[2025-12-25 18:09:55], mode=BUILD, duration=0:00:00.378, duration_ms=378, data={name=HSC_system, configuration=Debug, clean_build=true}
+timestamp=[2025-12-25 18:12:15], mode=PLATFORM_GENERATION, duration=0:01:21.225, duration_ms=81225, data={name=system_wrapper}
+timestamp=[2025-12-25 18:12:20], mode=BUILD, duration=0:00:04.578, duration_ms=4578, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:12:31], mode=BUILD, duration=0:00:10.359, duration_ms=10359, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 18:12:38], mode=BUILD, duration=0:00:00.735, duration_ms=735, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-26 09:14:51], mode=WORKBENCH_START, duration=0:00:05.366, duration_ms=5366, data={}
+timestamp=[2025-12-26 09:14:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.277, duration_ms=277, data={editors_count=19, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-26 09:14:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.071, duration_ms=71, data={}
+timestamp=[2025-12-26 09:15:01], mode=PLATFORM_GENERATION, duration=0:00:02.177, duration_ms=2177, data={name=system_wrapper}
+timestamp=[2025-12-26 09:15:03], mode=BUILD, duration=0:00:01.020, duration_ms=1020, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-26 09:15:17], mode=BUILD, duration=0:00:12.168, duration_ms=12168, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-12-31 15:40:34], mode=WORKBENCH_START, duration=0:00:05.412, duration_ms=5412, data={}
+timestamp=[2025-12-31 15:40:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.400, duration_ms=400, data={editors_count=18, platform_editors_count=12, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2025-12-31 15:40:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.054, duration_ms=54, data={}
+timestamp=[2025-12-31 15:42:42], mode=PLATFORM_GENERATION, duration=0:01:05.186, duration_ms=65186, data={name=system_wrapper}
+timestamp=[2025-12-31 15:42:48], mode=BUILD, duration=0:00:05.308, duration_ms=5308, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2025-12-31 15:43:04], mode=BUILD, duration=0:00:12.375, duration_ms=12375, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 11:42:52], mode=WORKBENCH_START, duration=0:00:06.375, duration_ms=6375, data={}
+timestamp=[2026-01-04 11:42:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.280, duration_ms=280, data={editors_count=18, platform_editors_count=12, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-01-04 11:42:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.071, duration_ms=71, data={}
+timestamp=[2026-01-04 11:44:44], mode=PLATFORM_GENERATION, duration=0:01:04.793, duration_ms=64793, data={name=system_wrapper}
+timestamp=[2026-01-04 11:44:52], mode=BUILD, duration=0:00:07.161, duration_ms=7161, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-04 11:45:08], mode=BUILD, duration=0:00:13.694, duration_ms=13694, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 09:33:38], mode=WORKBENCH_START, duration=0:00:05.679, duration_ms=5679, data={}
+timestamp=[2026-01-05 09:33:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.433, duration_ms=433, data={editors_count=15, platform_editors_count=8, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-01-05 09:33:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.072, duration_ms=72, data={}
+timestamp=[2026-01-05 11:07:43], mode=BUILD, duration=0:00:05.319, duration_ms=5319, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 11:08:06], mode=BUILD, duration=0:00:04.279, duration_ms=4279, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 11:16:28], mode=BUILD, duration=0:00:03.741, duration_ms=3741, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 11:31:30], mode=BUILD, duration=0:00:05.339, duration_ms=5339, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 11:32:42], mode=BUILD, duration=0:00:04.854, duration_ms=4854, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 11:36:39], mode=BUILD, duration=0:00:04.796, duration_ms=4796, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 16:21:38], mode=BUILD, duration=0:01:01.039, duration_ms=61039, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 16:28:47], mode=BUILD, duration=0:00:05.538, duration_ms=5538, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-05 16:34:04], mode=BUILD, duration=0:05:14.715, duration_ms=314715, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-06 09:09:38], mode=WORKBENCH_START, duration=0:00:09.377, duration_ms=9377, data={}
+timestamp=[2026-01-06 09:09:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.418, duration_ms=418, data={editors_count=15, platform_editors_count=8, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-01-06 09:09:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.113, duration_ms=113, data={}
+timestamp=[2026-01-06 16:53:37], mode=PLATFORM_GENERATION, duration=0:01:21.304, duration_ms=81304, data={name=system_wrapper}
+timestamp=[2026-01-06 16:58:03], mode=BUILD, duration=0:00:07.356, duration_ms=7356, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-06 16:58:22], mode=BUILD, duration=0:00:15.838, duration_ms=15838, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-06 17:17:16], mode=BUILD, duration=0:00:03.367, duration_ms=3367, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-06 17:38:42], mode=BUILD, duration=0:00:03.314, duration_ms=3314, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-06 18:04:21], mode=BUILD, duration=0:00:01.081, duration_ms=1081, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-06 18:04:43], mode=BUILD, duration=0:00:20.658, duration_ms=20658, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 09:10:45], mode=WORKBENCH_START, duration=0:00:06.056, duration_ms=6056, data={}
+timestamp=[2026-01-07 09:10:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.369, duration_ms=369, data={editors_count=15, platform_editors_count=8, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-01-07 09:10:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.068, duration_ms=68, data={}
+timestamp=[2026-01-07 14:19:14], mode=PLATFORM_GENERATION, duration=0:00:18.495, duration_ms=18495, data={name=system_wrapper}
+timestamp=[2026-01-07 14:19:23], mode=BUILD, duration=0:00:08.388, duration_ms=8388, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 14:19:44], mode=BUILD, duration=0:00:03.714, duration_ms=3714, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 14:28:46], mode=BUILD, duration=0:00:03.482, duration_ms=3482, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 14:33:55], mode=BUILD, duration=0:00:03.549, duration_ms=3549, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 17:46:04], mode=WORKBENCH_START, duration=0:00:04.829, duration_ms=4829, data={}
+timestamp=[2026-01-07 17:46:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.012, duration_ms=12, data={}
+timestamp=[2026-01-07 17:46:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.763, duration_ms=763, data={editors_count=17, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-01-07 17:46:10], mode=PLATFORM_GENERATION, duration=0:00:02.361, duration_ms=2361, data={name=system_wrapper}
+timestamp=[2026-01-07 17:46:46], mode=PLATFORM_GENERATION, duration=0:00:00.929, duration_ms=929, data={name=system_wrapper}
+timestamp=[2026-01-07 17:46:52], mode=PLATFORM_GENERATION, duration=0:00:00.916, duration_ms=916, data={name=system_wrapper}
+timestamp=[2026-01-07 17:47:41], mode=PLATFORM_GENERATION, duration=0:00:00.922, duration_ms=922, data={name=system_wrapper}
+timestamp=[2026-01-07 17:47:45], mode=BUILD, duration=0:00:03.303, duration_ms=3303, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 17:47:49], mode=BUILD, duration=0:00:03.507, duration_ms=3507, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 18:00:18], mode=PLATFORM_GENERATION, duration=0:00:00.996, duration_ms=996, data={name=system_wrapper}
+timestamp=[2026-01-07 18:00:18], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-07 18:00:22], mode=BUILD, duration=0:00:03.165, duration_ms=3165, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 13:59:02], mode=PLATFORM_GENERATION, duration=0:00:02.964, duration_ms=2964, data={name=system_wrapper}
+timestamp=[2026-01-08 13:59:02], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-08 13:59:06], mode=BUILD, duration=0:00:03.590, duration_ms=3590, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-01-12 11:11:04], mode=PLATFORM_GENERATION, duration=0:00:03.105, duration_ms=3105, data={name=system_wrapper}
+timestamp=[2026-01-12 11:11:07], mode=PLATFORM_GENERATION, duration=0:00:00.907, duration_ms=907, data={name=system_wrapper}
+timestamp=[2026-01-12 11:11:08], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-01-12 11:11:12], mode=BUILD, duration=0:00:03.840, duration_ms=3840, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:04:44], mode=WORKBENCH_START, duration=0:00:04.166, duration_ms=4166, data={}
+timestamp=[2026-02-10 10:04:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.031, duration_ms=31, data={}
+timestamp=[2026-02-10 10:04:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.462, duration_ms=462, data={editors_count=18, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-10 10:05:30], mode=WORKBENCH_START, duration=0:00:04.109, duration_ms=4109, data={}
+timestamp=[2026-02-10 10:05:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.016, duration_ms=16, data={}
+timestamp=[2026-02-10 10:05:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.512, duration_ms=512, data={editors_count=18, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-10 10:06:40], mode=PLATFORM_GENERATION, duration=0:00:10.991, duration_ms=10991, data={name=system_wrapper}
+timestamp=[2026-02-10 10:06:41], mode=BUILD, duration=0:00:00.780, duration_ms=780, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:06:46], mode=BUILD, duration=0:00:02.540, duration_ms=2540, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:07:34], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:07:37], mode=BUILD, duration=0:00:02.484, duration_ms=2484, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:08:52], mode=WORKBENCH_START, duration=0:00:04.152, duration_ms=4152, data={}
+timestamp=[2026-02-10 10:08:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.034, duration_ms=34, data={}
+timestamp=[2026-02-10 10:08:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.423, duration_ms=423, data={editors_count=18, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-10 10:10:37], mode=BUILD, duration=0:00:00.805, duration_ms=805, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:10:42], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:10:45], mode=BUILD, duration=0:00:02.685, duration_ms=2685, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:48:29], mode=PLATFORM_GENERATION, duration=0:00:08.645, duration_ms=8645, data={name=system_wrapper}
+timestamp=[2026-02-10 10:48:39], mode=BUILD, duration=0:00:00.781, duration_ms=781, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 10:48:44], mode=BUILD, duration=0:00:02.649, duration_ms=2649, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 11:20:53], mode=PLATFORM_GENERATION, duration=0:00:08.611, duration_ms=8611, data={name=system_wrapper}
+timestamp=[2026-02-10 11:20:55], mode=BUILD, duration=0:00:00.778, duration_ms=778, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 11:21:00], mode=BUILD, duration=0:00:02.512, duration_ms=2512, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 11:21:35], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 11:21:38], mode=BUILD, duration=0:00:02.529, duration_ms=2529, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 17:52:09], mode=WORKBENCH_START, duration=0:00:05.005, duration_ms=5005, data={}
+timestamp=[2026-02-10 17:52:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.060, duration_ms=60, data={}
+timestamp=[2026-02-10 17:52:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.469, duration_ms=469, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-10 18:04:32], mode=BUILD, duration=0:00:01.204, duration_ms=1204, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-10 18:06:44], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 09:06:28], mode=WORKBENCH_START, duration=0:00:04.731, duration_ms=4731, data={}
+timestamp=[2026-02-11 09:06:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.346, duration_ms=346, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-11 09:06:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.054, duration_ms=54, data={}
+timestamp=[2026-02-11 09:15:27], mode=BUILD, duration=0:00:01.049, duration_ms=1049, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 09:15:28], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 09:15:31], mode=BUILD, duration=0:00:02.655, duration_ms=2655, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:05:55], mode=BUILD, duration=0:00:00.479, duration_ms=479, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:05:58], mode=BUILD, duration=0:00:02.538, duration_ms=2538, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:32:03], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:32:08], mode=BUILD, duration=0:00:00.210, duration_ms=210, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:32:11], mode=BUILD, duration=0:00:03.069, duration_ms=3069, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:32:46], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:32:49], mode=BUILD, duration=0:00:02.827, duration_ms=2827, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:33:02], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:33:09], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:33:12], mode=BUILD, duration=0:00:02.929, duration_ms=2929, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:34:39], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:35:34], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:41:44], mode=BUILD, duration=0:00:00.511, duration_ms=511, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:46:17], mode=BUILD, duration=0:00:00.459, duration_ms=459, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:54:02], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 10:56:48], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 13:54:11], mode=BUILD, duration=0:00:01.009, duration_ms=1009, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 13:54:18], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 13:54:22], mode=BUILD, duration=0:00:03.050, duration_ms=3050, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 13:55:17], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 13:55:20], mode=BUILD, duration=0:00:02.806, duration_ms=2806, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 14:24:43], mode=BUILD, duration=0:00:00.514, duration_ms=514, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 14:24:50], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 14:24:53], mode=BUILD, duration=0:00:02.879, duration_ms=2879, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 15:01:57], mode=BUILD, duration=0:00:00.696, duration_ms=696, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 15:53:37], mode=PLATFORM_GENERATION, duration=0:00:09.775, duration_ms=9775, data={name=system_wrapper}
+timestamp=[2026-02-11 15:53:39], mode=BUILD, duration=0:00:00.948, duration_ms=948, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 15:53:45], mode=BUILD, duration=0:00:03.185, duration_ms=3185, data={name=HSC_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-11 17:45:04], mode=WORKBENCH_START, duration=0:00:04.404, duration_ms=4404, data={}
+timestamp=[2026-02-11 17:45:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.041, duration_ms=41, data={}
+timestamp=[2026-02-11 17:45:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.432, duration_ms=432, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-12 17:39:22], mode=WORKBENCH_START, duration=0:00:04.933, duration_ms=4933, data={}
+timestamp=[2026-02-12 17:39:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.337, duration_ms=337, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-02-12 17:39:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.045, duration_ms=45, data={}
+timestamp=[2026-03-02 16:30:09], mode=WORKBENCH_START, duration=0:00:04.645, duration_ms=4645, data={}
+timestamp=[2026-03-02 16:30:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2026-03-02 16:30:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.401, duration_ms=401, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-03 10:09:35], mode=WORKBENCH_START, duration=0:00:04.875, duration_ms=4875, data={}
+timestamp=[2026-03-03 10:09:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.409, duration_ms=409, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-03 10:09:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.066, duration_ms=66, data={}
+timestamp=[2026-03-03 16:43:21], mode=WORKBENCH_START, duration=0:00:05.077, duration_ms=5077, data={}
+timestamp=[2026-03-03 16:43:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.065, duration_ms=65, data={}
+timestamp=[2026-03-03 16:43:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.839, duration_ms=839, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-04 13:57:21], mode=WORKBENCH_START, duration=0:00:04.234, duration_ms=4234, data={}
+timestamp=[2026-03-04 13:57:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.041, duration_ms=41, data={}
+timestamp=[2026-03-04 13:57:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.401, duration_ms=401, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-09 17:56:01], mode=WORKBENCH_START, duration=0:00:04.383, duration_ms=4383, data={}
+timestamp=[2026-03-09 17:56:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.034, duration_ms=34, data={}
+timestamp=[2026-03-09 17:56:01], mode=WORKBENCH_UI_INIT, duration=0:00:00.391, duration_ms=391, data={editors_count=17, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-10 09:47:37], mode=WORKBENCH_START, duration=0:00:04.394, duration_ms=4394, data={}
+timestamp=[2026-03-10 09:47:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.039, duration_ms=39, data={}
+timestamp=[2026-03-10 09:47:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.362, duration_ms=362, data={editors_count=19, platform_editors_count=11, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-10 15:56:26], mode=PLATFORM_GENERATION, duration=0:00:07.296, duration_ms=7296, data={name=system_wrapper}
+timestamp=[2026-03-10 15:56:27], mode=BUILD, duration=0:00:00.956, duration_ms=956, data={name=HSC, configuration=Debug, clean_build=false}
+timestamp=[2026-03-10 16:25:45], mode=WORKBENCH_START, duration=0:00:04.540, duration_ms=4540, data={}
+timestamp=[2026-03-10 16:25:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.392, duration_ms=392, data={editors_count=19, platform_editors_count=11, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-10 16:25:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.031, duration_ms=31, data={}
+timestamp=[2026-03-10 17:10:32], mode=WORKBENCH_START, duration=0:00:08.210, duration_ms=8210, data={}
+timestamp=[2026-03-10 17:10:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2026-03-10 17:10:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.657, duration_ms=657, data={editors_count=19, platform_editors_count=11, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-11 15:06:57], mode=WORKBENCH_START, duration=0:00:05.197, duration_ms=5197, data={}
+timestamp=[2026-03-11 15:06:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.437, duration_ms=437, data={editors_count=18, platform_editors_count=11, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HSC,HSC_system,RemoteSystemsTempFiles,system_wrapper}
+timestamp=[2026-03-11 15:06:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.071, duration_ms=71, data={}

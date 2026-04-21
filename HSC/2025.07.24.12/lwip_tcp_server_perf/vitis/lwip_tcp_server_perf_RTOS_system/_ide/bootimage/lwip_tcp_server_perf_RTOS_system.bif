@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+	D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/lwip_tcp_server_perf_RTOS/_ide/bitstream/system_wrapper.bit
+	D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/lwip_tcp_server_perf_RTOS/Debug/lwip_tcp_server_perf_RTOS.elf
+}

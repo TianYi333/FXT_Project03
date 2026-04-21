@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="D:\A_Rada_V1.1\vitis"/>
+	<item key="bootgen_files_selection" value="D:\ASUS-PC\Desktop\temporary\A_Rada_V1.1\vitis\A_Radar_V11_system\Debug\sd_card"/>
+	<item key="soc_flash_files_selection" value="D:\ASUS-PC\Desktop\temporary\A_Rada_V1.1\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\boot"/>
+</section>

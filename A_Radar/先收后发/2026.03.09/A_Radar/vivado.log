@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Mon Mar  9 10:41:29 2026
+# Process ID: 73652
+# Current directory: D:/ASUS-PC/Desktop/temporary/A_Radar
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent138688 D:\ASUS-PC\Desktop\temporary\A_Radar\A_Radar.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/A_Radar/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/A_Radar\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.xpr
+INFO: [Project 1-313] Project file moved from 'E:/A_Radar/A_Radar' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/A_Radar/ip_repo/ps_pl_axi4_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2021/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1284.266 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:user:ps_pl_axi4:1.0 - ps_pl_axi4_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:module_ref:TOP:1.0 - TOP_0
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /ps_pl_axi4_0/S00_AXI/S00_AXI_reg from address space /axi_dma_0/Data_S2MM.
+Successfully read diagram <system> from block design file <D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd>
+startgroup
+set_property -dict [list CONFIG.c_sg_length_width {26}] [get_bd_cells axi_dma_0]
+endgroup
+validate_bd_design
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/axi_dma_0/Data_S2MM' to slave segment '/ps_pl_axi4_0/S00_AXI/S00_AXI_reg'. Please either complete or remove this path to resolve.
+CRITICAL WARNING: [BD 41-967] AXI interface pin /TOP_0/m_axis is not associated to any clock pin. It may not work correctly.
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\ASUS-PC\Desktop\temporary\A_Radar\A_Radar.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+Exporting to file d:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file d:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File d:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.gen/sources_1/bd/system/synth/system.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin m_axis could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /TOP_0
+catch { config_ip_cache -export [get_ips -all system_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = fc795361e4ea3443; cache size = 12.164 MB.
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = a8a33576f51f5acc; cache size = 12.164 MB.
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd]
+launch_runs system_axi_dma_0_0_synth_1 -jobs 28
+[Mon Mar  9 10:44:00 2026] Launched system_axi_dma_0_0_synth_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.runs/system_axi_dma_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+[Mon Mar  9 10:45:57 2026] Launched synth_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.runs/synth_1/runme.log
+[Mon Mar  9 10:45:57 2026] Launched impl_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/A_Radar/A_Radar.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (E:/Xilinx2021/Vivado/2021.1/data/embeddedsw) loading 0 seconds
+INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: D:/ASUS-PC/Desktop/temporary/A_Radar/vitis/system_wrapper.xsa
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  9 11:56:01 2026...

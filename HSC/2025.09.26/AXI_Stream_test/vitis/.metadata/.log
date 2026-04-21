@@ -1,0 +1,1279 @@
+!SESSION 2025-09-26 14:19:44.003 -----------------------------------------------
+eclipse.buildId=2021.1
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\vitis\.metadata\.bak_0.log
+Created Time: 2025-09-26 17:47:26.089
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.090
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.093
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#21]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.095
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.103
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.104
+!MESSAGE XSCT Command: [version -server], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.104
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.106
+!MESSAGE XSCT Command: [version], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.106
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.106
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.109
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.109
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.117
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.117
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.119
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.119
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.126
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.126
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.130
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.130
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.137
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.138
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.140
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.140
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.148
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.149
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.151
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.151
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.158
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.159
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.161
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.161
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.169
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.169
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level == 0}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.178
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level == 0}], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.178
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.179
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:26.179
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:28.204
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:28.205
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:28.265
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:28.265
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.277
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.286
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.289
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.290
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.297
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.298
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-C305AC14ABCD-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.313
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-C305AC14ABCD-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:31.313
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.447
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.465
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.470
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.470
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.477
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_10]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.477
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.478
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.478
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.482
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.482
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/psinit/ps7_init.tcl], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.483
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.483
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.673
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.673
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.676
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.676
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.680
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:33.680
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/Debug/AXI_Stream_test.elf], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.467
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/Debug/AXI_Stream_test.elf], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.467
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.502
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.560
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.571
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.571
+!MESSAGE XSCT Command: [con], Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:47:34.591
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-85: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:47:34.714
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:50:28.235
+!MESSAGE XSCT Command: [disconnect tcfchan#21], Thread: Thread-1672
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:50:28.238
+!MESSAGE XSCT command with result: [disconnect tcfchan#21], Result: [null, ]. Thread: Thread-1672
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:06.196
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-59: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:06.200
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-59: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:06.201
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-59: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:06.203
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-59: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 17:51:06.203
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:06.204
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-59: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:06.204
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-59: Build Project
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:07.277
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:07.300
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1563)
+	at com.xilinx.sdx.core.SDXCoreActivator._saveLastBuildSettings(SDXCoreActivator.java:438)
+	at com.xilinx.sdx.core.SDXCoreActivator.lambda$1(SDXCoreActivator.java:154)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:185)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 25 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:07.400
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.managedbuilder.internal.core.BuildSettingsUtil.checkApplyDescription(BuildSettingsUtil.java:211)
+	at org.eclipse.cdt.managedbuilder.internal.core.BuildSettingsUtil.checkApplyDescription(BuildSettingsUtil.java:198)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.updateBuildInfo(ManagedBuildManager.java:1407)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.access$0(ManagedBuildManager.java:1398)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager$6.run(ManagedBuildManager.java:1376)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 32 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:10.476
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.724
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.724
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.727
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.727
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.728
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.728
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.728
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.728
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:51:12.728
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.764
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#22]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.764
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.987
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.988
+!MESSAGE XSCT Command: [version -server], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.990
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.1.1]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.990
+!MESSAGE XSCT Command: [version], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.990
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.1
+SW Build 38 on 2021-07-20-20:33:42
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.990
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.994
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:12.994
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.001
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.002
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.004
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.004
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.012
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.012
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.015
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.015
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.022
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.023
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.025
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.025
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.033
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.033
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.036
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.036
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.043
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.044
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.046
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.046
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.054
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.054
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level == 0}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.061
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level == 0}], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.062
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.062
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.062
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.079
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.080
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.153
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:13.154
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:13.961
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.161
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.175
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.178
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 C305AC14ABCD]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.178
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.185
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.187
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-C305AC14ABCD-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.205
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 C305AC14ABCD" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-C305AC14ABCD-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:16.206
+!MESSAGE XSCT Command: [fpga -file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.346
+!MESSAGE XSCT command with result: [fpga -file D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.362
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.368
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.368
+!MESSAGE XSCT Command: [loadhw -hw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.375
+!MESSAGE XSCT command with result: [loadhw -hw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_10]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.375
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.376
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.376
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.380
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.380
+!MESSAGE XSCT Command: [source D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/psinit/ps7_init.tcl], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.381
+!MESSAGE XSCT command with result: [source D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.382
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.620
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.620
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.623
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.623
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.627
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:18.629
+!MESSAGE XSCT Command: [dow D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/Debug/AXI_Stream_test.elf], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.466
+!MESSAGE XSCT command with result: [dow D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/AXI_Stream_test/Debug/AXI_Stream_test.elf], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.467
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.511
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.558
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.575
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.576
+!MESSAGE XSCT Command: [con], Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:19.592
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-81: Launching Debugger_AXI_Stream_test-Default
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:19.781
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:19.852
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:19.881
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:19.898
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:19.916
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:19.973
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:52.065
+!MESSAGE XSCT Command: [disconnect tcfchan#22], Thread: Thread-1738
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:52.067
+!MESSAGE XSCT command with result: [disconnect tcfchan#22], Result: [null, ]. Thread: Thread-1738
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:52.164
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:51:52.185
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:59.722
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-77: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:59.725
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-77: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:59.726
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-77: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:59.727
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-77: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 17:51:59.728
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:59.728
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-77: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:51:59.729
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-77: Build Project
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:52:00.296
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:52:00.316
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1563)
+	at com.xilinx.sdx.core.SDXCoreActivator._saveLastBuildSettings(SDXCoreActivator.java:438)
+	at com.xilinx.sdx.core.SDXCoreActivator.lambda$1(SDXCoreActivator.java:154)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:185)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 25 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-09-26 17:52:00.395
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@17b1149c]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.managedbuilder.internal.core.BuildSettingsUtil.checkApplyDescription(BuildSettingsUtil.java:211)
+	at org.eclipse.cdt.managedbuilder.internal.core.BuildSettingsUtil.checkApplyDescription(BuildSettingsUtil.java:198)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.updateBuildInfo(ManagedBuildManager.java:1407)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.access$0(ManagedBuildManager.java:1398)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager$6.run(ManagedBuildManager.java:1376)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 32 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:52:08.046
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:52:08.050
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:52:08.050
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:52:08.052
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.9",
+}]. Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 17:52:08.052
+!MESSAGE Generating MD5 hash for file: D:\ASUS-PC\Desktop\temporary\AXI_Stream\AXI_Stream_test\vitis\system_wrapper\export\system_wrapper\sw\system_wrapper\freertos10_xilinx_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:52:08.052
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-87: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 17:52:08.053
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/ASUS-PC/Desktop/temporary/AXI_Stream/AXI_Stream_test/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-87: Build Project

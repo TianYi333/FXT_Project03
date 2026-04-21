@@ -1,0 +1,330 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jul 21 09:58:27 2025
+# Process ID: 142504
+# Current directory: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent151208 D:\ASUS-PC\Desktop\temporary\lwip_tcp_server_perf\lwip_tcp_server_perf.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.xpr
+update_compile_order -fileset sources_1
+update_module_reference system_Sim_ad_data_gen_0_0
+delete_ip_run [get_files -of_objects [get_fileset ila_0] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci]
+set_property generate_synth_checkpoint false [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci]
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property synth_checkpoint_mode Hierarchical [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_1] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all system_xbar_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_2] }
+catch { config_ip_cache -export [get_ips -all system_ps_pl_axi4_0_0] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_Sim_ad_data_gen_0_0_synth_1 system_ps_pl_axi4_0_0_synth_1 -jobs 28
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+wait_on_run system_ps_pl_axi4_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+write_hw_platform -fixed -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+write_hw_platform -fixed -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+open_bd_design {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd}
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes system_i/Sim_ad_data_gen_0/U0/rx_data_valid1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+close_hw_manager
+set_property -dict [list CONFIG.C_PROBE9_WIDTH {32} CONFIG.C_PROBE8_WIDTH {16} CONFIG.C_PROBE7_WIDTH {16} CONFIG.C_NUM_OF_PROBES {10}] [get_ips ila_0]
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci]
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_module_reference system_Sim_ad_data_gen_0_0
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_Sim_ad_data_gen_0_0_synth_1 -jobs 28
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {system_i/Sim_ad_data_gen_0/U0/high_num} {system_i/Sim_ad_data_gen_0/U0/low_num} {system_i/Sim_ad_data_gen_0/U0/m_axis_tdata1} {system_i/Sim_ad_data_gen_0/U0/m_axis_tready1} {system_i/Sim_ad_data_gen_0/U0/m_axis_tvalid1_0} {system_i/Sim_ad_data_gen_0/U0/re_num} {system_i/Sim_ad_data_gen_0/U0/rx_data_data1} {system_i/Sim_ad_data_gen_0/U0/rx_data_last1} {system_i/Sim_ad_data_gen_0/U0/rx_data_valid1} {system_i/Sim_ad_data_gen_0/U0/state_main} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes system_i/Sim_ad_data_gen_0/U0/rx_data_valid1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq4'h6 [get_hw_probes system_i/Sim_ad_data_gen_0/U0/state_main -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+save_wave_config {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+update_module_reference system_Sim_ad_data_gen_0_0
+update_module_reference system_Sim_ad_data_gen_0_0
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_Sim_ad_data_gen_0_0_synth_1 -jobs 28
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+delete_bd_objs [get_bd_nets axi_dma_0_s2mm_introut]
+connect_bd_net [get_bd_pins axi_dma_0/s2mm_introut] [get_bd_pins xlconcat_0/In0]
+save_bd_design
+validate_bd_design
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq4'h5 [get_hw_probes system_i/Sim_ad_data_gen_0/U0/state_main -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/Sim_ad_data_gen_0/U0/inst_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {system_i/Sim_ad_data_gen_0/U0/high_num_1} {system_i/Sim_ad_data_gen_0/U0/low_num} {system_i/Sim_ad_data_gen_0/U0/m_axis_tdata1} {system_i/Sim_ad_data_gen_0/U0/m_axis_tready1} {system_i/Sim_ad_data_gen_0/U0/m_axis_tvalid1_2} {system_i/Sim_ad_data_gen_0/U0/re_num} {system_i/Sim_ad_data_gen_0/U0/rx_data_data1} {system_i/Sim_ad_data_gen_0/U0/rx_data_last1} {system_i/Sim_ad_data_gen_0/U0/rx_data_valid1} {system_i/Sim_ad_data_gen_0/U0/state_main} }
+save_wave_config {D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_1
+endgroup
+undo
+startgroup
+set_property -dict [list CONFIG.FIFO_MODE {2}] [get_bd_cells axis_data_fifo_0]
+endgroup
+save_bd_design
+update_module_reference system_Sim_ad_data_gen_0_0
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_axis_data_fifo_0_2] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_axis_data_fifo_0_2_synth_1 system_Sim_ad_data_gen_0_0_synth_1 -jobs 28
+wait_on_run system_axis_data_fifo_0_2_synth_1
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+validate_bd_design -force
+validate_bd_design -force
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa
+update_module_reference system_Sim_ad_data_gen_0_0
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ila:6.2 ila_0
+endgroup
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {44} CONFIG.C_ENABLE_ILA_AXI_MON {true} CONFIG.C_MONITOR_TYPE {AXI}] [get_bd_cells ila_0]
+set_property location {4 1140 848} [get_bd_cells ila_0]
+connect_bd_net [get_bd_pins ila_0/clk] [get_bd_pins processing_system7_0/FCLK_CLK0]
+startgroup
+set_property -dict [list CONFIG.C_PROBE2_WIDTH {8} CONFIG.C_NUM_OF_PROBES {3} CONFIG.C_ENABLE_ILA_AXI_MON {false} CONFIG.C_MONITOR_TYPE {Native}] [get_bd_cells ila_0]
+endgroup
+connect_bd_net [get_bd_pins axis_data_fifo_0/m_axis_tdata] [get_bd_pins ila_0/probe2]
+connect_bd_net [get_bd_pins ila_0/probe1] [get_bd_pins axis_data_fifo_0/m_axis_tlast]
+connect_bd_net [get_bd_pins ila_0/probe0] [get_bd_pins axis_data_fifo_0/m_axis_tvalid]
+startgroup
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {6}] [get_bd_cells ila_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_PROBE5_WIDTH {8}] [get_bd_cells ila_0]
+endgroup
+connect_bd_net [get_bd_pins ila_0/probe3] [get_bd_pins axis_data_fifo_0/s_axis_tlast]
+connect_bd_net [get_bd_pins ila_0/probe4] [get_bd_pins axis_data_fifo_0/s_axis_tvalid]
+connect_bd_net [get_bd_pins ila_0/probe5] [get_bd_pins axis_data_fifo_0/s_axis_tdata]
+save_bd_design
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_ila_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_Sim_ad_data_gen_0_0_synth_1 system_ila_0_0_synth_1 -jobs 28
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+wait_on_run system_ila_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+update_module_reference system_Sim_ad_data_gen_0_0
+update_compile_order -fileset sources_1
+update_module_reference system_Sim_ad_data_gen_0_0
+export_ip_user_files -of_objects  [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -reset -force -quiet
+remove_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0/ila_0.xci
+file delete -force D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/ip/ila_0
+file delete -force d:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.gen/sources_1/ip/ila_0
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_Sim_ad_data_gen_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_Sim_ad_data_gen_0_0_synth_1 -jobs 28
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+validate_bd_design -force
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 28
+wait_on_run synth_1
+validate_bd_design -force
+startgroup
+set_property -dict [list CONFIG.C_DATA_DEPTH {2048}] [get_bd_cells ila_0]
+endgroup
+save_bd_design
+regenerate_bd_layout
+validate_bd_design
+delete_bd_objs [get_bd_nets Net2]
+delete_bd_objs [get_bd_nets Net1]
+delete_bd_objs [get_bd_nets Net]
+delete_bd_objs [get_bd_nets axis_data_fifo_0_m_axis_tdata]
+delete_bd_objs [get_bd_nets axis_data_fifo_0_m_axis_tlast]
+delete_bd_objs [get_bd_nets axis_data_fifo_0_m_axis_tvalid]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_CLK0]
+delete_bd_objs [get_bd_cells ila_0]
+validate_bd_design
+save_bd_design
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins axi_dma_0/m_axi_s2mm_aclk]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins axi_dma_0/s_axi_lite_aclk]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins axi_mem_intercon/ACLK]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins axi_mem_intercon/M00_ACLK]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins ps7_0_axi_periph/ACLK]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins ps7_0_axi_periph/M01_ACLK]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins rst_ps7_0_100M/slowest_sync_clk]
+endgroup
+save_bd_design
+validate_bd_design
+connect_bd_net [get_bd_pins axi_mem_intercon/S00_ACLK] [get_bd_pins processing_system7_0/FCLK_CLK0]
+save_bd_design
+validate_bd_design
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/clk_in] [get_bd_pins processing_system7_0/FCLK_CLK0]
+save_bd_design
+validate_bd_design
+delete_bd_objs [get_bd_intf_nets Sim_ad_data_gen_0_m_axis]
+connect_bd_intf_net [get_bd_intf_pins Sim_ad_data_gen_0/m_axis] [get_bd_intf_pins axis_data_fifo_0/S_AXIS]
+save_bd_design
+validate_bd_design
+delete_bd_objs [get_bd_intf_nets Sim_ad_data_gen_0_m_axis]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/m_axis_tdata] [get_bd_pins axis_data_fifo_0/s_axis_tdata]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/m_axis_tlast] [get_bd_pins axis_data_fifo_0/s_axis_tlast]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/m_axis_tvalid] [get_bd_pins axis_data_fifo_0/s_axis_tvalid]
+connect_bd_net [get_bd_pins Sim_ad_data_gen_0/m_axis_tready] [get_bd_pins axis_data_fifo_0/s_axis_tready]
+save_bd_design
+validate_bd_design
+save_bd_design
+update_module_reference system_Sim_ad_data_gen_0_0
+validate_bd_design
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_Sim_ad_data_gen_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd]
+launch_runs system_Sim_ad_data_gen_0_0_synth_1 -jobs 28
+wait_on_run system_Sim_ad_data_gen_0_0_synth_1
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/lwip_tcp_server_perf.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 28
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/lwip_tcp_server_perf/vitis/system_wrapper.xsa

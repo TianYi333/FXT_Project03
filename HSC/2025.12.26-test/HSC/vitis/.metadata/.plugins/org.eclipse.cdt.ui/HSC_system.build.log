@@ -1,0 +1,8 @@
+09:52:28 **** Clean-only build of configuration Debug for project HSC_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+
+09:52:28 Build Finished (took 403ms)
+

@@ -1,0 +1,969 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Jan  7 17:32:46 2026
+# Process ID: 14012
+# Current directory: E:/HSC_PRO/HSC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33924 E:\HSC_PRO\HSC\HSC.xpr
+# Log file: E:/HSC_PRO/HSC/vivado.log
+# Journal file: E:/HSC_PRO/HSC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/HSC_PRO/HSC/HSC.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/TOP.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/TOP.vhd
+update_compile_order -fileset sources_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/trans_data.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/trans_data.vhd
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/ad_ctrl.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/ad_ctrl.vhd
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/rx_data_fifo_async.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/rx_data_fifo_async.vhd
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/ads62p45.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/ads62p45.vhd
+delete_bd_objs [get_bd_intf_nets TOP_0_m_axis] [get_bd_nets ps_pl_axi4_0_rx_cmd] [get_bd_nets ps_pl_axi4_0_rx_cmd_valid] [get_bd_nets TOP_0_tx_data_last] [get_bd_nets TOP_0_AD_SEN] [get_bd_nets TOP_0_AD_CTRL2] [get_bd_nets ps_pl_axi4_0_rx_data_valid] [get_bd_nets TOP_0_tx_cmd_valid] [get_bd_nets TOP_0_AD_CTRL1] [get_bd_nets TOP_0_AD_CTRL3] [get_bd_nets clk_in_0_1] [get_bd_nets TOP_0_clk_dir] [get_bd_nets triger_in_tr_0_1] [get_bd_nets ad_clk_in_0_1] [get_bd_nets TOP_0_tx_cmd] [get_bd_nets TOP_0_tx_data_valid] [get_bd_nets TOP_0_tx_data_data] [get_bd_nets TOP_0_AD_RESET] [get_bd_nets triger_in_pos_0_1] [get_bd_nets AD_DA_0_1] [get_bd_nets AD_DB_0_1] [get_bd_nets TOP_0_clk_ad_out] [get_bd_nets ps_pl_axi4_0_rx_data_last] [get_bd_nets ps_pl_axi4_0_rx_data_data] [get_bd_nets TOP_0_AD_SDATA] [get_bd_nets TOP_0_AD_SCLK] [get_bd_cells TOP_0]
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/AD_DATA_FIFO_ASYNC.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/AD_DATA_FIFO_ASYNC.vhd
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/para_check.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/para_check.vhd
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/ad_in_clk.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/ad_in_clk.vhd
+export_ip_user_files -of_objects  [get_files E:/HSC_PRO/HSC/ip_repo/new/ad_out_clk.vhd] -no_script -reset -force -quiet
+remove_files  E:/HSC_PRO/HSC/ip_repo/new/ad_out_clk.vhd
+add_files {E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/rx_data_fifo_async.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_ctrl.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/TOP.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/AD_DATA_FIFO_ASYNC.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_out_clk.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/para_check.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/ads62p45.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/ad_in_clk.vhd E:/HSC_PRO/AD_SAMP/AD_SAMP.srcs/sources_1/new/trans_data.vhd}
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_6
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {4} CONFIG.C_PROBE3_WIDTH {18} CONFIG.C_PROBE2_WIDTH {18} CONFIG.C_PROBE1_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_NUM_OF_PROBES {6}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+set_property generate_synth_checkpoint false [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+generate_target all [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+export_ip_user_files -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory E:/HSC_PRO/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir E:/HSC_PRO/HSC/HSC.ip_user_files -ipstatic_source_dir E:/HSC_PRO/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/modelsim} {questa=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/questa} {riviera=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/riviera} {activehdl=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference TOP TOP_0
+set_property location {4.5 1645 649} [get_bd_cells TOP_0]
+delete_bd_objs [get_bd_ports clk_in_0]
+delete_bd_objs [get_bd_ports AD_DB_0]
+delete_bd_objs [get_bd_ports ad_clk_in_0]
+delete_bd_objs [get_bd_ports triger_in_tr_0]
+delete_bd_objs [get_bd_ports AD_DA_0]
+delete_bd_objs [get_bd_ports triger_in_pos_0]
+delete_bd_objs [get_bd_ports AD_CTRL1_0]
+delete_bd_objs [get_bd_ports AD_CTRL2_0]
+delete_bd_objs [get_bd_ports AD_SDATA_0]
+delete_bd_objs [get_bd_ports AD_SEN_0]
+delete_bd_objs [get_bd_ports clk_ad_out_0]
+delete_bd_objs [get_bd_ports clk_dir_0]
+delete_bd_objs [get_bd_ports AD_SCLK_0]
+delete_bd_objs [get_bd_ports AD_RESET_0]
+delete_bd_objs [get_bd_ports AD_CTRL3_0]
+update_module_reference {system_TOP_0_6 system_TOP_0_7}
+update_compile_order -fileset sources_1
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins TOP_0/ps_clk]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_in]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/triger_in_pos]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/triger_in_tr]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/ad_clk_in]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_DA]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_DB]
+endgroup
+startgroup
+connect_bd_net [get_bd_pins TOP_0/rx_cmd] [get_bd_pins ps_pl_axi4_0/rx_cmd]
+endgroup
+connect_bd_net [get_bd_pins TOP_0/rx_cmd_valid] [get_bd_pins ps_pl_axi4_0/rx_cmd_valid]
+connect_bd_net [get_bd_pins TOP_0/rx_data_valid] [get_bd_pins ps_pl_axi4_0/rx_data_valid]
+connect_bd_net [get_bd_pins TOP_0/rx_data_last] [get_bd_pins ps_pl_axi4_0/rx_data_last]
+connect_bd_net [get_bd_pins TOP_0/rx_data_data] [get_bd_pins ps_pl_axi4_0/rx_data_data]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_dir]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/clk_ad_out]
+endgroup
+connect_bd_net [get_bd_pins TOP_0/tx_cmd_valid] [get_bd_pins ps_pl_axi4_0/tx_cmd_valid]
+connect_bd_net [get_bd_pins TOP_0/tx_cmd] [get_bd_pins ps_pl_axi4_0/tx_cmd]
+connect_bd_net [get_bd_pins TOP_0/tx_data_valid] [get_bd_pins ps_pl_axi4_0/tx_data_valid]
+connect_bd_net [get_bd_pins TOP_0/tx_data_last] [get_bd_pins ps_pl_axi4_0/tx_data_last]
+set_property location {3 1194 598} [get_bd_cells ps_pl_axi4_0]
+connect_bd_net [get_bd_pins ps_pl_axi4_0/tx_data_data] [get_bd_pins TOP_0/tx_data_data]
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SEN]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SDATA]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_SCLK]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_RESET]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL2]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/AD_CTRL3]
+endgroup
+set_property location {2 597 355} [get_bd_cells axis_data_fifo_0]
+connect_bd_intf_net [get_bd_intf_pins axis_data_fifo_0/S_AXIS] [get_bd_intf_pins TOP_0/m_axis]
+regenerate_bd_layout
+save_bd_design
+reset_run system_xbar_1_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+generate_target all [get_files  E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+export_ip_user_files -of_objects [get_files E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+launch_runs system_TOP_0_7_synth_1 -jobs 12
+wait_on_run system_TOP_0_7_synth_1
+export_simulation -of_objects [get_files E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd] -directory E:/HSC_PRO/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir E:/HSC_PRO/HSC/HSC.ip_user_files -ipstatic_source_dir E:/HSC_PRO/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/modelsim} {questa=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/questa} {riviera=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/riviera} {activehdl=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file E:/HSC_PRO/HSC/vitis/system_wrapper.xsa
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210248764166}
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+disconnect_hw_server localhost:3121
+close_hw_manager
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ila:6.2 ila_0
+endgroup
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {4} CONFIG.C_PROBE3_WIDTH {18} CONFIG.C_PROBE2_WIDTH {18} CONFIG.C_PROBE1_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_NUM_OF_PROBES {6} CONFIG.C_TRIGOUT_EN {true} CONFIG.C_TRIGIN_EN {true} CONFIG.C_ENABLE_ILA_AXI_MON {false} CONFIG.C_MONITOR_TYPE {Native}] [get_bd_cells ila_0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_CROSS_TRIGGER {1} CONFIG.PCW_FTM_CTI_IN0 {CPU0 DBG_REQ} CONFIG.PCW_FTM_CTI_OUT0 {CPU0 DBG_ACK}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins ila_0/clk]
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_IN_0]
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_OUT_0]
+endgroup
+update_module_reference system_TOP_0_7
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_7
+delete_bd_objs [get_bd_intf_nets ila_0_TRIG_OUT] [get_bd_intf_nets processing_system7_0_TRIGGER_OUT_0] [get_bd_cells ila_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_IN_0]
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_OUT_0]
+endgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_TRIGGER_OUT_0] [get_bd_intf_nets system_ila_TRIG_OUT] [get_bd_cells system_ila]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_IN_0]
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_OUT_0]
+endgroup
+undo
+undo
+undo
+undo
+startgroup
+set_property -dict [list CONFIG.PCW_USE_CROSS_TRIGGER {0}] [get_bd_cells processing_system7_0]
+delete_bd_objs [get_bd_intf_nets ila_0_TRIG_OUT] [get_bd_intf_nets processing_system7_0_TRIGGER_OUT_0]
+endgroup
+delete_bd_objs [get_bd_cells ila_0]
+save_bd_design
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_7
+reset_run system_processing_system7_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+disconnect_hw_server localhost:3121
+close_hw_manager
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ila:6.2 ila_0
+endgroup
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {4} CONFIG.C_PROBE3_WIDTH {18} CONFIG.C_PROBE2_WIDTH {18} CONFIG.C_PROBE1_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_NUM_OF_PROBES {6} CONFIG.C_TRIGOUT_EN {true} CONFIG.C_TRIGIN_EN {true} CONFIG.C_ENABLE_ILA_AXI_MON {false} CONFIG.C_MONITOR_TYPE {Native}] [get_bd_cells ila_0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_CROSS_TRIGGER {1} CONFIG.PCW_FTM_CTI_IN0 {CPU0 DBG_REQ} CONFIG.PCW_FTM_CTI_OUT0 {CPU0 DBG_ACK}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins ila_0/clk]
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_IN_0]
+apply_bd_automation -rule xilinx.com:bd_rule:trigger -config {ila_conn "Auto" }  [get_bd_intf_pins processing_system7_0/TRIGGER_OUT_0]
+endgroup
+regenerate_bd_layout
+update_module_reference system_TOP_0_7
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_7
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/reg_04_samp_data_num1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/data_num_cnt1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins TOP_0/rd_data_count1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_cells TOP_0]
+make_bd_intf_pins_external  [get_bd_cells TOP_0]
+endgroup
+regenerate_bd_layout
+connect_bd_net [get_bd_pins ila_0/probe0] [get_bd_pins TOP_0/reg_04_samp_data_num1]
+connect_bd_net [get_bd_pins ila_0/probe1] [get_bd_pins TOP_0/data_num_cnt1]
+connect_bd_net [get_bd_pins ila_0/probe2] [get_bd_pins TOP_0/rd_data_count1]
+connect_bd_net [get_bd_pins ila_0/probe3] [get_bd_pins TOP_0/wr_data_count1]
+connect_bd_net [get_bd_pins ila_0/probe4] [get_bd_pins TOP_0/state_data1]
+connect_bd_net [get_bd_pins ila_0/probe5] [get_bd_pins TOP_0/m_axis_tlast1_temp11]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+reset_run system_processing_system7_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*ps_clk*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*state_data1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*wr_data_count1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_count*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_data_count*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_data_count1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*data_num_cnt1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*reg_04_samp_data_num1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*m_axis_tlast1_temp11*" ]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+connect_debug_port u_ila_1/clk [get_nets [list system_i/TOP_0/inst/inst_ad_ctrl/inst_ads62p45/inst_ad_in_clk/CLK_OUT1 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {data_num_cnt1_0_OBUF[0]} {data_num_cnt1_0_OBUF[1]} {data_num_cnt1_0_OBUF[2]} {data_num_cnt1_0_OBUF[3]} {data_num_cnt1_0_OBUF[4]} {data_num_cnt1_0_OBUF[5]} {data_num_cnt1_0_OBUF[6]} {data_num_cnt1_0_OBUF[7]} {data_num_cnt1_0_OBUF[8]} {data_num_cnt1_0_OBUF[9]} {data_num_cnt1_0_OBUF[10]} {data_num_cnt1_0_OBUF[11]} {data_num_cnt1_0_OBUF[12]} {data_num_cnt1_0_OBUF[13]} {data_num_cnt1_0_OBUF[14]} {data_num_cnt1_0_OBUF[15]} {data_num_cnt1_0_OBUF[16]} {data_num_cnt1_0_OBUF[17]} {data_num_cnt1_0_OBUF[18]} {data_num_cnt1_0_OBUF[19]} {data_num_cnt1_0_OBUF[20]} {data_num_cnt1_0_OBUF[21]} {data_num_cnt1_0_OBUF[22]} {data_num_cnt1_0_OBUF[23]} {data_num_cnt1_0_OBUF[24]} {data_num_cnt1_0_OBUF[25]} {data_num_cnt1_0_OBUF[26]} {data_num_cnt1_0_OBUF[27]} {data_num_cnt1_0_OBUF[28]} {data_num_cnt1_0_OBUF[29]} {data_num_cnt1_0_OBUF[30]} {data_num_cnt1_0_OBUF[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {reg_04_samp_data_num1_0_OBUF[0]} {reg_04_samp_data_num1_0_OBUF[1]} {reg_04_samp_data_num1_0_OBUF[2]} {reg_04_samp_data_num1_0_OBUF[3]} {reg_04_samp_data_num1_0_OBUF[4]} {reg_04_samp_data_num1_0_OBUF[5]} {reg_04_samp_data_num1_0_OBUF[6]} {reg_04_samp_data_num1_0_OBUF[7]} {reg_04_samp_data_num1_0_OBUF[8]} {reg_04_samp_data_num1_0_OBUF[9]} {reg_04_samp_data_num1_0_OBUF[10]} {reg_04_samp_data_num1_0_OBUF[11]} {reg_04_samp_data_num1_0_OBUF[12]} {reg_04_samp_data_num1_0_OBUF[13]} {reg_04_samp_data_num1_0_OBUF[14]} {reg_04_samp_data_num1_0_OBUF[15]} {reg_04_samp_data_num1_0_OBUF[16]} {reg_04_samp_data_num1_0_OBUF[17]} {reg_04_samp_data_num1_0_OBUF[18]} {reg_04_samp_data_num1_0_OBUF[19]} {reg_04_samp_data_num1_0_OBUF[20]} {reg_04_samp_data_num1_0_OBUF[21]} {reg_04_samp_data_num1_0_OBUF[22]} {reg_04_samp_data_num1_0_OBUF[23]} {reg_04_samp_data_num1_0_OBUF[24]} {reg_04_samp_data_num1_0_OBUF[25]} {reg_04_samp_data_num1_0_OBUF[26]} {reg_04_samp_data_num1_0_OBUF[27]} {reg_04_samp_data_num1_0_OBUF[28]} {reg_04_samp_data_num1_0_OBUF[29]} {reg_04_samp_data_num1_0_OBUF[30]} {reg_04_samp_data_num1_0_OBUF[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {rd_data_count1_0_OBUF[0]} {rd_data_count1_0_OBUF[1]} {rd_data_count1_0_OBUF[2]} {rd_data_count1_0_OBUF[3]} {rd_data_count1_0_OBUF[4]} {rd_data_count1_0_OBUF[5]} {rd_data_count1_0_OBUF[6]} {rd_data_count1_0_OBUF[7]} {rd_data_count1_0_OBUF[8]} {rd_data_count1_0_OBUF[9]} {rd_data_count1_0_OBUF[10]} {rd_data_count1_0_OBUF[11]} {rd_data_count1_0_OBUF[12]} {rd_data_count1_0_OBUF[13]} {rd_data_count1_0_OBUF[14]} {rd_data_count1_0_OBUF[15]} {rd_data_count1_0_OBUF[16]} {rd_data_count1_0_OBUF[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {state_data1_0_OBUF[0]} {state_data1_0_OBUF[1]} {state_data1_0_OBUF[2]} {state_data1_0_OBUF[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list system_i/TOP_0/ps_clk ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list m_axis_tlast1_temp11_0_OBUF ]]
+set_property port_width 18 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {wr_data_count1_0_OBUF[0]} {wr_data_count1_0_OBUF[1]} {wr_data_count1_0_OBUF[2]} {wr_data_count1_0_OBUF[3]} {wr_data_count1_0_OBUF[4]} {wr_data_count1_0_OBUF[5]} {wr_data_count1_0_OBUF[6]} {wr_data_count1_0_OBUF[7]} {wr_data_count1_0_OBUF[8]} {wr_data_count1_0_OBUF[9]} {wr_data_count1_0_OBUF[10]} {wr_data_count1_0_OBUF[11]} {wr_data_count1_0_OBUF[12]} {wr_data_count1_0_OBUF[13]} {wr_data_count1_0_OBUF[14]} {wr_data_count1_0_OBUF[15]} {wr_data_count1_0_OBUF[16]} {wr_data_count1_0_OBUF[17]} ]]
+set_property target_constrs_file E:/HSC_PRO/HSC/HSC.srcs/constrs_1/con1.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {1} CONFIG.C_PROBE3_WIDTH {1} CONFIG.C_PROBE2_WIDTH {4} CONFIG.C_PROBE1_WIDTH {18} CONFIG.C_NUM_OF_PROBES {3}] [get_bd_cells ila_0]
+endgroup
+update_module_reference system_TOP_0_7
+delete_bd_objs [get_bd_nets TOP_0_wr_data_count1] [get_bd_ports wr_data_count1_0]
+delete_bd_objs [get_bd_nets TOP_0_m_axis_tlast1_temp11] [get_bd_ports m_axis_tlast1_temp11_0]
+delete_bd_objs [get_bd_nets TOP_0_reg_04_samp_data_num1] [get_bd_ports reg_04_samp_data_num1_0]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets TOP_0_data_num_cnt1]
+delete_bd_objs [get_bd_nets TOP_0_rd_data_count1]
+connect_bd_net [get_bd_ports data_num_cnt1_0] [get_bd_pins TOP_0/AD_CTRL3]
+connect_bd_net [get_bd_ports rd_data_count1_0] [get_bd_pins TOP_0/AD_CTRL3]
+undo
+undo
+undo
+delete_bd_objs [get_bd_nets TOP_0_rd_data_count1]
+connect_bd_net [get_bd_ports data_num_cnt1_0] [get_bd_pins TOP_0/data_num_cnt1]
+connect_bd_net [get_bd_ports rd_data_count1_0] [get_bd_pins TOP_0/rd_data_count1]
+connect_bd_net [get_bd_pins ila_0/probe0] [get_bd_pins TOP_0/data_num_cnt1]
+connect_bd_net [get_bd_pins ila_0/probe1] [get_bd_pins TOP_0/rd_data_count1]
+connect_bd_net [get_bd_pins ila_0/probe2] [get_bd_pins TOP_0/state_data1]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+reset_run system_ila_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+update_module_reference system_TOP_0_7
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*ps_clk*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*state_data1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*data_num_cnt1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_data_count1*" ]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {data_num_cnt1_0_OBUF[0]} {data_num_cnt1_0_OBUF[1]} {data_num_cnt1_0_OBUF[2]} {data_num_cnt1_0_OBUF[3]} {data_num_cnt1_0_OBUF[4]} {data_num_cnt1_0_OBUF[5]} {data_num_cnt1_0_OBUF[6]} {data_num_cnt1_0_OBUF[7]} {data_num_cnt1_0_OBUF[8]} {data_num_cnt1_0_OBUF[9]} {data_num_cnt1_0_OBUF[10]} {data_num_cnt1_0_OBUF[11]} {data_num_cnt1_0_OBUF[12]} {data_num_cnt1_0_OBUF[13]} {data_num_cnt1_0_OBUF[14]} {data_num_cnt1_0_OBUF[15]} {data_num_cnt1_0_OBUF[16]} {data_num_cnt1_0_OBUF[17]} {data_num_cnt1_0_OBUF[18]} {data_num_cnt1_0_OBUF[19]} {data_num_cnt1_0_OBUF[20]} {data_num_cnt1_0_OBUF[21]} {data_num_cnt1_0_OBUF[22]} {data_num_cnt1_0_OBUF[23]} {data_num_cnt1_0_OBUF[24]} {data_num_cnt1_0_OBUF[25]} {data_num_cnt1_0_OBUF[26]} {data_num_cnt1_0_OBUF[27]} {data_num_cnt1_0_OBUF[28]} {data_num_cnt1_0_OBUF[29]} {data_num_cnt1_0_OBUF[30]} {data_num_cnt1_0_OBUF[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {state_data1_0_OBUF[0]} {state_data1_0_OBUF[1]} {state_data1_0_OBUF[2]} {state_data1_0_OBUF[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {rd_data_count1_0_OBUF[0]} {rd_data_count1_0_OBUF[1]} {rd_data_count1_0_OBUF[2]} {rd_data_count1_0_OBUF[3]} {rd_data_count1_0_OBUF[4]} {rd_data_count1_0_OBUF[5]} {rd_data_count1_0_OBUF[6]} {rd_data_count1_0_OBUF[7]} {rd_data_count1_0_OBUF[8]} {rd_data_count1_0_OBUF[9]} {rd_data_count1_0_OBUF[10]} {rd_data_count1_0_OBUF[11]} {rd_data_count1_0_OBUF[12]} {rd_data_count1_0_OBUF[13]} {rd_data_count1_0_OBUF[14]} {rd_data_count1_0_OBUF[15]} {rd_data_count1_0_OBUF[16]} {rd_data_count1_0_OBUF[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list system_i/TOP_0/ps_clk ]]
+save_constraints
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {data_num_cnt1_0_OBUF[0]} {data_num_cnt1_0_OBUF[1]} {data_num_cnt1_0_OBUF[2]} {data_num_cnt1_0_OBUF[3]} {data_num_cnt1_0_OBUF[4]} {data_num_cnt1_0_OBUF[5]} {data_num_cnt1_0_OBUF[6]} {data_num_cnt1_0_OBUF[7]} {data_num_cnt1_0_OBUF[8]} {data_num_cnt1_0_OBUF[9]} {data_num_cnt1_0_OBUF[10]} {data_num_cnt1_0_OBUF[11]} {data_num_cnt1_0_OBUF[12]} {data_num_cnt1_0_OBUF[13]} {data_num_cnt1_0_OBUF[14]} {data_num_cnt1_0_OBUF[15]} {data_num_cnt1_0_OBUF[16]} {data_num_cnt1_0_OBUF[17]} {data_num_cnt1_0_OBUF[18]} {data_num_cnt1_0_OBUF[19]} {data_num_cnt1_0_OBUF[20]} {data_num_cnt1_0_OBUF[21]} {data_num_cnt1_0_OBUF[22]} {data_num_cnt1_0_OBUF[23]} {data_num_cnt1_0_OBUF[24]} {data_num_cnt1_0_OBUF[25]} {data_num_cnt1_0_OBUF[26]} {data_num_cnt1_0_OBUF[27]} {data_num_cnt1_0_OBUF[28]} {data_num_cnt1_0_OBUF[29]} {data_num_cnt1_0_OBUF[30]} {data_num_cnt1_0_OBUF[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {state_data1_0_OBUF[0]} {state_data1_0_OBUF[1]} {state_data1_0_OBUF[2]} {state_data1_0_OBUF[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {rd_data_count1_0_OBUF[0]} {rd_data_count1_0_OBUF[1]} {rd_data_count1_0_OBUF[2]} {rd_data_count1_0_OBUF[3]} {rd_data_count1_0_OBUF[4]} {rd_data_count1_0_OBUF[5]} {rd_data_count1_0_OBUF[6]} {rd_data_count1_0_OBUF[7]} {rd_data_count1_0_OBUF[8]} {rd_data_count1_0_OBUF[9]} {rd_data_count1_0_OBUF[10]} {rd_data_count1_0_OBUF[11]} {rd_data_count1_0_OBUF[12]} {rd_data_count1_0_OBUF[13]} {rd_data_count1_0_OBUF[14]} {rd_data_count1_0_OBUF[15]} {rd_data_count1_0_OBUF[16]} {rd_data_count1_0_OBUF[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list system_i/TOP_0/ps_clk ]]
+save_constraints
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 4 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {state_data1_0_OBUF[0]} {state_data1_0_OBUF[1]} {state_data1_0_OBUF[2]} {state_data1_0_OBUF[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {data_num_cnt1_0_OBUF[0]} {data_num_cnt1_0_OBUF[1]} {data_num_cnt1_0_OBUF[2]} {data_num_cnt1_0_OBUF[3]} {data_num_cnt1_0_OBUF[4]} {data_num_cnt1_0_OBUF[5]} {data_num_cnt1_0_OBUF[6]} {data_num_cnt1_0_OBUF[7]} {data_num_cnt1_0_OBUF[8]} {data_num_cnt1_0_OBUF[9]} {data_num_cnt1_0_OBUF[10]} {data_num_cnt1_0_OBUF[11]} {data_num_cnt1_0_OBUF[12]} {data_num_cnt1_0_OBUF[13]} {data_num_cnt1_0_OBUF[14]} {data_num_cnt1_0_OBUF[15]} {data_num_cnt1_0_OBUF[16]} {data_num_cnt1_0_OBUF[17]} {data_num_cnt1_0_OBUF[18]} {data_num_cnt1_0_OBUF[19]} {data_num_cnt1_0_OBUF[20]} {data_num_cnt1_0_OBUF[21]} {data_num_cnt1_0_OBUF[22]} {data_num_cnt1_0_OBUF[23]} {data_num_cnt1_0_OBUF[24]} {data_num_cnt1_0_OBUF[25]} {data_num_cnt1_0_OBUF[26]} {data_num_cnt1_0_OBUF[27]} {data_num_cnt1_0_OBUF[28]} {data_num_cnt1_0_OBUF[29]} {data_num_cnt1_0_OBUF[30]} {data_num_cnt1_0_OBUF[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {rd_data_count1_0_OBUF[0]} {rd_data_count1_0_OBUF[1]} {rd_data_count1_0_OBUF[2]} {rd_data_count1_0_OBUF[3]} {rd_data_count1_0_OBUF[4]} {rd_data_count1_0_OBUF[5]} {rd_data_count1_0_OBUF[6]} {rd_data_count1_0_OBUF[7]} {rd_data_count1_0_OBUF[8]} {rd_data_count1_0_OBUF[9]} {rd_data_count1_0_OBUF[10]} {rd_data_count1_0_OBUF[11]} {rd_data_count1_0_OBUF[12]} {rd_data_count1_0_OBUF[13]} {rd_data_count1_0_OBUF[14]} {rd_data_count1_0_OBUF[15]} {rd_data_count1_0_OBUF[16]} {rd_data_count1_0_OBUF[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list system_i/TOP_0/ps_clk ]]
+save_constraints
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+delete_bd_objs [get_bd_ports data_num_cnt1_0]
+delete_bd_objs [get_bd_ports rd_data_count1_0]
+delete_bd_objs [get_bd_ports state_data1_0]
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+current_design synth_1
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 4 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {state_data1_0_OBUF[0]} {state_data1_0_OBUF[1]} {state_data1_0_OBUF[2]} {state_data1_0_OBUF[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {data_num_cnt1_0_OBUF[0]} {data_num_cnt1_0_OBUF[1]} {data_num_cnt1_0_OBUF[2]} {data_num_cnt1_0_OBUF[3]} {data_num_cnt1_0_OBUF[4]} {data_num_cnt1_0_OBUF[5]} {data_num_cnt1_0_OBUF[6]} {data_num_cnt1_0_OBUF[7]} {data_num_cnt1_0_OBUF[8]} {data_num_cnt1_0_OBUF[9]} {data_num_cnt1_0_OBUF[10]} {data_num_cnt1_0_OBUF[11]} {data_num_cnt1_0_OBUF[12]} {data_num_cnt1_0_OBUF[13]} {data_num_cnt1_0_OBUF[14]} {data_num_cnt1_0_OBUF[15]} {data_num_cnt1_0_OBUF[16]} {data_num_cnt1_0_OBUF[17]} {data_num_cnt1_0_OBUF[18]} {data_num_cnt1_0_OBUF[19]} {data_num_cnt1_0_OBUF[20]} {data_num_cnt1_0_OBUF[21]} {data_num_cnt1_0_OBUF[22]} {data_num_cnt1_0_OBUF[23]} {data_num_cnt1_0_OBUF[24]} {data_num_cnt1_0_OBUF[25]} {data_num_cnt1_0_OBUF[26]} {data_num_cnt1_0_OBUF[27]} {data_num_cnt1_0_OBUF[28]} {data_num_cnt1_0_OBUF[29]} {data_num_cnt1_0_OBUF[30]} {data_num_cnt1_0_OBUF[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {rd_data_count1_0_OBUF[0]} {rd_data_count1_0_OBUF[1]} {rd_data_count1_0_OBUF[2]} {rd_data_count1_0_OBUF[3]} {rd_data_count1_0_OBUF[4]} {rd_data_count1_0_OBUF[5]} {rd_data_count1_0_OBUF[6]} {rd_data_count1_0_OBUF[7]} {rd_data_count1_0_OBUF[8]} {rd_data_count1_0_OBUF[9]} {rd_data_count1_0_OBUF[10]} {rd_data_count1_0_OBUF[11]} {rd_data_count1_0_OBUF[12]} {rd_data_count1_0_OBUF[13]} {rd_data_count1_0_OBUF[14]} {rd_data_count1_0_OBUF[15]} {rd_data_count1_0_OBUF[16]} {rd_data_count1_0_OBUF[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list system_i/TOP_0/ps_clk ]]
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+launch_runs impl_1 -jobs 12
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_data_count1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*state_data1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*data_num_cnt1*" ]
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list system_i/TOP_0/ps_clk ]]
+save_constraints
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+write_hw_platform -fixed -include_bit -force -file E:/HSC_PRO/HSC/vitis/system_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+update_module_reference system_TOP_0_7
+export_ip_user_files -of_objects  [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -reset -force -quiet
+remove_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci
+file delete -force e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2
+file delete -force e:/HSC_PRO/HSC/HSC.gen/sources_1/ip/ila_0_2
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 18 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list system_i/TOP_0/ps_clk ]]
+save_constraints
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 18 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+save_constraints
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 18 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*data_num_cnt1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*state_data1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_data_count1*" ]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+close_design
+open_run impl_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*state_data1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*rd_data_count1*" ]
+show_objects -name NET_ONLY [get_nets -hierarchical -top_net_of_hierarchical_group "*data_num_cnt1*" ]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+save_constraints
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+current_design impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+close_hw_manager
+open_hw_manager
+close_hw_manager
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+close_design
+close_design
+close_design
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_run synth_1 -name synth_1
+close_design
+open_run synth_1 -name synth_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+close_bd_design [get_bd_designs system]
+close_design
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_run synth_1 -name synth_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout -routing
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+refresh_design
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list system_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {system_i/TOP_0_data_num_cnt1[0]} {system_i/TOP_0_data_num_cnt1[1]} {system_i/TOP_0_data_num_cnt1[2]} {system_i/TOP_0_data_num_cnt1[3]} {system_i/TOP_0_data_num_cnt1[4]} {system_i/TOP_0_data_num_cnt1[5]} {system_i/TOP_0_data_num_cnt1[6]} {system_i/TOP_0_data_num_cnt1[7]} {system_i/TOP_0_data_num_cnt1[8]} {system_i/TOP_0_data_num_cnt1[9]} {system_i/TOP_0_data_num_cnt1[10]} {system_i/TOP_0_data_num_cnt1[11]} {system_i/TOP_0_data_num_cnt1[12]} {system_i/TOP_0_data_num_cnt1[13]} {system_i/TOP_0_data_num_cnt1[14]} {system_i/TOP_0_data_num_cnt1[15]} {system_i/TOP_0_data_num_cnt1[16]} {system_i/TOP_0_data_num_cnt1[17]} {system_i/TOP_0_data_num_cnt1[18]} {system_i/TOP_0_data_num_cnt1[19]} {system_i/TOP_0_data_num_cnt1[20]} {system_i/TOP_0_data_num_cnt1[21]} {system_i/TOP_0_data_num_cnt1[22]} {system_i/TOP_0_data_num_cnt1[23]} {system_i/TOP_0_data_num_cnt1[24]} {system_i/TOP_0_data_num_cnt1[25]} {system_i/TOP_0_data_num_cnt1[26]} {system_i/TOP_0_data_num_cnt1[27]} {system_i/TOP_0_data_num_cnt1[28]} {system_i/TOP_0_data_num_cnt1[29]} {system_i/TOP_0_data_num_cnt1[30]} {system_i/TOP_0_data_num_cnt1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 18 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {system_i/TOP_0_rd_data_count1[0]} {system_i/TOP_0_rd_data_count1[1]} {system_i/TOP_0_rd_data_count1[2]} {system_i/TOP_0_rd_data_count1[3]} {system_i/TOP_0_rd_data_count1[4]} {system_i/TOP_0_rd_data_count1[5]} {system_i/TOP_0_rd_data_count1[6]} {system_i/TOP_0_rd_data_count1[7]} {system_i/TOP_0_rd_data_count1[8]} {system_i/TOP_0_rd_data_count1[9]} {system_i/TOP_0_rd_data_count1[10]} {system_i/TOP_0_rd_data_count1[11]} {system_i/TOP_0_rd_data_count1[12]} {system_i/TOP_0_rd_data_count1[13]} {system_i/TOP_0_rd_data_count1[14]} {system_i/TOP_0_rd_data_count1[15]} {system_i/TOP_0_rd_data_count1[16]} {system_i/TOP_0_rd_data_count1[17]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 4 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {system_i/TOP_0_state_data1[0]} {system_i/TOP_0_state_data1[1]} {system_i/TOP_0_state_data1[2]} {system_i/TOP_0_state_data1[3]} ]]
+save_constraints
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+close_design
+close_design
+update_module_reference system_TOP_0_7
+delete_bd_objs [get_bd_nets TOP_0_data_num_cnt1] [get_bd_nets TOP_0_rd_data_count1] [get_bd_nets TOP_0_state_data1] [get_bd_intf_nets processing_system7_0_TRIGGER_OUT_0] [get_bd_intf_nets ila_0_TRIG_OUT] [get_bd_cells ila_0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_CROSS_TRIGGER {0} CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1}] [get_bd_cells processing_system7_0]
+endgroup
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {4} CONFIG.C_PROBE3_WIDTH {17} CONFIG.C_PROBE2_WIDTH {17} CONFIG.C_PROBE1_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_NUM_OF_PROBES {6}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+set_property generate_synth_checkpoint false [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+generate_target all [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+export_ip_user_files -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory E:/HSC_PRO/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir E:/HSC_PRO/HSC/HSC.ip_user_files -ipstatic_source_dir E:/HSC_PRO/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/modelsim} {questa=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/questa} {riviera=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/riviera} {activehdl=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_7
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {1} CONFIG.C_PROBE3_WIDTH {4} CONFIG.C_NUM_OF_PROBES {5}] [get_ips ila_0]
+generate_target all [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+export_ip_user_files -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory E:/HSC_PRO/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir E:/HSC_PRO/HSC/HSC.ip_user_files -ipstatic_source_dir E:/HSC_PRO/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/modelsim} {questa=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/questa} {riviera=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/riviera} {activehdl=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.C_PROBE2_WIDTH {18}] [get_ips ila_0]
+generate_target all [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+export_ip_user_files -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory E:/HSC_PRO/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir E:/HSC_PRO/HSC/HSC.ip_user_files -ipstatic_source_dir E:/HSC_PRO/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/modelsim} {questa=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/questa} {riviera=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/riviera} {activehdl=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_module_reference system_TOP_0_7
+reset_run system_processing_system7_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_bd_design [get_bd_designs system]
+open_run synth_1 -name synth_1
+close_design
+update_module_reference system_TOP_0_7
+close_bd_design [get_bd_designs system]
+update_module_reference system_TOP_0_7
+reset_run system_xbar_1_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+reset_project
+generate_target all [get_files  e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci]
+export_ip_user_files -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/HSC_PRO/HSC/HSC.srcs/sources_1/ip/ila_0_2/ila_0.xci] -directory E:/HSC_PRO/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir E:/HSC_PRO/HSC/HSC.ip_user_files -ipstatic_source_dir E:/HSC_PRO/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/modelsim} {questa=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/questa} {riviera=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/riviera} {activehdl=E:/HSC_PRO/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+set_property target_language VHDL [current_project]
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+set_property CONFIG.ASSOCIATED_BUSIF m_axis [get_bd_pins /TOP_0/ps_clk]
+set_property CONFIG.ASSOCIATED_RESET aresetn [get_bd_pins /TOP_0/ps_clk]
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+open_run synth_1 -name synth_1
+report_clock_interaction -delay_type min_max -significant_digits 3 -name timing_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_clock_interaction -delay_type min_max -significant_digits 3 -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_2
+open_bd_design {E:/HSC_PRO/HSC/HSC.srcs/sources_1/bd/system/system.bd}
+set_false_path -from [get_clocks clk_fpga_0] -to [get_clocks -of_objects [get_pins system_i/TOP_0/U0/inst_ad_ctrl/inst_ads62p45/inst_ad_in_clk/mmcm_adv_inst/CLKOUT0]]
+set_false_path -from [get_clocks -of_objects [get_pins system_i/TOP_0/U0/inst_ad_ctrl/inst_ads62p45/inst_ad_in_clk/mmcm_adv_inst/CLKOUT0]] -to [get_clocks clk_fpga_0]
+save_constraints
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_clock_interaction -delay_type min_max -significant_digits 3 -name timing_1
+close_design
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file E:/HSC_PRO/HSC/vitis/system_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {E:/HSC_PRO/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+save_wave_config {E:/HSC_PRO/HSC/HSC.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager

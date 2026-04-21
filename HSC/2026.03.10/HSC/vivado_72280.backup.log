@@ -1,0 +1,365 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Wed Feb 11 15:30:20 2026
+# Process ID: 72280
+# Current directory: D:/ASUS-PC/Desktop/temporary/HSC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent80776 D:\ASUS-PC\Desktop\temporary\HSC\HSC.xpr
+# Log file: D:/ASUS-PC/Desktop/temporary/HSC/vivado.log
+# Journal file: D:/ASUS-PC/Desktop/temporary/HSC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ASUS-PC/Desktop/temporary/HSC/HSC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/HSC/ip_repo/ps_pl_axi4_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx2021/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE3_WIDTH {4} CONFIG.C_PROBE2_WIDTH {18} CONFIG.C_PROBE1_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_NUM_OF_PROBES {5}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+generate_target all [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/ip/ila_0_3/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+launch_runs ila_0_synth_1 -jobs 28
+[Wed Feb 11 15:32:16 2026] Launched ila_0_synth_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_module_reference system_TOP_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'AD_RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ps_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3158] Bus Interface 'm_axis': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-5661] Bus Interface 'ps_clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/HSC/ip_repo/ps_pl_axi4_1.0'.
+Reading block design file <D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:user:ps_pl_axi4:1.0 - ps_pl_axi4_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:module_ref:TOP:1.0 - TOP_0
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM from address space /processing_system7_0/Data.
+Excluding slave segment /axi_dma_0/S_AXI_LITE/Reg from address space /axi_dma_0/Data_S2MM.
+Excluding slave segment /ps_pl_axi4_0/S00_AXI/S00_AXI_reg from address space /axi_dma_0/Data_S2MM.
+Successfully read diagram <system> from block design file <D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd>
+Upgrading 'D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/system_TOP_0_1_synth_1
+
+INFO: [IP_Flow 19-1972] Upgraded system_TOP_0_1 from TOP_v1_0 1.0 to TOP_v1_0 1.0
+Wrote  : <D:\ASUS-PC\Desktop\temporary\HSC\HSC.srcs\sources_1\bd\system\system.bd> 
+Wrote  : <D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_target all [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+export_ip_user_files -of_objects  [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset ila_0] d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/ila_0_synth_1
+
+INFO: [Project 1-386] Moving file 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci' from fileset 'ila_0' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+generate_target all [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+export_ip_user_files -of_objects [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property top TOP [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_arch Behavioral [current_fileset]
+set_property top_file D:/ASUS-PC/Desktop/temporary/HSC/ip_repo/new/new/TOP.vhd [current_fileset]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -no_script -reset -force -quiet
+remove_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci
+file delete -force d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3
+file delete -force d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/ip/ila_0_3
+update_module_reference system_TOP_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'AD_RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ps_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3158] Bus Interface 'm_axis': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-5661] Bus Interface 'ps_clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/HSC/ip_repo/ps_pl_axi4_1.0'.
+Upgrading 'D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd'
+INFO: [IP_Flow 19-1972] Upgraded system_TOP_0_1 from TOP_v1_0 1.0 to TOP_v1_0 1.0
+Wrote  : <D:\ASUS-PC\Desktop\temporary\HSC\HSC.srcs\sources_1\bd\system\system.bd> 
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE3_WIDTH {4} CONFIG.C_PROBE2_WIDTH {18} CONFIG.C_PROBE1_WIDTH {32} CONFIG.C_PROBE0_WIDTH {32} CONFIG.C_NUM_OF_PROBES {5}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+set_property generate_synth_checkpoint false [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+generate_target all [get_files  d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+export_ip_user_files -of_objects [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files d:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/ip/ila_0_3/ila_0.xci] -directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+update_module_reference system_TOP_0_1
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'AD_RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ps_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3158] Bus Interface 'm_axis': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-5661] Bus Interface 'ps_clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ASUS-PC/Desktop/temporary/HSC/ip_repo/ps_pl_axi4_1.0'.
+Upgrading 'D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd'
+INFO: [IP_Flow 19-1972] Upgraded system_TOP_0_1 from TOP_v1_0 1.0 to TOP_v1_0 1.0
+Wrote  : <D:\ASUS-PC\Desktop\temporary\HSC\HSC.srcs\sources_1\bd\system\system.bd> 
+set_property top system_wrapper [current_fileset]
+update_compile_order -fileset sources_1
+generate_target all [get_files  D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/axi_dma_0/Data_S2MM' to slave segment '/ps_pl_axi4_0/S00_AXI/S00_AXI_reg'. Please either complete or remove this path to resolve.
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+Wrote  : <D:\ASUS-PC\Desktop\temporary\HSC\HSC.srcs\sources_1\bd\system\system.bd> 
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/synth/system.vhd
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block TOP_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+Exporting to file d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/synth/system.hwdef
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1814.059 ; gain = 172.418
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = fc795361e4ea3443; cache size = 44.543 MB.
+catch { config_ip_cache -export [get_ips -all system_auto_pc_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = a8a33576f51f5acc; cache size = 44.543 MB.
+export_ip_user_files -of_objects [get_files D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd]
+launch_runs system_TOP_0_1_synth_1 -jobs 28
+[Wed Feb 11 15:46:49 2026] Launched system_TOP_0_1_synth_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/system_TOP_0_1_synth_1/runme.log
+export_simulation -of_objects [get_files D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd] -directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/sim_scripts -ip_user_files_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files -ipstatic_source_dir D:/ASUS-PC/Desktop/temporary/HSC/HSC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/modelsim} {questa=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/questa} {riviera=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/riviera} {activehdl=D:/ASUS-PC/Desktop/temporary/HSC/HSC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+[Wed Feb 11 15:47:16 2026] Launched system_TOP_0_1_synth_1, synth_1...
+Run output will be captured here:
+system_TOP_0_1_synth_1: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/system_TOP_0_1_synth_1/runme.log
+synth_1: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/synth_1/runme.log
+[Wed Feb 11 15:47:16 2026] Launched impl_1...
+Run output will be captured here: D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (E:/Xilinx2021/Vivado/2021.1/data/embeddedsw) loading 0 seconds
+INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: D:/ASUS-PC/Desktop/temporary/HSC/vitis/system_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 27 2021-01:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2026 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248764166
+set_property PROGRAM.FILE {D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/ASUS-PC/Desktop/temporary/HSC/HSC.runs/impl_1/system_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:54:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:54:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:55:56
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:55:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:56:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:56:41
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:56:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:56:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:56:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:56:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:57:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:57:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq4'h2 [get_hw_probes system_i/TOP_0/U0/inst_trans_data/state_data -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:57:17
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:57:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:59:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:59:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:59:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:59:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:59:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:59:49
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 15:59:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 15:59:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 16:00:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 16:00:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 16:00:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 16:00:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 16:00:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 16:00:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 16:01:17
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 16:01:17
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2026-Feb-11 16:01:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"system_i/TOP_0/U0/inst_trans_data/inst_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2026-Feb-11 16:01:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/ASUS-PC/Desktop/temporary/HSC/HSC.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 4015.648 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 782 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1.1
+INFO: [Common 17-344] 'open_run' was cancelled
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_TOP_0_1/system_TOP_0_1.dcp' for cell 'system_i/TOP_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0.dcp' for cell 'system_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axis_data_fifo_0_0/system_axis_data_fifo_0_0.dcp' for cell 'system_i/axis_data_fifo_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.dcp' for cell 'system_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_ps_pl_axi4_0_0/system_ps_pl_axi4_0_0.dcp' for cell 'system_i/ps_pl_axi4_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.dcp' for cell 'system_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1.dcp' for cell 'system_i/axi_mem_intercon/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_xbar_1/system_xbar_1.dcp' for cell 'system_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.dcp' for cell 'system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 4070.094 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 863 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: system_i/TOP_0/U0/inst_trans_data/inst_ila_0 UUID: 159508d5-fd05-52d5-9227-4d66e9f3b5c2 
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/ip/ila_0_3/ila_v6_2/constraints/ila_impl.xdc] for cell 'system_i/TOP_0/U0/inst_trans_data/inst_ila_0/U0'
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/ip/ila_0_3/ila_v6_2/constraints/ila_impl.xdc] for cell 'system_i/TOP_0/U0/inst_trans_data/inst_ila_0/U0'
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/ip/ila_0_3/ila_v6_2/constraints/ila.xdc] for cell 'system_i/TOP_0/U0/inst_trans_data/inst_ila_0/U0'
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/ip/ila_0_3/ila_v6_2/constraints/ila.xdc] for cell 'system_i/TOP_0/U0/inst_trans_data/inst_ila_0/U0'
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0.xdc] for cell 'system_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0.xdc:56]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0.xdc] for cell 'system_i/axi_dma_0/U0'
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_board.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_board.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xdc] for cell 'system_i/rst_ps7_0_100M/U0'
+Parsing XDC File [D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/constrs_1/con1.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/constrs_1/con1.xdc:119]
+INFO: [Timing 38-2] Deriving generated clocks [D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/constrs_1/con1.xdc:119]
+Finished Parsing XDC File [D:/ASUS-PC/Desktop/temporary/HSC/HSC.srcs/constrs_1/con1.xdc]
+Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0_clocks.xdc] for cell 'system_i/axi_dma_0/U0'
+Finished Parsing XDC File [d:/ASUS-PC/Desktop/temporary/HSC/HSC.gen/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0_clocks.xdc] for cell 'system_i/axi_dma_0/U0'
+INFO: [Project 1-1714] 48 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 4785.945 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 84 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 80 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 4876.477 ; gain = 841.875
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 11 16:57:43 2026...

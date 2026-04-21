@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Mar 20 09:41:58 2026
+# Process ID: 9044
+# Current directory: D:/A_Rada_V1.1/A_Rada_V1.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent55240 D:\A_Rada_V1.1\A_Rada_V1.1\A_Rada_V1.1.xpr
+# Log file: D:/A_Rada_V1.1/A_Rada_V1.1/vivado.log
+# Journal file: D:/A_Rada_V1.1/A_Rada_V1.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/A_Rada_V1.1/A_Rada_V1.1/A_Rada_V1.1.xpr
+update_compile_order -fileset sources_1

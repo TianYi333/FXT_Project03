@@ -1,0 +1,2 @@
+修改DMA数据储存位置，直接在链接脚本（lscript.ld）中自定义内存区域
+修改DMAip核，勾选“Allow Unaligned Transfers”（允许非4字节对齐的传输）
